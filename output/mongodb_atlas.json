@@ -1,0 +1,16 @@
+{
+    "app": "MongoDB Atlas",
+    "category": "Database as a Service",
+    "description": "MongoDB Atlas is a fully managed cloud database service that provides automated deployment, scaling, and maintenance of MongoDB clusters across major cloud providers.",
+    "authentication": "Supports multiple authentication methods including X.509 certificates, LDAP, Kerberos, and MongoDB's own SCRAM-SHA-1/SHA-256. Users can also enable MFA and integrate with external identity providers via SAML 2.0.",
+    "self_serve": "Yes – users can create, configure, and manage clusters, backups, and network settings entirely through the Atlas UI or CLI without requiring support intervention.",
+    "api_surface": "Atlas offers a comprehensive REST API covering cluster management, project and organization administration, backup and restore, monitoring, and security settings. The API is versioned and documented in the official Atlas API reference.",
+    "mcp": "MongoDB Atlas does not expose a traditional micro‑service control plane; instead, it provides a unified API and UI that orchestrate underlying cloud resources. The control plane is managed by MongoDB and is not directly exposed to end users.",
+    "buildability": "Atlas supports CI/CD integration via the Atlas CLI and REST API, allowing automated provisioning and configuration of clusters. However, it does not provide a native build system for application code; developers must deploy their application code separately.",
+    "main_blocker": "Limited to MongoDB’s document model; users requiring relational or graph database features must use additional services or migrate to other database engines.",
+    "evidence": [
+        "https://www.mongodb.com/docs/atlas/",
+        "https://www.mongodb.com/docs/atlas/reference/api-resources/",
+        "https://www.mongodb.com/docs/atlas/security/"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "app": "Close",
+    "category": "CRM, Sales Automation",
+    "description": "Close is a sales communication platform that helps teams manage leads, track calls, emails, and automate outreach.",
+    "authentication": "OAuth 2.0 and API key",
+    "self_serve": "Yes – free trial and self‑service onboarding",
+    "api_surface": "RESTful API with CRUD endpoints for leads, contacts, calls, emails, notes, tasks, and more; supports pagination, filtering, and webhooks",
+    "mcp": "Unknown",
+    "buildability": "High – comprehensive REST API, SDKs for Node.js, Python, Ruby, and detailed documentation",
+    "main_blocker": "Rate limiting (100 requests/minute) and OAuth 2.0 flow complexity",
+    "evidence": [
+        "https://developer.close.com/docs/",
+        "https://developer.close.com/docs/authentication",
+        "https://developer.close.com/docs/api",
+        "https://developer.close.com/docs/rate-limits",
+        "https://developer.close.com/docs/webhooks",
+        "https://developer.close.com/docs/sdk"
+    ]
+}

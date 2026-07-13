@@ -1,0 +1,18 @@
+{
+    "app": "QuickBooks",
+    "category": "Accounting",
+    "description": "QuickBooks Online is a cloud‑based accounting software that provides invoicing, expense tracking, payroll, and financial reporting for small to medium businesses.",
+    "authentication": "OAuth 2.0 (3‑legged flow) with client credentials and refresh tokens",
+    "self_serve": "Yes – developers can sign up for a developer account, create an app, and obtain API keys directly from the QuickBooks Developer portal",
+    "api_surface": "RESTful API with endpoints for invoices, customers, payments, expenses, payroll, and reporting; supports JSON payloads and pagination",
+    "mcp": "No public multi‑cloud provider integration; hosted exclusively on Intuit’s cloud infrastructure",
+    "buildability": "High – comprehensive SDKs (Java, .NET, PHP, Python, Node.js), extensive documentation, sandbox environment, and sample code",
+    "main_blocker": "Strict rate limits (e.g., 100 requests per minute per app) and requirement for OAuth 2.0 can slow initial integration",
+    "evidence": [
+        "https://developer.intuit.com/app/developer/qbo/docs/get-started",
+        "https://developer.intuit.com/app/developer/qbo/docs/authentication/authorization-code-flow",
+        "https://developer.intuit.com/app/developer/qbo/docs/api/accounting/most-commonly-used",
+        "https://developer.intuit.com/app/developer/qbo/docs/sandbox",
+        "https://developer.intuit.com/app/developer/qbo/docs/terms-of-service"
+    ]
+}

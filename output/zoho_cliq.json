@@ -1,0 +1,17 @@
+{
+    "app": "Zoho Cliq",
+    "category": "Collaboration / Team Chat",
+    "description": "Zoho Cliq is a real‑time messaging and collaboration platform that offers chat, video calls, file sharing, and integration with other Zoho and third‑party apps.",
+    "authentication": "OAuth 2.0 (client credentials and authorization code flows)",
+    "self_serve": "Yes – free tier available with limited features; paid plans unlock additional storage, admin controls, and advanced integrations",
+    "api_surface": "REST API for creating and managing channels, sending and retrieving messages, managing users, and accessing file attachments. API endpoints are documented under the Zoho Cliq API section.",
+    "mcp": "Unknown",
+    "buildability": "Supported – Zoho provides SDKs for Java, Python, Node.js, and .NET, as well as a comprehensive API reference and sample code.",
+    "main_blocker": "Limited API coverage for certain advanced features (e.g., video call controls, detailed analytics) and rate limits may affect large‑scale integrations.",
+    "evidence": [
+        "https://www.zoho.com/cliq/api/",
+        "https://www.zoho.com/cliq/api/authentication.html",
+        "https://www.zoho.com/cliq/api/overview.html",
+        "https://www.zoho.com/cliq/api/sdk.html"
+    ]
+}

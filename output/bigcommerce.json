@@ -1,0 +1,18 @@
+{
+    "app": "BigCommerce",
+    "category": "E-commerce Platform",
+    "description": "BigCommerce is a cloud-based e-commerce platform that enables merchants to create, manage, and grow online stores with a range of built‑in features and integrations.",
+    "authentication": "OAuth 2.0 (client credentials and authorization code flows)",
+    "self_serve": "Yes – merchants can sign up, create stores, and manage products directly through the BigCommerce dashboard without developer intervention",
+    "api_surface": "REST API (v3) and GraphQL API for accessing store data, products, orders, customers, and more",
+    "mcp": "Unknown",
+    "buildability": "High – comprehensive SDKs, extensive documentation, and a sandbox environment facilitate rapid development",
+    "main_blocker": "Rate limits on API calls (e.g., 200 requests per minute) can impede high‑volume integrations",
+    "evidence": [
+        "https://developer.bigcommerce.com/docs/overview",
+        "https://developer.bigcommerce.com/docs/authentication",
+        "https://developer.bigcommerce.com/docs/api-reference",
+        "https://developer.bigcommerce.com/docs/graphql",
+        "https://developer.bigcommerce.com/docs/rate-limits"
+    ]
+}

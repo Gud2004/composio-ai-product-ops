@@ -1,0 +1,19 @@
+{
+    "app": "Front",
+    "category": "Customer communication platform / shared inbox",
+    "description": "Front is a shared inbox and collaboration platform that lets teams manage customer communication across email, chat, social, and other channels in a single place.",
+    "authentication": "API key (Bearer token) and OAuth 2.0; supports SSO via SAML/SSO for web app.",
+    "self_serve": "Yes – users can sign up for a free trial and create an account directly on the Front website.",
+    "api_surface": "REST API covering messages, threads, contacts, teams, users, webhooks, etc. Supports CRUD operations, search, and real-time webhooks.",
+    "mcp": "Unknown",
+    "buildability": "High – provides SDKs for JavaScript, Python, Ruby, PHP, and Go; supports webhooks, custom integrations, and API for building custom workflows.",
+    "main_blocker": "Rate limiting of 1000 requests per minute per app, which can constrain high-volume integrations.",
+    "evidence": [
+        "https://developers.frontapp.com/docs",
+        "https://developers.frontapp.com/docs/authentication",
+        "https://frontapp.com",
+        "https://developers.frontapp.com/docs/messages",
+        "https://developers.frontapp.com/docs/sdk",
+        "https://developers.frontapp.com/docs/rate-limits"
+    ]
+}

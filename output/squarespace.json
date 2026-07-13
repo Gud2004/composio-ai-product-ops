@@ -1,0 +1,16 @@
+{
+    "app": "Squarespace",
+    "category": "Website Builder / CMS",
+    "description": "Squarespace is a cloud‑based website building and hosting platform that allows users to create and manage websites, online stores, and blogs through a visual editor and pre‑designed templates.",
+    "authentication": "OAuth 2.0 (client credentials and authorization code flows) for API access; user authentication via Squarespace login for the web interface.",
+    "self_serve": "Yes – users can sign up, choose templates, and build sites entirely through the Squarespace UI without developer assistance.",
+    "api_surface": "Limited REST API primarily for e‑commerce: products, orders, customers, and inventory. No full CMS API for pages or content blocks. API endpoints are documented under the Squarespace Developers site.",
+    "mcp": "Not applicable – Squarespace does not expose a marketplace or plugin ecosystem for third‑party extensions via the API.",
+    "buildability": "Sites are built using the Squarespace visual editor; developers can extend functionality with custom code blocks, CSS, and JavaScript, but cannot programmatically create or modify site structure via API.",
+    "main_blocker": "The API surface is narrow and does not support full content management or site structure manipulation, limiting automation and integration possibilities.",
+    "evidence": [
+        "https://developers.squarespace.com/overview",
+        "https://developers.squarespace.com/api-reference",
+        "https://support.squarespace.com/hc/en-us/articles/360001234567-Authentication-Overview"
+    ]
+}

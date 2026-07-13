@@ -1,0 +1,16 @@
+{
+    "app": "Vonage",
+    "category": "Communication Platform (Voice, Messaging, Video, Verify)",
+    "description": "Vonage provides a suite of cloud communication APIs that enable developers to embed voice, messaging, video, and verification capabilities into applications.",
+    "authentication": "API key and secret (or OAuth 2.0) are used to authenticate requests to Vonage APIs.",
+    "self_serve": "Yes – developers can sign up, create API keys, and manage usage through the Vonage Developer Dashboard.",
+    "api_surface": "Extensive – includes Voice, Messaging, Verify, Video, Number Insight, and more, with RESTful endpoints and SDKs for multiple languages.",
+    "mcp": "Multi‑Channel Platform – Vonage’s messaging solution that supports SMS, WhatsApp, Facebook Messenger, and other channels.",
+    "buildability": "High – comprehensive SDKs, sample code, and detailed documentation enable rapid integration.",
+    "main_blocker": "Complex pricing tiers and rate limits can hinder rapid scaling for some use cases.",
+    "evidence": [
+        "https://developer.vonage.com/en/docs/authentication",
+        "https://developer.vonage.com/en/docs",
+        "https://dashboard.nexmo.com/"
+    ]
+}

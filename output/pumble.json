@@ -1,0 +1,16 @@
+{
+    "app": "Pumble",
+    "category": "Team Engagement",
+    "description": "Pumble is a SaaS platform that enables teams to gather anonymous feedback, run pulse surveys, and track team health metrics to improve engagement and productivity.",
+    "authentication": "API key (Bearer token)",
+    "self_serve": "Yes",
+    "api_surface": "Yes",
+    "mcp": "Unknown",
+    "buildability": "Yes",
+    "main_blocker": "Unknown",
+    "evidence": [
+        "https://pumble.io",
+        "https://docs.pumble.io",
+        "https://docs.pumble.io/api"
+    ]
+}

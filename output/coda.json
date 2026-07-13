@@ -1,0 +1,16 @@
+{
+    "app": "Coda",
+    "category": "Productivity / Document Collaboration",
+    "description": "Coda is a cloud‑based document editor that blends spreadsheets, word processing, and database functionality into a single, highly extensible canvas. It allows users to create dynamic documents with tables, formulas, buttons, and integrations, enabling teams to build custom workflows, project trackers, and knowledge bases without writing code.",
+    "authentication": "Coda supports OAuth 2.0 for API access, allowing users to authenticate via their Coda account. API tokens can be generated in the Coda settings under \"API Tokens\" and are used as bearer tokens in the Authorization header.",
+    "self_serve": "Users can sign up for a free tier directly on the Coda website. The free plan includes unlimited docs, 1,000 rows per table, and basic integrations. Paid plans (Pro, Team, Enterprise) are available for additional rows, advanced features, and administrative controls.",
+    "api_surface": "Coda offers a RESTful API that exposes endpoints for documents, tables, rows, and controls. Key features include:\n- CRUD operations on tables and rows\n- Formula evaluation via the /docs/{docId}/tables/{tableId}/rows endpoint\n- Webhook support for real‑time updates\n- Integration with external services through Coda Packs\nThe API is documented at https://coda.io/developers/apis/v1",
+    "mcp": "The main integration point is the Coda API, which is the primary method for programmatic interaction. Coda Packs provide a higher‑level abstraction for integrating with external services, but the core API remains the central integration surface.",
+    "buildability": "Coda’s API is well‑documented and supports standard HTTP methods, JSON payloads, and pagination. Developers can build custom integrations, automate workflows, and embed Coda functionality into other applications. The presence of webhooks and Packs facilitates rapid development of extensions.",
+    "main_blocker": "Coda’s API rate limits (default 100 requests per minute per user) can be a constraint for high‑throughput integrations. Additionally, some advanced features (e.g., full formula parsing or complex table relationships) are only available through the web interface and not exposed via the API.",
+    "evidence": [
+        "https://coda.io/developers/apis/v1",
+        "https://coda.io/pricing",
+        "https://coda.io/docs/"
+    ]
+}

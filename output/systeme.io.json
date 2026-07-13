@@ -1,0 +1,45 @@
+{
+    "app": "systeme.io",
+    "category": "Marketing Automation / Funnel Builder / All-in-One Business Platform",
+    "description": "All-in-one platform that allows entrepreneurs and small businesses to build sales funnels, email marketing, membership sites, and e-commerce stores without coding.",
+    "authentication": "Email/password login, with optional social login via Google and Facebook.",
+    "self_serve": "Yes, free trial available, self-serve sign-up, no sales team required.",
+    "api_surface": "Unknown",
+    "mcp": "Positioned as an affordable all-in-one marketing automation platform targeting small businesses and entrepreneurs, competing with ClickFunnels, Kajabi, Kartra, and Builderall.",
+    "buildability": "Moderate – offers Zapier integration, webhooks, and limited API for data import/export, but no SDK or extensive developer docs.",
+    "main_blocker": "Limited public API and developer resources restrict deep integration and automation capabilities.",
+    "evidence": [
+        {
+            "title": "Official systeme.io website",
+            "url": "https://systeme.io"
+        },
+        {
+            "title": "systeme.io Documentation",
+            "url": "https://systeme.io/docs"
+        },
+        {
+            "title": "Login page (authentication method)",
+            "url": "https://systeme.io/login"
+        },
+        {
+            "title": "Pricing page (self-serve sign-up)",
+            "url": "https://systeme.io/pricing"
+        },
+        {
+            "title": "Integrations page (Zapier & Webhooks)",
+            "url": "https://systeme.io/integrations"
+        },
+        {
+            "title": "systeme.io vs ClickFunnels comparison",
+            "url": "https://systeme.io/blog/systeme-io-vs-clickfunnels"
+        },
+        {
+            "title": "Zapier integration guide",
+            "url": "https://systeme.io/integrations/zapier"
+        },
+        {
+            "title": "Webhooks integration guide",
+            "url": "https://systeme.io/integrations/webhooks"
+        }
+    ]
+}

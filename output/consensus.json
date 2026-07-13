@@ -1,0 +1,15 @@
+{
+    "app": "Consensus",
+    "category": "AI Research Assistant",
+    "description": "Consensus is a SaaS platform that uses artificial intelligence to automatically summarize academic research papers, providing concise, actionable insights for researchers, students, and professionals.",
+    "authentication": "OAuth 2.0 with API key support for programmatic access",
+    "self_serve": "Yes – users can sign up, upload PDFs, and generate summaries directly from the web interface",
+    "api_surface": "RESTful API for uploading documents, retrieving summaries, and managing user data; limited public documentation available",
+    "mcp": "No public information on multi‑cloud provider support",
+    "buildability": "Unknown",
+    "main_blocker": "Limited API documentation and unclear rate limits may hinder integration",
+    "evidence": [
+        "https://consensus.app/",
+        "https://consensus.app/docs/api"
+    ]
+}

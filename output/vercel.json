@@ -1,0 +1,17 @@
+{
+    "app": "Vercel",
+    "category": "Deployment & Hosting",
+    "description": "Vercel is a cloud platform for static sites and serverless functions, enabling developers to deploy front‑end projects with instant rollbacks and global CDN delivery.",
+    "authentication": "Supports OAuth via Git providers (GitHub, GitLab, Bitbucket), email/password, and single sign‑on (SSO) for teams.",
+    "self_serve": "Yes – users can sign up, connect a repository, and deploy projects directly from the dashboard without requiring a sales or support interaction.",
+    "api_surface": "Provides a RESTful API for creating, updating, and deleting projects, deployments, and environments, as well as a GraphQL endpoint for advanced queries.",
+    "mcp": "Unknown",
+    "buildability": "Supports a wide range of frameworks (Next.js, React, Vue, Angular, Svelte, etc.) and custom build settings via vercel.json or project configuration.",
+    "main_blocker": "Limited to Git-based workflows; projects must be connected to a supported Git provider for automated deployments.",
+    "evidence": [
+        "https://vercel.com/docs",
+        "https://vercel.com/docs/api",
+        "https://vercel.com/docs/concepts/deployments",
+        "https://vercel.com/docs/concepts/monorepos"
+    ]
+}

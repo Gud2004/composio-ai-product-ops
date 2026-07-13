@@ -1,0 +1,15 @@
+{
+    "app": "Harvest",
+    "category": "Time Tracking & Invoicing",
+    "description": "Harvest is a cloud-based time tracking and invoicing platform that helps teams record time, track expenses, and generate professional invoices.",
+    "authentication": "OAuth 2.0 (client credentials and authorization code grant)",
+    "self_serve": "Yes – users can sign up, create projects, and manage billing directly through the web interface",
+    "api_surface": "RESTful API with OAuth 2.0 authentication, supporting resources such as users, projects, tasks, time entries, expenses, invoices, and webhooks for event notifications",
+    "mcp": "Unknown",
+    "buildability": "Unknown",
+    "main_blocker": "Unknown",
+    "evidence": [
+        "https://help.harvestapp.com/en-us/article/176-using-the-harvest-api",
+        "https://developer.harvestapp.com/"
+    ]
+}

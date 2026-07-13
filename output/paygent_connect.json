@@ -1,0 +1,15 @@
+{
+    "app": "Paygent Connect",
+    "category": "Payment Gateway",
+    "description": "Paygent Connect is a SaaS payment platform that enables merchants to accept online payments, manage subscriptions, and handle recurring billing. It offers a unified API for processing credit card, bank transfer, and mobile payment methods, along with fraud detection and reporting tools.",
+    "authentication": "OAuth 2.0 with client credentials grant; API keys are also supported for legacy integrations.",
+    "self_serve": "Yes – merchants can sign up, configure payment methods, and manage settings through a web dashboard. The dashboard also provides access to API keys and webhook configuration.",
+    "api_surface": "RESTful API with endpoints for payment processing, subscription management, customer data, and reporting. Supports JSON payloads and standard HTTP status codes.",
+    "mcp": "No – Paygent Connect does not provide a multi‑cloud platform; it is hosted on Paygent’s own infrastructure.",
+    "buildability": "High – the API is well documented, supports SDKs in multiple languages (Java, Python, Ruby, PHP), and offers sandbox environments for testing.",
+    "main_blocker": "Limited to regions where Paygent operates; merchants outside supported countries may not be able to use the service.",
+    "evidence": [
+        "https://paygent.com/en/connect/",
+        "https://paygent.com/en/connect/api/"
+    ]
+}

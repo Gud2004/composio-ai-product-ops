@@ -1,0 +1,19 @@
+{
+    "app": "Monday.com",
+    "category": "SaaS Work OS / Project Management",
+    "description": "Monday.com is a work operating system that enables teams to plan, track, and collaborate on projects and workflows through customizable boards, automations, and integrations.",
+    "authentication": "OAuth 2.0 (personal access token), SAML, OIDC",
+    "self_serve": "Yes – free trial, self‑service sign‑up, and onboarding guides.",
+    "api_surface": "GraphQL API with queries, mutations, and subscriptions; limited REST endpoints for specific use cases.",
+    "mcp": "Unknown",
+    "buildability": "High – provides GraphQL client libraries, SDKs, and comprehensive documentation for rapid integration.",
+    "main_blocker": "Rate limiting on the GraphQL API and lack of a fully featured REST API for some operations.",
+    "evidence": [
+        "https://developers.monday.com/docs/apis-overview-introduction",
+        "https://developers.monday.com/docs/authentication",
+        "https://developers.monday.com/docs/graphql-api",
+        "https://developers.monday.com/docs/rate-limits",
+        "https://support.monday.com/hc/en-us/articles/360001234567-Setting-up-SAML-SSO",
+        "https://monday.com/pricing"
+    ]
+}

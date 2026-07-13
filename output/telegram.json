@@ -1,0 +1,21 @@
+{
+    "app": "Telegram",
+    "category": "Messaging / Communication",
+    "description": "Telegram is a cloud-based instant messaging and voice-over-IP service that offers end-to-end encrypted messaging, group chats, channels, and a bot platform for developers.",
+    "authentication": "Phone number based authentication with optional two-factor authentication; bots use API token.",
+    "self_serve": "Yes – users can sign up and create accounts via phone number without any manual onboarding.",
+    "api_surface": "Telegram Bot API (https://core.telegram.org/bots/api) and Telegram API via TDLib (https://core.telegram.org/tdlib).",
+    "mcp": "Phone number (for user accounts) and Bot API token (for bots).",
+    "buildability": "High – developers can build bots, custom clients, and integrations using the Bot API, TDLib, and the Telegram API. SDKs exist for many languages.",
+    "main_blocker": "Telegram’s API restricts sending messages to users who have initiated contact or added the bot; it does not allow arbitrary push notifications to users without prior interaction, limiting certain SaaS use cases.",
+    "evidence": [
+        "https://telegram.org/",
+        "https://core.telegram.org/bots/api",
+        "https://core.telegram.org/api",
+        "https://core.telegram.org/api/authorization",
+        "https://core.telegram.org/api/authorization#two-factor-authentication",
+        "https://telegram.org/faq",
+        "https://core.telegram.org/tdlib",
+        "https://core.telegram.org/bots#privacy-mode"
+    ]
+}

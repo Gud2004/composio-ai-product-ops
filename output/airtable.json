@@ -1,0 +1,20 @@
+{
+    "app": "Airtable",
+    "category": "SaaS, Database, Collaboration, Low-code Platform",
+    "description": "Airtable is a cloud-based spreadsheet-database hybrid that lets users create, share, and collaborate on structured data with a familiar spreadsheet interface and powerful database features.",
+    "authentication": "API key (Bearer token) and OAuth 2.0 for app authentication",
+    "self_serve": "Yes – users can sign up for free and create bases without assistance",
+    "api_surface": "RESTful API with CRUD operations on records, tables, attachments, supports filtering, sorting, pagination, and batch requests; also offers Airtable Apps SDK and Zapier integration",
+    "mcp": "Unknown",
+    "buildability": "High – provides API, SDKs, Airtable Apps, Zapier, and extensive documentation",
+    "main_blocker": "Rate limits (5 requests/second per base) and limited query capabilities (no joins, limited filtering) constrain complex integrations",
+    "evidence": [
+        "https://airtable.com/api",
+        "https://airtable.com/developers/web/api/authentication",
+        "https://airtable.com/pricing",
+        "https://airtable.com/developers/web/api/usage",
+        "https://airtable.com/developers/web/api/records",
+        "https://airtable.com/signup",
+        "https://airtable.com/developers/apps"
+    ]
+}

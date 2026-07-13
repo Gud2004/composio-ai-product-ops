@@ -1,0 +1,20 @@
+{
+    "app": "Salesforce Commerce Cloud",
+    "category": "E-commerce Platform (SaaS)",
+    "description": "Cloud-based e-commerce platform that enables merchants to create, manage, and optimize online storefronts across multiple channels.",
+    "authentication": "OAuth 2.0 (client credentials, JWT) and SAML for SSO; APIs require OAuth tokens.",
+    "self_serve": "Yes – merchants can use the Commerce Cloud Self‑Serve portal to manage store settings, product catalogs, and marketing campaigns.",
+    "api_surface": "REST APIs (Commerce Cloud REST API), SOAP APIs, OData, and custom APIs via Commerce Cloud SDK.",
+    "mcp": "Unknown",
+    "buildability": "High – developers can build custom storefronts using Commerce Cloud SDK, APIs, and Lightning Web Components; also support for headless commerce.",
+    "main_blocker": "Complex licensing model, high cost, and steep learning curve for developers; integration with legacy systems can be challenging.",
+    "evidence": [
+        "https://www.salesforce.com/products/commerce-cloud/overview/",
+        "https://developer.salesforce.com/docs/commerce",
+        "https://developer.salesforce.com/docs/commerce/commerce-cloud-rest-api/guide/authentication",
+        "https://developer.salesforce.com/docs/commerce/commerce-cloud-rest-api/guide/overview",
+        "https://www.salesforce.com/products/commerce-cloud/solutions/self-serve/",
+        "https://developer.salesforce.com/docs/commerce/commerce-cloud-sdk/guide/overview",
+        "https://www.salesforce.com/products/commerce-cloud/pricing/"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "app": "Jira",
+    "category": "Project Management / Issue Tracking",
+    "description": "Jira is a cloud-based and on-premises SaaS application for issue tracking, project management, and agile planning, enabling teams to plan, track, and release software and other products.",
+    "authentication": "Supports OAuth 2.0, SAML 2.0, API token, and basic authentication for REST API.",
+    "self_serve": "Yes – users can sign up for a free trial, create projects, and configure workflows without IT assistance.",
+    "api_surface": "Extensive REST API covering issues, projects, workflows, boards, and more; limited GraphQL support via community plugins; webhooks for event notifications.",
+    "mcp": "Unknown",
+    "buildability": "High – APIs allow creation, update, and deletion of issues, projects, and workflows; CI/CD pipelines can be integrated via webhooks and REST calls.",
+    "main_blocker": "Certain advanced workflow and permission configurations are only available through the web UI and cannot be fully managed via the public API.",
+    "evidence": [
+        "https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/",
+        "https://developer.atlassian.com/cloud/jira/platform/authentication/",
+        "https://support.atlassian.com/jira-software-cloud/docs/sign-up-for-a-free-trial/",
+        "https://developer.atlassian.com/cloud/jira/platform/webhooks/"
+    ]
+}

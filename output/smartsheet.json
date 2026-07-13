@@ -1,0 +1,17 @@
+{
+    "app": "Smartsheet",
+    "category": "Project Management / Collaboration",
+    "description": "Smartsheet is a cloud‑based work execution platform that combines spreadsheet‑like interfaces with project management, automation, and collaboration features.",
+    "authentication": "OAuth 2.0 (client credentials and authorization code flows) and API key (personal access token)",
+    "self_serve": "Yes – users can sign up for a free trial and create workspaces, sheets, and automations without developer involvement",
+    "api_surface": "RESTful API with endpoints for sheets, rows, columns, reports, attachments, and automations; Webhooks for event notifications; SDKs in Java, .NET, Python, Ruby, and JavaScript",
+    "mcp": "Unknown",
+    "buildability": "High – provides SDKs, comprehensive API documentation, and sample code for rapid integration",
+    "main_blocker": "Rate limits (default 100 requests per minute per user) and need for OAuth consent may slow initial integration",
+    "evidence": [
+        "https://help.smartsheet.com/articles/360043226953-API-Authentication",
+        "https://smartsheet.redoc.ly/",
+        "https://help.smartsheet.com/articles/360043226953-API-Authentication",
+        "https://help.smartsheet.com/articles/360043226953-API-Authentication"
+    ]
+}

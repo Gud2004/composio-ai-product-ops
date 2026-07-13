@@ -1,0 +1,15 @@
+{
+    "app": "MrScraper",
+    "category": "Web Scraping SaaS",
+    "description": "MrScraper is a cloud-based web scraping platform that allows users to extract structured data from websites without coding. It provides visual point-and-click interface, scheduling, and data export options.",
+    "authentication": "OAuth 2.0 and API key based authentication",
+    "self_serve": "Yes, users can sign up, create projects, and manage scrapers through the web dashboard",
+    "api_surface": "RESTful API for creating, updating, and running scrapers, retrieving results, and managing projects",
+    "mcp": "No public information on multi‑cloud provider support",
+    "buildability": "Users can build scrapers via visual editor; no SDKs available for custom code integration",
+    "main_blocker": "Limited to websites that do not employ advanced anti‑scraping measures; no support for JavaScript heavy sites without headless browser option",
+    "evidence": [
+        "https://mrscraper.com/docs",
+        "https://mrscraper.com/api"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "app": "Gumroad",
+    "category": "Digital Marketplace / E-commerce",
+    "description": "Gumroad is a platform that enables creators to sell digital products, subscriptions, and physical goods directly to consumers. It provides tools for product hosting, payment processing, and analytics.",
+    "authentication": "API key (Bearer token) included in the Authorization header of each request.",
+    "self_serve": "Yes – developers can access the public API and documentation without requiring a dedicated support channel.",
+    "api_surface": [
+        "GET /products – list products",
+        "GET /products/{id} – retrieve a single product",
+        "GET /sales – list sales",
+        "GET /sales/{id} – retrieve a single sale",
+        "GET /customers – list customers",
+        "GET /customers/{id} – retrieve a single customer",
+        "GET /coupons – list coupons",
+        "GET /coupons/{id} – retrieve a single coupon",
+        "GET /webhooks – list webhooks",
+        "POST /webhooks – create a webhook",
+        "DELETE /webhooks/{id} – delete a webhook"
+    ],
+    "mcp": "Unknown",
+    "buildability": "High – RESTful JSON API with straightforward authentication and clear endpoint documentation.",
+    "main_blocker": "Limited rate limits and lack of OAuth 2.0 support may hinder high‑volume or multi‑tenant integrations.",
+    "evidence": [
+        "https://gumroad.com/api",
+        "https://gumroad.com/api#authentication",
+        "https://gumroad.com/api#products",
+        "https://gumroad.com/api#sales",
+        "https://gumroad.com/api#customers",
+        "https://gumroad.com/api#coupons",
+        "https://gumroad.com/api#webhooks"
+    ]
+}

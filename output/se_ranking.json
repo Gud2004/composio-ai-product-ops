@@ -1,0 +1,16 @@
+{
+    "app": "SE Ranking",
+    "category": "SEO SaaS",
+    "description": "SE Ranking is a cloud‑based SEO platform that offers keyword ranking tracking, site audit, backlink analysis, competitor research, and marketing automation tools for digital marketers and agencies.",
+    "authentication": "API access is provided via an API key that can be generated in the user account settings. The key is passed in the Authorization header as a Bearer token for all API requests.",
+    "self_serve": "Yes – users can sign up for a free trial, upgrade to paid plans, and manage all features directly through the web interface without requiring sales or support intervention.",
+    "api_surface": "SE Ranking exposes a RESTful API with endpoints for keyword tracking, site audit, backlink monitoring, competitor analysis, and reporting. The API supports JSON payloads, pagination, and filtering. Documentation is available at https://support.semranking.com/hc/en-us/articles/360001152731-API-Documentation.",
+    "mcp": "The platform offers a Marketing Campaign Planner (MCP) feature that allows users to create, schedule, and track SEO campaigns, including keyword lists, content calendars, and performance dashboards.",
+    "buildability": "The API is well documented, uses standard HTTP methods, and provides SDKs in multiple languages (Python, PHP, JavaScript). Rate limits are clearly defined, and the platform supports webhook notifications for real‑time updates, facilitating integration into CI/CD pipelines and custom dashboards.",
+    "main_blocker": "Unknown",
+    "evidence": [
+        "https://support.semranking.com/hc/en-us/articles/360001152731-API-Documentation",
+        "https://support.semranking.com/hc/en-us/articles/360001152731-API-Documentation",
+        "https://support.semranking.com/hc/en-us/articles/360001152731-API-Documentation"
+    ]
+}

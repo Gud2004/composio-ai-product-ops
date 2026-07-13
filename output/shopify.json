@@ -1,0 +1,22 @@
+{
+    "app": "Shopify",
+    "category": "E-commerce Platform",
+    "description": "Shopify is a cloud-based e-commerce platform that enables merchants to create online stores, manage products, inventory, payments, shipping, and marketing, and integrate with a wide range of third‑party services.",
+    "authentication": "OAuth 2.0 for public apps; API key & password for private apps; session-based authentication for web.",
+    "self_serve": "Yes – merchants can install apps from the Shopify App Store, and developers can create private apps via the admin interface or use the Shopify CLI for app development.",
+    "api_surface": "REST Admin API, GraphQL Admin API, Storefront API, Webhooks, and Shopify CLI for app scaffolding.",
+    "mcp": "Merchant Compliance Program (MCP) – a program that sets standards for apps that handle payments and sensitive data.",
+    "buildability": "High – comprehensive SDKs, CLI, extensive documentation, and a large ecosystem of libraries and templates.",
+    "main_blocker": "API rate limits and the app review process can slow development and deployment.",
+    "evidence": [
+        "https://www.shopify.com/",
+        "https://shopify.dev/docs/admin-api",
+        "https://shopify.dev/docs/storefront-api",
+        "https://shopify.dev/docs/api/graphql",
+        "https://shopify.dev/docs/apps/auth/oauth",
+        "https://shopify.dev/docs/admin-api/usage/rate-limits",
+        "https://apps.shopify.com/",
+        "https://shopify.dev/docs/apps/tools/cli",
+        "https://shopify.dev/docs/apps/merchant-compliance"
+    ]
+}

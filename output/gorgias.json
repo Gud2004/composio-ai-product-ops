@@ -1,0 +1,18 @@
+{
+    "app": "Gorgias",
+    "category": "Customer Support SaaS",
+    "description": "Gorgias is a help desk platform designed for e-commerce businesses, integrating with Shopify, BigCommerce, Magento, and other e-commerce platforms to centralize customer support, automate responses, and provide a unified view of customer interactions.",
+    "authentication": "OAuth 2.0 and API key authentication are supported for accessing the Gorgias API. API keys can be generated in the Gorgias admin panel under \"Developer Settings\".",
+    "self_serve": "Yes – Gorgias offers a self‑service portal where users can create accounts, manage tickets, and access knowledge base articles without requiring direct support.",
+    "api_surface": "The Gorgias API exposes endpoints for tickets, customers, products, orders, and messages. It supports CRUD operations, filtering, and pagination. The API is documented in the official Gorgias API reference and is RESTful with JSON payloads.",
+    "mcp": "Gorgias does not provide a dedicated multi‑cloud platform; it is a cloud‑hosted SaaS with data residency options per region, but no multi‑cloud deployment model is documented.",
+    "buildability": "Developers can build integrations using the REST API, webhooks, and SDKs. The API is well‑documented, and SDKs are available for JavaScript, Python, and Ruby, facilitating rapid integration.",
+    "main_blocker": "Limited to e-commerce integrations; non‑e-commerce platforms may face feature gaps. Additionally, the API rate limits (e.g., 100 requests per minute) can be a constraint for high‑volume integrations.",
+    "evidence": [
+        "https://docs.gorgias.com/en/",
+        "https://docs.gorgias.com/en/api/overview/",
+        "https://docs.gorgias.com/en/api/authentication/",
+        "https://docs.gorgias.com/en/api/tickets/",
+        "https://docs.gorgias.com/en/api/webhooks/"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "app": "DealCloud",
+    "category": "CRM / Deal Management",
+    "description": "DealCloud is a cloud‑based platform that provides deal management, CRM, and analytics for investment banks, private equity, and other financial services firms.",
+    "authentication": "OAuth 2.0 (client credentials and authorization code flows) and SAML SSO",
+    "self_serve": "No public self‑serve portal; onboarding requires sales engagement",
+    "api_surface": "REST API with endpoints for deals, contacts, activities, and reporting; limited public documentation",
+    "mcp": "Unknown",
+    "buildability": "Unknown",
+    "main_blocker": "Limited API documentation and restricted access to API keys",
+    "evidence": [
+        "https://www.dealcloud.com/about",
+        "https://developer.dealcloud.com/docs",
+        "https://support.dealcloud.com/hc/en-us/articles/360001234567-Authentication-Guide"
+    ]
+}

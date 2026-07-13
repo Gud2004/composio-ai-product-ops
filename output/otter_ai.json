@@ -1,0 +1,16 @@
+{
+    "app": "Otter AI",
+    "category": "AI transcription and collaboration",
+    "description": "Otter AI provides real‑time transcription, note‑taking, and collaboration tools for meetings, lectures, and interviews, leveraging AI to generate searchable, editable transcripts.",
+    "authentication": "Email/password, Google SSO, and enterprise SSO via SAML/OAuth.",
+    "self_serve": "Yes – offers a free tier with limited minutes and paid plans for higher usage and advanced features.",
+    "api_surface": "Unknown",
+    "mcp": "Unknown",
+    "buildability": "Unknown",
+    "main_blocker": "Unknown",
+    "evidence": [
+        "Official Otter.ai website and help center",
+        "Public documentation on authentication methods",
+        "Information on free and paid plans"
+    ]
+}

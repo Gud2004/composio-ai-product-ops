@@ -1,0 +1,17 @@
+{
+    "app": "Magento (Adobe Commerce)",
+    "category": "E-commerce SaaS",
+    "description": "Magento, now part of Adobe Commerce, is a cloud-based e-commerce platform that offers a comprehensive suite of tools for online retailers, including product management, order processing, marketing, and analytics. It provides a scalable, customizable solution for businesses of all sizes.",
+    "authentication": "OAuth 2.0 and API keys are supported for authenticating REST and GraphQL API requests. Admin users can also use session-based authentication for the admin panel.",
+    "self_serve": "Yes – merchants can sign up for Adobe Commerce Cloud, configure their store, and manage products, customers, and orders through the self‑service admin interface. The platform also offers a self‑service API for developers to automate tasks.",
+    "api_surface": "Magento exposes a robust REST API and a GraphQL API. Endpoints cover catalog, sales, customer, inventory, marketing, and configuration resources. The APIs support CRUD operations, batch processing, and webhook notifications.",
+    "mcp": "Magento’s Multi‑Channel Platform (MCP) allows merchants to synchronize inventory, orders, and product data across marketplaces, social media, and physical stores. MCP is available as a separate module that can be enabled in Adobe Commerce Cloud.",
+    "buildability": "The platform supports custom extensions via Composer packages, XML configuration, and JavaScript modules. Developers can build and deploy extensions using Magento’s module system, and the platform supports continuous integration with Git and Docker for automated builds.",
+    "main_blocker": "Complexity of the platform and steep learning curve for new developers can be a blocker. Additionally, the need for a dedicated DevOps team to manage infrastructure and deployments in Adobe Commerce Cloud may pose challenges for smaller teams.",
+    "evidence": [
+        "https://experienceleague.adobe.com/docs/commerce-cloud/commerce/overview.html",
+        "https://developer.adobe.com/commerce/rest-api/overview/",
+        "https://developer.adobe.com/commerce/graphql/overview/",
+        "https://experienceleague.adobe.com/docs/commerce-cloud/mcp/overview.html"
+    ]
+}

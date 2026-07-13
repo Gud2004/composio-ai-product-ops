@@ -1,0 +1,16 @@
+{
+    "app": "Copper",
+    "category": "CRM",
+    "description": "Copper is a cloud‑based customer relationship management (CRM) platform designed to integrate seamlessly with Google Workspace, providing contact management, sales pipeline tracking, and automation features.",
+    "authentication": "OAuth 2.0 (Google Workspace authentication) and API key for REST endpoints",
+    "self_serve": "Yes – users can sign up and configure the application directly through the Copper website without requiring a sales representative",
+    "api_surface": "REST API with endpoints for contacts, accounts, opportunities, activities, and custom objects; supports CRUD operations, search, and batch requests",
+    "mcp": "Copper’s API follows the standard RESTful design with JSON payloads; it does not expose a GraphQL interface or other specialized API surface",
+    "buildability": "Moderate – developers can build integrations using the REST API, but the platform is primarily designed for end‑user configuration rather than extensive custom development",
+    "main_blocker": "Limited API rate limits and lack of advanced data export options may hinder large‑scale integrations",
+    "evidence": [
+        "https://copper.com/",
+        "https://copper.com/docs/",
+        "https://copper.com/docs/api/"
+    ]
+}

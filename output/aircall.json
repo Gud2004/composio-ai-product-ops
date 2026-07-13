@@ -1,0 +1,21 @@
+{
+    "app": "Aircall",
+    "category": "SaaS Phone System / VoIP",
+    "description": "Aircall is a cloud-based phone system that provides VoIP calling, call routing, IVR, call recording, analytics, and integrations with CRM and helpdesk tools.",
+    "authentication": "API key (Bearer token) or OAuth 2.0 client credentials flow for the API. The web app supports email/password login and SSO via SAML.",
+    "self_serve": "Yes – customers can manage users, billing, and settings via the Aircall web portal.",
+    "api_surface": "RESTful API with JSON payloads. Endpoints include calls, contacts, extensions, teams, users, webhooks, and more. Supports pagination, filtering, and webhook events.",
+    "mcp": "Unknown",
+    "buildability": "Good – comprehensive REST API, clear documentation, no SDK required. Rate limits are moderate (60 requests per minute).",
+    "main_blocker": "Rate limiting (60 requests per minute) and limited coverage of advanced features (e.g., no direct support for conference call management via API).",
+    "evidence": [
+        "https://aircall.io/docs",
+        "https://aircall.io/docs/api",
+        "https://aircall.io/docs/api/authentication",
+        "https://aircall.io/docs/api/calls",
+        "https://aircall.io/docs/api/contacts",
+        "https://aircall.io/docs/api/extensions",
+        "https://aircall.io/docs/api/webhooks",
+        "https://aircall.io/docs/api/rate-limits"
+    ]
+}

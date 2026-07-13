@@ -1,0 +1,18 @@
+{
+    "app": "Klaviyo",
+    "category": "Marketing Automation / Email & SMS",
+    "description": "Klaviyo is a SaaS platform that helps e-commerce businesses build personalized email and SMS marketing campaigns, providing data-driven insights and automation.",
+    "authentication": "API Key (header: Authorization: Klaviyo-API-Key <key>)",
+    "self_serve": "Yes – free tier available; sign up at https://www.klaviyo.com/signup",
+    "api_surface": "REST API with endpoints for people, events, lists, segments, flows, templates, and more; SDKs for JavaScript, Ruby, Python, PHP, Node, etc.",
+    "mcp": "Unknown",
+    "buildability": "High – comprehensive SDKs, clear documentation, and example code available.",
+    "main_blocker": "Rate limiting (e.g., 100 requests per minute per API key) and limited support for certain advanced features via API.",
+    "evidence": [
+        "https://www.klaviyo.com/",
+        "https://developers.klaviyo.com/en/docs",
+        "https://developers.klaviyo.com/en/docs/authentication",
+        "https://developers.klaviyo.com/en/docs/api",
+        "https://developers.klaviyo.com/en/docs/sdks"
+    ]
+}

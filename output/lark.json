@@ -1,0 +1,29 @@
+{
+    "app": "Lark",
+    "category": "Collaboration & Productivity",
+    "description": "Lark is an all-in-one collaboration platform that combines messaging, video conferencing, document editing, calendar, and workflow automation into a single SaaS application.",
+    "authentication": "Supports OAuth 2.0, SAML 2.0, and LDAP for single sign-on; also offers API key authentication for developer access.",
+    "self_serve": "Users can sign up for a free tier and upgrade to paid plans directly through the web interface; administrators can manage teams, roles, and billing via the admin console.",
+    "api_surface": "Provides RESTful APIs for messaging, file storage, calendar, and workflow; offers Webhooks for event notifications; SDKs available for JavaScript, Python, and Java.",
+    "mcp": "No known major security or compliance certifications publicly listed; Lark claims GDPR compliance and SOC 2 Type II audit, but detailed reports are not publicly available.",
+    "buildability": "Offers a developer portal with API documentation, SDKs, and sample code; supports custom integrations via webhooks and API calls; no public plugin marketplace yet.",
+    "main_blocker": "Limited public documentation on API rate limits and detailed authentication flows; lack of publicly available compliance reports may hinder enterprise adoption.",
+    "evidence": [
+        {
+            "source": "Lark Official Documentation",
+            "url": "https://www.larksuite.com/en-US/docs"
+        },
+        {
+            "source": "Lark Developer Docs",
+            "url": "https://open.larksuite.com/document"
+        },
+        {
+            "source": "Lark Security & Compliance",
+            "url": "https://www.larksuite.com/en-US/docs/security"
+        },
+        {
+            "source": "Lark Pricing & Plans",
+            "url": "https://www.larksuite.com/en-US/pricing"
+        }
+    ]
+}

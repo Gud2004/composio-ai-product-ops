@@ -1,0 +1,20 @@
+{
+    "app": "Pinterest",
+    "category": "Social Media / Content Discovery",
+    "description": "Pinterest is a visual discovery engine that allows users to find ideas and inspiration for projects and interests.",
+    "authentication": "OAuth 2.0 (Authorization Code Grant) for API; email/password or social login for app.",
+    "self_serve": "Yes – developers can sign up for API access via the Pinterest Developer portal and obtain API keys.",
+    "api_surface": "Pinterest API v5 provides endpoints for boards, pins, users, ads, etc. Includes RESTful endpoints and SDKs.",
+    "mcp": "Marketing Campaign Platform (MCP) – used for advertising and campaign management.",
+    "buildability": "Good – provides SDKs for multiple languages, clear documentation, and sample code.",
+    "main_blocker": "Access to the Ads/MCP API requires approval and is subject to rate limits; some endpoints are restricted.",
+    "evidence": [
+        "https://developers.pinterest.com/",
+        "https://developers.pinterest.com/docs/api/v5/overview/",
+        "https://developers.pinterest.com/docs/api/v5/authentication/",
+        "https://developers.pinterest.com/docs/api/v5/boards/",
+        "https://developers.pinterest.com/docs/api/v5/rate-limits/",
+        "https://developers.pinterest.com/docs/api/v5/ads/",
+        "https://developers.pinterest.com/docs/sdk/"
+    ]
+}

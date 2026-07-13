@@ -1,0 +1,19 @@
+{
+    "app": "Mailchimp",
+    "category": "Email Marketing / Marketing Automation",
+    "description": "Mailchimp is a cloud-based email marketing platform that allows users to create, send, and analyze email campaigns, manage audiences, and automate marketing workflows.",
+    "authentication": "API Key (Basic Auth) or OAuth 2.0",
+    "self_serve": "Yes – users can sign up and use Mailchimp directly via the web interface.",
+    "api_surface": "Extensive RESTful API covering audiences, campaigns, templates, reports, e-commerce, webhooks, etc. Available in multiple languages via SDKs.",
+    "mcp": "Unknown",
+    "buildability": "High – comprehensive SDKs, detailed documentation, sandbox environment, and example code.",
+    "main_blocker": "Rate limiting (10,000 requests per hour) and requirement to manage API keys/OAuth tokens.",
+    "evidence": [
+        "https://mailchimp.com/developer/marketing/api/",
+        "https://mailchimp.com/developer/marketing/guides/authentication/",
+        "https://mailchimp.com/developer/marketing/guides/quick-start/",
+        "https://mailchimp.com/developer/marketing/api/overview/",
+        "https://mailchimp.com/developer/marketing/api/limits/",
+        "https://mailchimp.com/developer/marketing/api/sdk/"
+    ]
+}

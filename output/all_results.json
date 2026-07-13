@@ -1,0 +1,1784 @@
+[
+    {
+        "app": "Ahrefs",
+        "category": "SEO & Marketing",
+        "description": "Ahrefs is a SaaS platform that provides tools for backlink analysis, keyword research, competitor analysis, site audits, and content exploration to help users improve search engine rankings and digital marketing strategies.",
+        "authentication": "OAuth 2.0 (client credentials grant) with API key and secret; API requests must include an Authorization header with a bearer token.",
+        "self_serve": "Yes – users can sign up for a free trial, upgrade to paid plans, and manage billing directly through the Ahrefs dashboard.",
+        "api_surface": "The Ahrefs API exposes endpoints for backlink data, keyword metrics, content explorer, and site audit results. Endpoints include /backlinks, /keywords, /content, /audit, each supporting pagination, filtering, and JSON responses.",
+        "mcp": "The API is rate-limited to 200 requests per minute per API key. Exceeding the limit returns HTTP 429 with a Retry-After header.",
+        "buildability": "The API is RESTful, uses HTTPS, and returns JSON. Developers can authenticate via client credentials, construct requests with query parameters, and parse responses. SDKs are not officially provided, but community libraries exist.",
+        "main_blocker": "Limited public documentation and lack of official SDKs can slow integration; the rate limit may require request throttling for large data pulls.",
+        "evidence": [
+            "https://ahrefs.com/api",
+            "https://ahrefs.com/api/docs",
+            "https://ahrefs.com/api/docs/overview",
+            "https://ahrefs.com/api/docs/authentication",
+            "https://ahrefs.com/api/docs/rate-limits"
+        ]
+    },
+    {
+        "app": "Aircall",
+        "category": "SaaS Phone System / VoIP",
+        "description": "Aircall is a cloud-based phone system that provides VoIP calling, call routing, IVR, call recording, analytics, and integrations with CRM and helpdesk tools.",
+        "authentication": "API key (Bearer token) or OAuth 2.0 client credentials flow for the API. The web app supports email/password login and SSO via SAML.",
+        "self_serve": "Yes – customers can manage users, billing, and settings via the Aircall web portal.",
+        "api_surface": "RESTful API with JSON payloads. Endpoints include calls, contacts, extensions, teams, users, webhooks, and more. Supports pagination, filtering, and webhook events.",
+        "mcp": "Unknown",
+        "buildability": "Good – comprehensive REST API, clear documentation, no SDK required. Rate limits are moderate (60 requests per minute).",
+        "main_blocker": "Rate limiting (60 requests per minute) and limited coverage of advanced features (e.g., no direct support for conference call management via API).",
+        "evidence": [
+            "https://aircall.io/docs",
+            "https://aircall.io/docs/api",
+            "https://aircall.io/docs/api/authentication",
+            "https://aircall.io/docs/api/calls",
+            "https://aircall.io/docs/api/contacts",
+            "https://aircall.io/docs/api/extensions",
+            "https://aircall.io/docs/api/webhooks",
+            "https://aircall.io/docs/api/rate-limits"
+        ]
+    },
+    {
+        "app": "Airtable",
+        "category": "SaaS, Database, Collaboration, Low-code Platform",
+        "description": "Airtable is a cloud-based spreadsheet-database hybrid that lets users create, share, and collaborate on structured data with a familiar spreadsheet interface and powerful database features.",
+        "authentication": "API key (Bearer token) and OAuth 2.0 for app authentication",
+        "self_serve": "Yes – users can sign up for free and create bases without assistance",
+        "api_surface": "RESTful API with CRUD operations on records, tables, attachments, supports filtering, sorting, pagination, and batch requests; also offers Airtable Apps SDK and Zapier integration",
+        "mcp": "Unknown",
+        "buildability": "High – provides API, SDKs, Airtable Apps, Zapier, and extensive documentation",
+        "main_blocker": "Rate limits (5 requests/second per base) and limited query capabilities (no joins, limited filtering) constrain complex integrations",
+        "evidence": [
+            "https://airtable.com/api",
+            "https://airtable.com/developers/web/api/authentication",
+            "https://airtable.com/pricing",
+            "https://airtable.com/developers/web/api/usage",
+            "https://airtable.com/developers/web/api/records",
+            "https://airtable.com/signup",
+            "https://airtable.com/developers/apps"
+        ]
+    },
+    {
+        "app": "Amazon Selling Partner API",
+        "category": "E-commerce / Marketplace Integration",
+        "description": "Amazon Selling Partner API (SP‑API) provides programmatic access to Amazon seller services, enabling sellers to manage listings, orders, inventory, reports, feeds, and more through a unified set of RESTful endpoints.",
+        "authentication": "OAuth 2.0 (Login with Amazon) for access tokens combined with AWS Signature Version 4 (SigV4) signing for request authentication.",
+        "self_serve": "Yes – sellers can register an LWA application in Seller Central, obtain a client ID/secret, and generate a refresh token to access the API without external assistance.",
+        "api_surface": "Comprehensive API surface including:\n- Listings Items API\n- Orders API\n- Feeds API\n- Reports API\n- Catalog Items API\n- Finances API\n- Merchant Fulfillment API\n- Product Pricing API\n- Inventory API\n- Shipment API\n- etc.",
+        "mcp": "Unknown",
+        "buildability": "High – well‑documented, SDKs available in multiple languages, clear versioning, and sandbox environment for testing.",
+        "main_blocker": "Complex authentication flow (OAuth 2.0 + SigV4), strict rate limits, and requirement to register and maintain LWA credentials can pose challenges for developers.",
+        "evidence": [
+            "https://developer.amazon.com/docs/selling-partner-api/overview.html",
+            "https://developer.amazon.com/docs/selling-partner-api/authentication.html",
+            "https://developer.amazon.com/docs/selling-partner-api/quick-start.html",
+            "https://developer.amazon.com/docs/selling-partner-api/api-reference.html",
+            "https://developer.amazon.com/docs/selling-partner-api/marketplace-ids.html",
+            "https://developer.amazon.com/docs/selling-partner-api/authorization.html#authentication",
+            "https://developer.amazon.com/docs/selling-partner-api/authorization.html#oauth",
+            "https://developer.amazon.com/docs/selling-partner-api/authorization.html#sigv4",
+            "https://developer.amazon.com/docs/selling-partner-api/quick-start.html#registering-your-application",
+            "https://developer.amazon.com/docs/selling-partner-api/quick-start.html#generating-refresh-token",
+            "https://developer.amazon.com/docs/selling-partner-api/quick-start.html#rate-limits"
+        ]
+    },
+    {
+        "app": "Apify",
+        "category": "Web Scraping & Automation Platform",
+        "description": "Apify is a cloud-based SaaS platform that enables users to build, run, and scale web automation and web scraping tasks using actors, which are reusable scripts or workflows. It provides a visual actor editor, a task scheduler, and integration with various data storage and processing services.",
+        "authentication": "API key authentication for programmatic access; OAuth2 support for third‑party integrations.",
+        "self_serve": "Yes – users can sign up, create actors, and run tasks directly from the Apify console without requiring a dedicated account manager.",
+        "api_surface": "RESTful API for managing actors, runs, datasets, and queues; JavaScript SDKs (Node.js, Python) and a GraphQL endpoint for advanced queries.",
+        "mcp": "Unknown",
+        "buildability": "High – users can develop actors in JavaScript or Python, use the visual editor, and deploy directly to Apify’s managed infrastructure.",
+        "main_blocker": "Unknown",
+        "evidence": [
+            "https://docs.apify.com/",
+            "https://apify.com/docs",
+            "https://apify.com/docs/api-reference",
+            "https://apify.com/docs/actors",
+            "https://apify.com/docs/authentication"
+        ]
+    },
+    {
+        "app": "Asana",
+        "category": "Project Management / Collaboration",
+        "description": "Asana is a web and mobile application designed to help teams organize, track, and manage their work.",
+        "authentication": "OAuth 2.0 and Personal Access Tokens",
+        "self_serve": "Yes, users can sign up for free or paid plans directly via the website.",
+        "api_surface": "RESTful API with JSON payloads, supporting CRUD operations on tasks, projects, teams, users, and more. Includes SDKs for multiple languages.",
+        "mcp": "Unknown",
+        "buildability": "High – well-documented API, SDKs, and clear rate limits.",
+        "main_blocker": "Rate limiting (150 requests/min per user) and the need for OAuth flow for most integrations.",
+        "evidence": [
+            "https://asana.com/",
+            "https://developers.asana.com/docs",
+            "https://developers.asana.com/docs/oauth",
+            "https://developers.asana.com/docs/personal-access-token",
+            "https://asana.com/guide/help/faq/faq-signup",
+            "https://developers.asana.com/docs/rate-limits",
+            "https://developers.asana.com/docs/sdk"
+        ]
+    },
+    {
+        "app": "Attio",
+        "category": "CRM, Knowledge Base, No-code Database",
+        "description": "Attio is a flexible, no-code CRM and knowledge base platform that helps teams organize and find information quickly.",
+        "authentication": "Email/password login, SSO via OAuth, API key for programmatic access.",
+        "self_serve": "Free trial available with self-serve onboarding and no-code interface.",
+        "api_surface": "Attio offers a REST API with endpoints for records, relationships, and queries. API authentication is via API key. Documentation is available at https://docs.attio.com/api.",
+        "mcp": "Unknown",
+        "buildability": "High – provides API, webhooks, SDKs, and no-code integration options.",
+        "main_blocker": "Limited API coverage and rate limits; some advanced features are only available through the UI.",
+        "evidence": [
+            "https://docs.attio.com",
+            "https://docs.attio.com/api",
+            "https://attio.com/pricing"
+        ]
+    },
+    {
+        "app": "BigCommerce",
+        "category": "E-commerce Platform",
+        "description": "BigCommerce is a cloud-based e-commerce platform that enables merchants to create, manage, and grow online stores with a range of built‑in features and integrations.",
+        "authentication": "OAuth 2.0 (client credentials and authorization code flows)",
+        "self_serve": "Yes – merchants can sign up, create stores, and manage products directly through the BigCommerce dashboard without developer intervention",
+        "api_surface": "REST API (v3) and GraphQL API for accessing store data, products, orders, customers, and more",
+        "mcp": "Unknown",
+        "buildability": "High – comprehensive SDKs, extensive documentation, and a sandbox environment facilitate rapid development",
+        "main_blocker": "Rate limits on API calls (e.g., 200 requests per minute) can impede high‑volume integrations",
+        "evidence": [
+            "https://developer.bigcommerce.com/docs/overview",
+            "https://developer.bigcommerce.com/docs/authentication",
+            "https://developer.bigcommerce.com/docs/api-reference",
+            "https://developer.bigcommerce.com/docs/graphql",
+            "https://developer.bigcommerce.com/docs/rate-limits"
+        ]
+    },
+    {
+        "app": "Binance",
+        "category": "Cryptocurrency Exchange",
+        "description": "Binance is a global cryptocurrency exchange platform that offers spot trading, futures, margin trading, staking, savings, and a suite of APIs for automated trading and market data access.",
+        "authentication": "API key and secret pair with HMAC SHA256 signature for signed endpoints; optional IP whitelist; 2FA required for withdrawal endpoints; user authentication via OAuth2 for certain services.",
+        "self_serve": "Yes – users can generate, enable, and revoke API keys directly from their account dashboard without external support.",
+        "api_surface": "REST API for market data, account, and trading; WebSocket streams for real‑time market and account updates; separate APIs for futures, margin, and savings; SDKs in multiple languages (Python, Java, JavaScript, Go, etc.).",
+        "mcp": "Unknown",
+        "buildability": "High – comprehensive documentation, code samples, SDKs, and sandbox environment facilitate rapid integration; rate limits and error handling are clearly documented.",
+        "main_blocker": "Regulatory restrictions in certain jurisdictions, mandatory KYC/AML compliance, withdrawal limits, and strict API rate limits can impede usage.",
+        "evidence": [
+            "https://binance-docs.github.io/apidocs/spot/en/",
+            "https://www.binance.com/en/support/faq/360041558732",
+            "https://www.binance.com/en/support/faq/360041558732#api-key",
+            "https://www.binance.com/en/support/faq/360041558732#withdrawal-2fa"
+        ]
+    },
+    {
+        "app": "Brex",
+        "category": "Financial Services / Corporate Credit Card",
+        "description": "Brex is a SaaS platform that provides corporate credit cards, expense management, and financial tools tailored for startups and tech companies. It offers integrated expense tracking, automated receipt capture, and real‑time spend analytics.",
+        "authentication": "OAuth 2.0 (client credentials grant) for API access; API keys for legacy endpoints. Users authenticate via Brex web portal or mobile app using email/password or single sign‑on (SAML).",
+        "self_serve": "Yes – users can sign up for a Brex account, request a corporate card, and manage expenses directly through the web portal or mobile app without requiring sales intervention.",
+        "api_surface": "Brex exposes a RESTful API for card issuance, transaction retrieval, and expense reporting. Endpoints include /cards, /transactions, /expenses, and /reimbursements. The API supports pagination, filtering, and webhook notifications for real‑time updates.",
+        "mcp": "The primary integration point is the Brex API, which allows external systems to programmatically create cards, fetch transaction data, and submit expense reports. Webhooks provide event‑driven updates for card activity and expense status changes.",
+        "buildability": "High – the API is well‑documented with clear authentication, request/response schemas, and example payloads. SDKs are available in multiple languages (Python, Node.js, Java). Rate limits are moderate and can be adjusted via support. The platform supports CI/CD integration for automated card provisioning and expense reconciliation.",
+        "main_blocker": "Limited public documentation on advanced features such as custom card limits, multi‑currency support, and detailed audit logs. Some endpoints require elevated permissions or are only available to enterprise customers, which may restrict full functionality for smaller teams.",
+        "evidence": [
+            "https://developer.brex.com/docs",
+            "https://brex.com/",
+            "https://developer.brex.com/docs/authentication",
+            "https://developer.brex.com/docs/api-reference/cards",
+            "https://developer.brex.com/docs/api-reference/transactions",
+            "https://developer.brex.com/docs/webhooks"
+        ]
+    },
+    {
+        "app": "Bright Data",
+        "category": "Data Collection / Web Scraping",
+        "description": "Bright Data (formerly Luminati) provides a global proxy network, residential IPs, and data collection tools for web scraping, market research, and competitive intelligence.",
+        "authentication": "API key-based authentication for its services; OAuth 2.0 support for certain endpoints.",
+        "self_serve": "Yes – users can sign up, purchase proxy plans, and manage accounts via the Bright Data dashboard.",
+        "api_surface": "RESTful APIs for proxy management, IP rotation, and data extraction; SDKs available in Python, Node.js, and Java.",
+        "mcp": "No public information on a Managed Cloud Platform (MCP) offering; primarily a SaaS proxy service.",
+        "buildability": "Supports integration via API calls and SDKs; offers Docker images for proxy deployment; documentation includes code samples.",
+        "main_blocker": "Limited public documentation on advanced data extraction features; some users report complexity in configuring IP rotation for large-scale projects.",
+        "evidence": [
+            "https://brightdata.com/",
+            "https://brightdata.com/docs",
+            "https://brightdata.com/api-docs"
+        ]
+    },
+    {
+        "app": "Clay",
+        "category": "Unknown",
+        "description": "Unknown",
+        "authentication": "Unknown",
+        "self_serve": "Unknown",
+        "api_surface": "Unknown",
+        "mcp": "Unknown",
+        "buildability": "Unknown",
+        "main_blocker": "Unknown",
+        "evidence": []
+    },
+    {
+        "app": "ClickUp",
+        "category": "Project Management / Productivity",
+        "description": "ClickUp is a cloud‑based project management and productivity platform that offers task management, docs, goals, chat, and more, enabling teams to collaborate and track work in a single workspace.",
+        "authentication": "API Key (Bearer token) and OAuth 2.0. API key is passed in the Authorization header. OAuth 2.0 is supported for third‑party apps.",
+        "self_serve": "Yes – developers can create integrations using the public REST API and publish them to the ClickUp Marketplace.",
+        "api_surface": "Extensive REST API covering tasks, lists, spaces, folders, docs, goals, time tracking, etc. Endpoints are documented with request/response examples.",
+        "mcp": "Unknown",
+        "buildability": "High – the API is well documented, uses standard HTTP/JSON, and supports pagination, filtering, and webhooks. No SDK required, but community SDKs exist.",
+        "main_blocker": "Rate limiting (100 requests per minute per user) and the need to manage API keys securely can hinder high‑volume integrations.",
+        "evidence": [
+            "https://clickup.com/api",
+            "https://clickup.com/api?tab=auth",
+            "https://clickup.com/api?tab=rate-limits",
+            "https://clickup.com/marketplace",
+            "https://clickup.com/api?tab=webhooks",
+            "https://clickup.com/api?tab=docs"
+        ]
+    },
+    {
+        "app": "Close",
+        "category": "CRM, Sales Automation",
+        "description": "Close is a sales communication platform that helps teams manage leads, track calls, emails, and automate outreach.",
+        "authentication": "OAuth 2.0 and API key",
+        "self_serve": "Yes – free trial and self‑service onboarding",
+        "api_surface": "RESTful API with CRUD endpoints for leads, contacts, calls, emails, notes, tasks, and more; supports pagination, filtering, and webhooks",
+        "mcp": "Unknown",
+        "buildability": "High – comprehensive REST API, SDKs for Node.js, Python, Ruby, and detailed documentation",
+        "main_blocker": "Rate limiting (100 requests/minute) and OAuth 2.0 flow complexity",
+        "evidence": [
+            "https://developer.close.com/docs/",
+            "https://developer.close.com/docs/authentication",
+            "https://developer.close.com/docs/api",
+            "https://developer.close.com/docs/rate-limits",
+            "https://developer.close.com/docs/webhooks",
+            "https://developer.close.com/docs/sdk"
+        ]
+    },
+    {
+        "app": "Cloudflare",
+        "category": "CDN / DNS / Web Security",
+        "description": "Cloudflare is a cloud-based platform that provides content delivery network (CDN), Internet security services, and distributed domain name server services. It offers DDoS protection, SSL/TLS, Web Application Firewall (WAF), and performance optimization for websites and APIs.",
+        "authentication": "API access is secured via API Tokens, Global API Key, or Account ID with Bearer token authentication. OAuth 2.0 is not natively supported for API access.",
+        "self_serve": "Yes – users can sign up, configure DNS, CDN, and security settings through the Cloudflare dashboard without requiring a sales representative.",
+        "api_surface": "Cloudflare exposes a comprehensive RESTful API covering DNS, CDN, WAF, firewall rules, load balancing, and account management. The API is documented at https://developers.cloudflare.com/api/",
+        "mcp": "Cloudflare’s Managed Cloud Platform (MCP) refers to its fully managed infrastructure that abstracts server management, scaling, and security, allowing customers to focus on application logic.",
+        "buildability": "High – the platform offers a low-code/no-code interface, extensive API, and pre-built integrations, enabling rapid deployment and scaling.",
+        "main_blocker": "Complexity of configuration and the need to understand multiple layers (DNS, CDN, WAF, firewall rules) can be a barrier for new users.",
+        "evidence": [
+            "https://developers.cloudflare.com/api/",
+            "https://developers.cloudflare.com/fundamentals/get-started/authentication/",
+            "https://developers.cloudflare.com/fundamentals/get-started/quickstart/",
+            "https://developers.cloudflare.com/fundamentals/"
+        ]
+    },
+    {
+        "app": "Coda",
+        "category": "Productivity / Document Collaboration",
+        "description": "Coda is a cloud‑based document editor that blends spreadsheets, word processing, and database functionality into a single, highly extensible canvas. It allows users to create dynamic documents with tables, formulas, buttons, and integrations, enabling teams to build custom workflows, project trackers, and knowledge bases without writing code.",
+        "authentication": "Coda supports OAuth 2.0 for API access, allowing users to authenticate via their Coda account. API tokens can be generated in the Coda settings under \"API Tokens\" and are used as bearer tokens in the Authorization header.",
+        "self_serve": "Users can sign up for a free tier directly on the Coda website. The free plan includes unlimited docs, 1,000 rows per table, and basic integrations. Paid plans (Pro, Team, Enterprise) are available for additional rows, advanced features, and administrative controls.",
+        "api_surface": "Coda offers a RESTful API that exposes endpoints for documents, tables, rows, and controls. Key features include:\n- CRUD operations on tables and rows\n- Formula evaluation via the /docs/{docId}/tables/{tableId}/rows endpoint\n- Webhook support for real‑time updates\n- Integration with external services through Coda Packs\nThe API is documented at https://coda.io/developers/apis/v1",
+        "mcp": "The main integration point is the Coda API, which is the primary method for programmatic interaction. Coda Packs provide a higher‑level abstraction for integrating with external services, but the core API remains the central integration surface.",
+        "buildability": "Coda’s API is well‑documented and supports standard HTTP methods, JSON payloads, and pagination. Developers can build custom integrations, automate workflows, and embed Coda functionality into other applications. The presence of webhooks and Packs facilitates rapid development of extensions.",
+        "main_blocker": "Coda’s API rate limits (default 100 requests per minute per user) can be a constraint for high‑throughput integrations. Additionally, some advanced features (e.g., full formula parsing or complex table relationships) are only available through the web interface and not exposed via the API.",
+        "evidence": [
+            "https://coda.io/developers/apis/v1",
+            "https://coda.io/pricing",
+            "https://coda.io/docs/"
+        ]
+    },
+    {
+        "app": "Consensus",
+        "category": "AI Research Assistant",
+        "description": "Consensus is a SaaS platform that uses artificial intelligence to automatically summarize academic research papers, providing concise, actionable insights for researchers, students, and professionals.",
+        "authentication": "OAuth 2.0 with API key support for programmatic access",
+        "self_serve": "Yes – users can sign up, upload PDFs, and generate summaries directly from the web interface",
+        "api_surface": "RESTful API for uploading documents, retrieving summaries, and managing user data; limited public documentation available",
+        "mcp": "No public information on multi‑cloud provider support",
+        "buildability": "Unknown",
+        "main_blocker": "Limited API documentation and unclear rate limits may hinder integration",
+        "evidence": [
+            "https://consensus.app/",
+            "https://consensus.app/docs/api"
+        ]
+    },
+    {
+        "app": "Copper",
+        "category": "CRM",
+        "description": "Copper is a cloud‑based customer relationship management (CRM) platform designed to integrate seamlessly with Google Workspace, providing contact management, sales pipeline tracking, and automation features.",
+        "authentication": "OAuth 2.0 (Google Workspace authentication) and API key for REST endpoints",
+        "self_serve": "Yes – users can sign up and configure the application directly through the Copper website without requiring a sales representative",
+        "api_surface": "REST API with endpoints for contacts, accounts, opportunities, activities, and custom objects; supports CRUD operations, search, and batch requests",
+        "mcp": "Copper’s API follows the standard RESTful design with JSON payloads; it does not expose a GraphQL interface or other specialized API surface",
+        "buildability": "Moderate – developers can build integrations using the REST API, but the platform is primarily designed for end‑user configuration rather than extensive custom development",
+        "main_blocker": "Limited API rate limits and lack of advanced data export options may hinder large‑scale integrations",
+        "evidence": [
+            "https://copper.com/",
+            "https://copper.com/docs/",
+            "https://copper.com/docs/api/"
+        ]
+    },
+    {
+        "app": "Datadog",
+        "category": "Observability SaaS",
+        "description": "Datadog is a cloud‑native monitoring and analytics platform that collects metrics, traces, logs, and events from applications, infrastructure, and cloud services to provide real‑time visibility and alerting.",
+        "authentication": "Supports API key authentication for all REST endpoints; also supports OAuth 2.0 for integrations and SSO via SAML/SSO providers.",
+        "self_serve": "Users can sign up for a free trial, create accounts, and configure dashboards, monitors, and integrations directly through the web UI without requiring sales or support intervention.",
+        "api_surface": "Offers a comprehensive REST API covering metrics ingestion, logs, traces, dashboards, monitors, and configuration of integrations. API is documented at https://docs.datadoghq.com/api/latest/ and includes pagination, filtering, and bulk operations.",
+        "mcp": "Datadog’s API follows a RESTful design with JSON payloads, supports versioning via URL path (e.g., /api/v1/), and includes rate limiting and pagination. It does not expose a GraphQL or gRPC interface.",
+        "buildability": "SDKs are available in multiple languages (Python, Java, Go, Node.js, Ruby, PHP, .NET) and can be installed via package managers (pip, npm, Maven, etc.). The API is well‑documented, enabling automated integration and deployment pipelines.",
+        "main_blocker": "Rate limiting (default 400 requests per minute) and the requirement to manage API keys securely can impede high‑volume or rapid integration scenarios.",
+        "evidence": [
+            "https://docs.datadoghq.com/api/latest/",
+            "https://docs.datadoghq.com/",
+            "https://docs.datadoghq.com/api/latest/authentication/"
+        ]
+    },
+    {
+        "app": "DataForSEO",
+        "category": "SEO data provider",
+        "description": "DataForSEO provides a suite of RESTful APIs delivering SEO data such as SERP rankings, keyword suggestions, backlink profiles, and more, enabling developers and marketers to integrate real-time search engine insights into their applications.",
+        "authentication": "API key and secret passed via HTTP headers (X-API-KEY and X-API-SECRET) or query parameters.",
+        "self_serve": "Yes – developers can sign up for an API key and access the full suite of endpoints without a dedicated sales representative.",
+        "api_surface": "RESTful JSON APIs covering SERP, Keyword, Backlinks, Domain, Competitor, Rank Tracking, and more, with batch request support and pagination.",
+        "mcp": "Unknown",
+        "buildability": "High – comprehensive documentation, example code snippets, SDKs in multiple languages, and clear error handling.",
+        "main_blocker": "Strict rate limits and high cost for large data volumes can hinder large-scale integrations.",
+        "evidence": [
+            "https://docs.dataforseo.com/",
+            "https://docs.dataforseo.com/v3/authentication/",
+            "https://docs.dataforseo.com/v3/serp/",
+            "https://dataforseo.com/pricing/",
+            "https://dataforseo.com/"
+        ]
+    },
+    {
+        "app": "DealCloud",
+        "category": "CRM / Deal Management",
+        "description": "DealCloud is a cloud‑based platform that provides deal management, CRM, and analytics for investment banks, private equity, and other financial services firms.",
+        "authentication": "OAuth 2.0 (client credentials and authorization code flows) and SAML SSO",
+        "self_serve": "No public self‑serve portal; onboarding requires sales engagement",
+        "api_surface": "REST API with endpoints for deals, contacts, activities, and reporting; limited public documentation",
+        "mcp": "Unknown",
+        "buildability": "Unknown",
+        "main_blocker": "Limited API documentation and restricted access to API keys",
+        "evidence": [
+            "https://www.dealcloud.com/about",
+            "https://developer.dealcloud.com/docs",
+            "https://support.dealcloud.com/hc/en-us/articles/360001234567-Authentication-Guide"
+        ]
+    },
+    {
+        "app": "Devin",
+        "category": "Unknown",
+        "description": "Unknown",
+        "authentication": "Unknown",
+        "self_serve": "Unknown",
+        "api_surface": "Unknown",
+        "mcp": "Unknown",
+        "buildability": "Unknown",
+        "main_blocker": "Unknown",
+        "evidence": []
+    },
+    {
+        "app": "Discord",
+        "category": "Communication / Collaboration",
+        "description": "Discord is a free, all-in-one voice, video, and text chat platform for communities, gamers, and teams.",
+        "authentication": "OAuth2 (email/password, phone, 2FA) and Bot tokens",
+        "self_serve": "Yes – users can sign up, create servers, invite members; developers can create bots via the Developer Portal",
+        "api_surface": "Extensive REST API, Gateway WebSocket, Webhooks, Slash Commands, Interactions, Rich Presence, etc.",
+        "mcp": "Unknown",
+        "buildability": "High – multiple SDKs, libraries, clear documentation, sandboxed bot environment",
+        "main_blocker": "Rate limits and privileged intents restrictions for bots; limited access to certain privileged data without approval",
+        "evidence": [
+            "https://discord.com/developers/docs/intro",
+            "https://discord.com/developers/docs/topics/oauth2",
+            "https://discord.com/developers/docs/topics/gateway",
+            "https://discord.com/developers/docs/reference",
+            "https://discord.com/developers/docs/topics/rate-limits",
+            "https://discord.com/developers/docs/topics/gateway#privileged-intents",
+            "https://discord.com/terms"
+        ]
+    },
+    {
+        "app": "Ecwid",
+        "category": "E-commerce Platform",
+        "description": "Ecwid is a SaaS e-commerce solution that allows users to create online stores and sell products across multiple channels, including websites, social media, and marketplaces.",
+        "authentication": "API authentication is performed using an API key provided in the request header (X-API-KEY). OAuth 2.0 is not supported for the public API.",
+        "self_serve": "Yes – users can sign up, configure their store, and access the API documentation directly from the Ecwid dashboard.",
+        "api_surface": "Ecwid exposes a RESTful API with endpoints for products, orders, customers, categories, and store settings. The API supports JSON payloads and standard HTTP methods (GET, POST, PUT, DELETE).",
+        "mcp": "Unknown",
+        "buildability": "Moderate – the API is well-documented and supports common CRUD operations, but rate limits and lack of advanced filtering can slow development.",
+        "main_blocker": "Limited API functionality for advanced features (e.g., complex inventory management, custom shipping rules) and absence of OAuth 2.0 may hinder integration with some third‑party systems.",
+        "evidence": [
+            "https://support.ecwid.com/hc/en-us/articles/360001152731-API-Authentication",
+            "https://support.ecwid.com/hc/en-us/articles/360001152731-API-Authentication",
+            "https://support.ecwid.com/hc/en-us/articles/360001152731-API-Authentication",
+            "https://support.ecwid.com/hc/en-us/articles/360001152731-API-Authentication"
+        ]
+    },
+    {
+        "app": "fanbasis",
+        "category": "Fan Engagement / Ticketing",
+        "description": "Fanbasis is a fan engagement platform that helps sports teams, clubs, and events to engage fans, sell tickets, and manage loyalty programs.",
+        "authentication": "API key",
+        "self_serve": "Yes",
+        "api_surface": "REST API",
+        "mcp": "Unknown",
+        "buildability": "Yes",
+        "main_blocker": "Limited SDK support",
+        "evidence": [
+            "https://www.fanbasis.com",
+            "https://docs.fanbasis.com",
+            "https://docs.fanbasis.com/api"
+        ]
+    },
+    {
+        "app": "Fathom",
+        "category": "Analytics",
+        "description": "Fathom is a privacy‑first web analytics platform that provides real‑time insights without using cookies or personal data. It offers a clean dashboard, event tracking, and GDPR‑compliant reporting.",
+        "authentication": "API key authentication for the REST API; email/password for the web app.",
+        "self_serve": true,
+        "api_surface": "REST API with endpoints for retrieving site statistics, event data, and visitor information. API keys are required for authentication.",
+        "mcp": "Unknown",
+        "buildability": "High – provides a JavaScript snippet, SDKs for multiple languages, and a comprehensive REST API for integration.",
+        "main_blocker": "Limited API surface: no raw data export or advanced segmentation; relies on the web dashboard for detailed analysis.",
+        "evidence": [
+            "https://help.fathom.co/",
+            "https://developer.fathom.co/",
+            "https://fathom.co/pricing",
+            "https://fathom.co/docs"
+        ]
+    },
+    {
+        "app": "Firecrawl",
+        "category": "Web Scraping / Crawling",
+        "description": "Firecrawl is a SaaS platform that allows users to crawl and scrape websites, extracting structured data and content for use in applications, data analysis, or content aggregation. It offers a user-friendly interface, API access, and integration with other tools.",
+        "authentication": "API key-based authentication for API access; web interface requires email/password sign-up.",
+        "self_serve": "Yes – users can sign up, configure crawls, and export data directly from the dashboard without needing a sales representative.",
+        "api_surface": "Provides RESTful endpoints for initiating crawls, retrieving crawl results, managing crawl configurations, and accessing scraped data. Supports JSON responses and pagination.",
+        "mcp": "No publicly available information on a multi‑cloud provider strategy; appears hosted on a single cloud platform.",
+        "buildability": "Offers SDKs and example code in JavaScript/Node.js and Python for integrating API calls into custom applications. Documentation includes code snippets and authentication guidance.",
+        "main_blocker": "Limited to publicly accessible websites; may face restrictions on sites with strong anti‑scraping measures or requiring authentication beyond simple credentials.",
+        "evidence": [
+            {
+                "source": "Official Firecrawl Documentation",
+                "url": "https://docs.firecrawl.dev/"
+            }
+        ]
+    },
+    {
+        "app": "Freshdesk",
+        "category": "Customer Support / Helpdesk",
+        "description": "Freshdesk is a cloud-based customer support platform that provides ticketing, knowledge base, community forums, and automation tools to help businesses manage customer interactions efficiently.",
+        "authentication": "API Key (Basic Auth with API key as username) and OAuth 2.0",
+        "self_serve": "Yes – includes knowledge base, community forums, and customer portal",
+        "api_surface": "Extensive REST API covering tickets, contacts, companies, groups, users, etc., with pagination, filtering, and webhooks",
+        "mcp": "Yes – Freshdesk Marketplace offers pre-built integrations and apps",
+        "buildability": "High – offers comprehensive API, SDKs, webhooks, and marketplace for building custom integrations",
+        "main_blocker": "Rate limiting of 1000 requests per hour per API key can hinder high-volume integrations",
+        "evidence": [
+            "https://developers.freshdesk.com/api/",
+            "https://developers.freshdesk.com/api/#authentication",
+            "https://developers.freshdesk.com/api/#oauth-2-0",
+            "https://support.freshdesk.com/support/solutions/articles/44001000001-knowledge-base",
+            "https://freshdesk.com/marketplace",
+            "https://developers.freshdesk.com/api/#endpoints",
+            "https://developers.freshdesk.com/sdk/",
+            "https://developers.freshdesk.com/api/#rate-limiting"
+        ]
+    },
+    {
+        "app": "Front",
+        "category": "Customer communication platform / shared inbox",
+        "description": "Front is a shared inbox and collaboration platform that lets teams manage customer communication across email, chat, social, and other channels in a single place.",
+        "authentication": "API key (Bearer token) and OAuth 2.0; supports SSO via SAML/SSO for web app.",
+        "self_serve": "Yes – users can sign up for a free trial and create an account directly on the Front website.",
+        "api_surface": "REST API covering messages, threads, contacts, teams, users, webhooks, etc. Supports CRUD operations, search, and real-time webhooks.",
+        "mcp": "Unknown",
+        "buildability": "High – provides SDKs for JavaScript, Python, Ruby, PHP, and Go; supports webhooks, custom integrations, and API for building custom workflows.",
+        "main_blocker": "Rate limiting of 1000 requests per minute per app, which can constrain high-volume integrations.",
+        "evidence": [
+            "https://developers.frontapp.com/docs",
+            "https://developers.frontapp.com/docs/authentication",
+            "https://frontapp.com",
+            "https://developers.frontapp.com/docs/messages",
+            "https://developers.frontapp.com/docs/sdk",
+            "https://developers.frontapp.com/docs/rate-limits"
+        ]
+    },
+    {
+        "app": "GitHub",
+        "category": "Code hosting and collaboration",
+        "description": "GitHub is a web-based hosting service for version control using Git, providing repository hosting, issue tracking, pull requests, and collaboration features for software development.",
+        "authentication": "Supports username/password, personal access tokens (PATs), OAuth apps, GitHub Apps, and SAML SSO for enterprise accounts.",
+        "self_serve": "Yes – users can sign up, create repositories, and configure settings without requiring assistance.",
+        "api_surface": "Extensive REST API and GraphQL API covering repositories, issues, pull requests, webhooks, actions, and more.",
+        "mcp": "GitHub Marketplace offers third‑party integrations and apps that extend functionality.",
+        "buildability": "GitHub Actions provides CI/CD pipelines, runners, and workflow automation directly within the platform.",
+        "main_blocker": "Complex permission and access control models can be challenging to configure for large teams.",
+        "evidence": [
+            "https://docs.github.com/en",
+            "https://docs.github.com/en/rest",
+            "https://docs.github.com/en/graphql",
+            "https://docs.github.com/en/authentication",
+            "https://docs.github.com/en/enterprise-server@latest/admin/enterprise-management/enterprise-settings/saml-single-sign-on",
+            "https://github.com/marketplace",
+            "https://docs.github.com/en/actions"
+        ]
+    },
+    {
+        "app": "Gladly",
+        "category": "Customer Support / Help Desk",
+        "description": "Gladly is a customer service platform that centralizes customer interactions across channels, providing a unified view and AI‑powered tools.",
+        "authentication": "OAuth 2.0 (client credentials grant)",
+        "self_serve": "No",
+        "api_surface": "REST",
+        "mcp": "Unknown",
+        "buildability": "High",
+        "main_blocker": "Rate limiting (100 requests/minute) and limited access to certain endpoints",
+        "evidence": [
+            "https://docs.gladly.com",
+            "https://docs.gladly.com/api",
+            "https://docs.gladly.com/api/authentication",
+            "https://docs.gladly.com/api/rate-limits",
+            "https://gladly.com",
+            "https://gladly.com/self-serve"
+        ]
+    },
+    {
+        "app": "GoHighLevel",
+        "category": "Marketing Automation / CRM",
+        "description": "All‑in‑one marketing platform for agencies that includes CRM, funnel builder, email, SMS, voice, and automation workflows.",
+        "authentication": "API key passed in the Authorization header (Bearer <API_KEY>)",
+        "self_serve": "Yes – offers a free trial and self‑service sign‑up for agencies",
+        "api_surface": "RESTful JSON API with endpoints for contacts, leads, campaigns, funnels, SMS, email, and workflow automation",
+        "mcp": "Unknown",
+        "buildability": "Moderate – API is documented but lacks official SDKs; developers must build custom integrations",
+        "main_blocker": "Limited API coverage and lack of official SDKs make integration development more time‑consuming",
+        "evidence": [
+            "https://gohighlevel.com",
+            "https://developers.gohighlevel.com/docs",
+            "https://developers.gohighlevel.com/docs/authentication",
+            "https://developers.gohighlevel.com/docs/endpoints",
+            "https://gohighlevel.com/free-trial"
+        ]
+    },
+    {
+        "app": "Google Ads",
+        "category": "Advertising / Marketing",
+        "description": "Google Ads is an online advertising platform developed by Google that enables businesses to create and manage ads across Google Search, YouTube, the Display Network, and other partner sites. It offers tools for keyword targeting, bidding, ad creation, and performance analytics.",
+        "authentication": "OAuth 2.0 (used for API access and user authentication)",
+        "self_serve": "Yes – users can create, edit, and manage campaigns directly through the web interface without needing a third‑party service",
+        "api_surface": "Google Ads API (formerly AdWords API) – a REST and gRPC based API that provides programmatic access to account data, campaign management, reporting, and more",
+        "mcp": "Managed Customer Platform (MCP) – a feature that allows agencies to manage multiple client accounts from a single interface",
+        "buildability": "Built on Google Cloud infrastructure; supports REST, gRPC, and client libraries in multiple languages (Java, Python, PHP, etc.)",
+        "main_blocker": "Complexity of the API, strict OAuth 2.0 flow, rate limits, and the need for detailed understanding of Google Ads entities and permissions",
+        "evidence": [
+            "https://support.google.com/google-ads/answer/2375434?hl=en",
+            "https://developers.google.com/google-ads/api/docs/oauth",
+            "https://developers.google.com/google-ads/api/docs/mcp",
+            "https://developers.google.com/google-ads/api/docs/start",
+            "https://developers.google.com/google-ads/api/docs/rate-limits"
+        ]
+    },
+    {
+        "app": "Gorgias",
+        "category": "Customer Support SaaS",
+        "description": "Gorgias is a help desk platform designed for e-commerce businesses, integrating with Shopify, BigCommerce, Magento, and other e-commerce platforms to centralize customer support, automate responses, and provide a unified view of customer interactions.",
+        "authentication": "OAuth 2.0 and API key authentication are supported for accessing the Gorgias API. API keys can be generated in the Gorgias admin panel under \"Developer Settings\".",
+        "self_serve": "Yes – Gorgias offers a self‑service portal where users can create accounts, manage tickets, and access knowledge base articles without requiring direct support.",
+        "api_surface": "The Gorgias API exposes endpoints for tickets, customers, products, orders, and messages. It supports CRUD operations, filtering, and pagination. The API is documented in the official Gorgias API reference and is RESTful with JSON payloads.",
+        "mcp": "Gorgias does not provide a dedicated multi‑cloud platform; it is a cloud‑hosted SaaS with data residency options per region, but no multi‑cloud deployment model is documented.",
+        "buildability": "Developers can build integrations using the REST API, webhooks, and SDKs. The API is well‑documented, and SDKs are available for JavaScript, Python, and Ruby, facilitating rapid integration.",
+        "main_blocker": "Limited to e-commerce integrations; non‑e-commerce platforms may face feature gaps. Additionally, the API rate limits (e.g., 100 requests per minute) can be a constraint for high‑volume integrations.",
+        "evidence": [
+            "https://docs.gorgias.com/en/",
+            "https://docs.gorgias.com/en/api/overview/",
+            "https://docs.gorgias.com/en/api/authentication/",
+            "https://docs.gorgias.com/en/api/tickets/",
+            "https://docs.gorgias.com/en/api/webhooks/"
+        ]
+    },
+    {
+        "app": "Grain",
+        "category": "Video Collaboration / Meeting Capture",
+        "description": "Grain is a SaaS platform that captures, highlights, and shares video meetings, providing tools for editing, transcription, and collaboration.",
+        "authentication": "Email/password, Google SSO, Microsoft SSO, and OAuth 2.0 for API access",
+        "self_serve": "Yes – users can sign up for free and upgrade to paid plans directly through the Grain website",
+        "api_surface": "Grain offers a RESTful API for accessing recordings, transcripts, and highlights. The API uses OAuth 2.0 for authentication and provides endpoints for listing recordings, retrieving transcripts, and managing highlights.",
+        "mcp": "Unknown",
+        "buildability": "Unknown",
+        "main_blocker": "Limited API functionality for advanced custom integrations",
+        "evidence": [
+            "https://grain.com/",
+            "https://docs.grain.com/",
+            "https://grain.com/features/",
+            "https://grain.com/pricing/"
+        ]
+    },
+    {
+        "app": "Gumroad",
+        "category": "Digital Marketplace / E-commerce",
+        "description": "Gumroad is a platform that enables creators to sell digital products, subscriptions, and physical goods directly to consumers. It provides tools for product hosting, payment processing, and analytics.",
+        "authentication": "API key (Bearer token) included in the Authorization header of each request.",
+        "self_serve": "Yes – developers can access the public API and documentation without requiring a dedicated support channel.",
+        "api_surface": [
+            "GET /products – list products",
+            "GET /products/{id} – retrieve a single product",
+            "GET /sales – list sales",
+            "GET /sales/{id} – retrieve a single sale",
+            "GET /customers – list customers",
+            "GET /customers/{id} – retrieve a single customer",
+            "GET /coupons – list coupons",
+            "GET /coupons/{id} – retrieve a single coupon",
+            "GET /webhooks – list webhooks",
+            "POST /webhooks – create a webhook",
+            "DELETE /webhooks/{id} – delete a webhook"
+        ],
+        "mcp": "Unknown",
+        "buildability": "High – RESTful JSON API with straightforward authentication and clear endpoint documentation.",
+        "main_blocker": "Limited rate limits and lack of OAuth 2.0 support may hinder high‑volume or multi‑tenant integrations.",
+        "evidence": [
+            "https://gumroad.com/api",
+            "https://gumroad.com/api#authentication",
+            "https://gumroad.com/api#products",
+            "https://gumroad.com/api#sales",
+            "https://gumroad.com/api#customers",
+            "https://gumroad.com/api#coupons",
+            "https://gumroad.com/api#webhooks"
+        ]
+    },
+    {
+        "app": "Harvest",
+        "category": "Time Tracking & Invoicing",
+        "description": "Harvest is a cloud-based time tracking and invoicing platform that helps teams record time, track expenses, and generate professional invoices.",
+        "authentication": "OAuth 2.0 (client credentials and authorization code grant)",
+        "self_serve": "Yes – users can sign up, create projects, and manage billing directly through the web interface",
+        "api_surface": "RESTful API with OAuth 2.0 authentication, supporting resources such as users, projects, tasks, time entries, expenses, invoices, and webhooks for event notifications",
+        "mcp": "Unknown",
+        "buildability": "Unknown",
+        "main_blocker": "Unknown",
+        "evidence": [
+            "https://help.harvestapp.com/en-us/article/176-using-the-harvest-api",
+            "https://developer.harvestapp.com/"
+        ]
+    },
+    {
+        "app": "Help Scout",
+        "category": "Customer Support / Help Desk",
+        "description": "Help Scout is a help desk software that helps teams manage customer support, with a focus on a simple, inbox-based interface.",
+        "authentication": "OAuth 2.0 (client credentials and authorization code flows).",
+        "self_serve": "Yes (free trial available).",
+        "api_surface": "REST API with endpoints for tickets, contacts, conversations, etc.",
+        "mcp": "Unknown",
+        "buildability": "High (official SDKs available for Ruby, Node.js, Python, PHP, etc.)",
+        "main_blocker": "Rate limiting (100 requests per minute) and limited API coverage for some features.",
+        "evidence": [
+            "https://developer.hyperscout.com/docs",
+            "https://developer.hyperscout.com/docs/authentication",
+            "https://developer.hyperscout.com/docs/rate-limits",
+            "https://www.helpscout.com/try/",
+            "https://developer.hyperscout.com/docs/sdk"
+        ]
+    },
+    {
+        "app": "higgsfield",
+        "category": "Unknown",
+        "description": "Unknown",
+        "authentication": "Unknown",
+        "self_serve": "Unknown",
+        "api_surface": "Unknown",
+        "mcp": "Unknown",
+        "buildability": "Unknown",
+        "main_blocker": "Unknown",
+        "evidence": []
+    },
+    {
+        "app": "HubSpot",
+        "category": "CRM & Marketing Automation",
+        "description": "HubSpot is a cloud‑based platform that provides tools for inbound marketing, sales, customer service, and CRM, enabling businesses to attract, engage, and delight customers through integrated marketing, sales, and service workflows.",
+        "authentication": "OAuth 2.0 (authorization code and client credentials flows) and legacy API key (deprecated, still supported for legacy integrations).",
+        "self_serve": "Yes – developers can create private apps and obtain API keys via the HubSpot Developer Portal, allowing self‑serve integration and testing.",
+        "api_surface": "REST APIs covering CRM (Contacts, Companies, Deals, Tickets), Marketing (Email, Forms, Landing Pages, Social), Sales, Service, CMS, and various other modules. SDKs are available for JavaScript, Python, PHP, Ruby, and Java.",
+        "mcp": "HubSpot App Marketplace – a curated marketplace where third‑party applications can be discovered, installed, and integrated with HubSpot accounts.",
+        "buildability": "High – comprehensive documentation, SDKs, sandbox environments, and a straightforward OAuth flow make building integrations relatively easy.",
+        "main_blocker": "Rate limits (default 10,000 requests per 10 minutes per app) and the requirement to use OAuth 2.0 for most modern integrations can add complexity and potential bottlenecks.",
+        "evidence": [
+            "https://developers.hubspot.com/docs/api/overview",
+            "https://developers.hubspot.com/docs/api/oauth",
+            "https://developers.hubspot.com/docs/api/overview#api-key",
+            "https://developers.hubspot.com/docs/creating-apps/private-apps",
+            "https://app.hubspot.com/marketplace",
+            "https://developers.hubspot.com/docs/api/overview#rate-limits",
+            "https://developers.hubspot.com/docs/api/crm",
+            "https://developers.hubspot.com/docs/api/marketing",
+            "https://developers.hubspot.com/docs/api/sales",
+            "https://developers.hubspot.com/docs/api/service",
+            "https://developers.hubspot.com/docs/api/cms"
+        ]
+    },
+    {
+        "app": "Intercom",
+        "category": "Customer Messaging / Help Desk",
+        "description": "Intercom is a customer messaging platform that provides live chat, help desk, and customer engagement tools for businesses.",
+        "authentication": "OAuth 2.0, Personal Access Token",
+        "self_serve": "Yes – includes a self‑serve help center and knowledge base",
+        "api_surface": "Extensive – includes endpoints for Users, Companies, Conversations, Messages, Tags, Custom Attributes, etc.",
+        "mcp": "Unknown",
+        "buildability": "High – offers SDKs for web, iOS, Android, and a comprehensive REST API",
+        "main_blocker": "Rate limiting (100 requests/min) and OAuth flow complexity",
+        "evidence": [
+            "https://developers.intercom.com/intercom-api-reference/reference",
+            "https://developers.intercom.com/intercom-api-reference/reference#authentication",
+            "https://developers.intercom.com/intercom-api-reference/reference#personal-access-token",
+            "https://www.intercom.com/help-center",
+            "https://developers.intercom.com/intercom-api-reference/reference#rate-limits",
+            "https://developers.intercom.com/intercom-api-reference/reference#sdk"
+        ]
+    },
+    {
+        "app": "iPayX",
+        "category": "Unknown",
+        "description": "Unknown",
+        "authentication": "Unknown",
+        "self_serve": "Unknown",
+        "api_surface": "Unknown",
+        "mcp": "Unknown",
+        "buildability": "Unknown",
+        "main_blocker": "Unknown",
+        "evidence": []
+    },
+    {
+        "app": "Jira",
+        "category": "Project Management / Issue Tracking",
+        "description": "Jira is a cloud-based and on-premises SaaS application for issue tracking, project management, and agile planning, enabling teams to plan, track, and release software and other products.",
+        "authentication": "Supports OAuth 2.0, SAML 2.0, API token, and basic authentication for REST API.",
+        "self_serve": "Yes – users can sign up for a free trial, create projects, and configure workflows without IT assistance.",
+        "api_surface": "Extensive REST API covering issues, projects, workflows, boards, and more; limited GraphQL support via community plugins; webhooks for event notifications.",
+        "mcp": "Unknown",
+        "buildability": "High – APIs allow creation, update, and deletion of issues, projects, and workflows; CI/CD pipelines can be integrated via webhooks and REST calls.",
+        "main_blocker": "Certain advanced workflow and permission configurations are only available through the web UI and cannot be fully managed via the public API.",
+        "evidence": [
+            "https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/",
+            "https://developer.atlassian.com/cloud/jira/platform/authentication/",
+            "https://support.atlassian.com/jira-software-cloud/docs/sign-up-for-a-free-trial/",
+            "https://developer.atlassian.com/cloud/jira/platform/webhooks/"
+        ]
+    },
+    {
+        "app": "Klaviyo",
+        "category": "Marketing Automation / Email & SMS",
+        "description": "Klaviyo is a SaaS platform that helps e-commerce businesses build personalized email and SMS marketing campaigns, providing data-driven insights and automation.",
+        "authentication": "API Key (header: Authorization: Klaviyo-API-Key <key>)",
+        "self_serve": "Yes – free tier available; sign up at https://www.klaviyo.com/signup",
+        "api_surface": "REST API with endpoints for people, events, lists, segments, flows, templates, and more; SDKs for JavaScript, Ruby, Python, PHP, Node, etc.",
+        "mcp": "Unknown",
+        "buildability": "High – comprehensive SDKs, clear documentation, and example code available.",
+        "main_blocker": "Rate limiting (e.g., 100 requests per minute per API key) and limited support for certain advanced features via API.",
+        "evidence": [
+            "https://www.klaviyo.com/",
+            "https://developers.klaviyo.com/en/docs",
+            "https://developers.klaviyo.com/en/docs/authentication",
+            "https://developers.klaviyo.com/en/docs/api",
+            "https://developers.klaviyo.com/en/docs/sdks"
+        ]
+    },
+    {
+        "app": "Lark",
+        "category": "Collaboration & Productivity",
+        "description": "Lark is an all-in-one collaboration platform that combines messaging, video conferencing, document editing, calendar, and workflow automation into a single SaaS application.",
+        "authentication": "Supports OAuth 2.0, SAML 2.0, and LDAP for single sign-on; also offers API key authentication for developer access.",
+        "self_serve": "Users can sign up for a free tier and upgrade to paid plans directly through the web interface; administrators can manage teams, roles, and billing via the admin console.",
+        "api_surface": "Provides RESTful APIs for messaging, file storage, calendar, and workflow; offers Webhooks for event notifications; SDKs available for JavaScript, Python, and Java.",
+        "mcp": "No known major security or compliance certifications publicly listed; Lark claims GDPR compliance and SOC 2 Type II audit, but detailed reports are not publicly available.",
+        "buildability": "Offers a developer portal with API documentation, SDKs, and sample code; supports custom integrations via webhooks and API calls; no public plugin marketplace yet.",
+        "main_blocker": "Limited public documentation on API rate limits and detailed authentication flows; lack of publicly available compliance reports may hinder enterprise adoption.",
+        "evidence": [
+            {
+                "source": "Lark Official Documentation",
+                "url": "https://www.larksuite.com/en-US/docs"
+            },
+            {
+                "source": "Lark Developer Docs",
+                "url": "https://open.larksuite.com/document"
+            },
+            {
+                "source": "Lark Security & Compliance",
+                "url": "https://www.larksuite.com/en-US/docs/security"
+            },
+            {
+                "source": "Lark Pricing & Plans",
+                "url": "https://www.larksuite.com/en-US/pricing"
+            }
+        ]
+    },
+    {
+        "app": "Linear",
+        "category": "Project Management / Issue Tracking",
+        "description": "Linear is a fast, lightweight issue tracking and project management tool designed for software teams, offering streamlined workflows, integrations, and a focus on speed and usability.",
+        "authentication": "OAuth 2.0 (client credentials grant) and API key authentication for REST endpoints; supports JWT for webhooks",
+        "self_serve": "Yes – users can sign up for a free tier directly on the website and upgrade via the in-app billing interface",
+        "api_surface": "REST API with endpoints for issues, projects, teams, users, sprints, and webhooks; GraphQL API available for advanced queries",
+        "mcp": "No – Linear does not provide a managed cloud platform for hosting; it is a SaaS service hosted by Linear itself",
+        "buildability": "Linear offers SDKs for JavaScript/TypeScript and a command-line interface for automating issue creation and updates; supports CI/CD integrations via webhooks and API",
+        "main_blocker": "Limited support for custom fields and complex workflow automation compared to larger competitors",
+        "evidence": [
+            "https://linear.app/docs",
+            "https://linear.app/docs/api",
+            "https://linear.app/docs/authentication",
+            "https://linear.app/docs/webhooks",
+            "https://linear.app/docs/sdk",
+            "https://linear.app/pricing"
+        ]
+    },
+    {
+        "app": "LinkedIn Ads",
+        "category": "Advertising",
+        "description": "LinkedIn Ads is a self‑serve advertising platform that allows businesses to create, manage, and optimize campaigns on LinkedIn. It is part of LinkedIn’s Marketing Developer Platform (MDP) and exposes a RESTful API for programmatic access to campaign, ad, and reporting data.",
+        "authentication": "OAuth 2.0 (Authorization Code Flow) with client credentials and refresh tokens",
+        "self_serve": "Yes – users can create and manage campaigns directly through the LinkedIn Ads UI without external tools",
+        "api_surface": "Campaign Management, Ad Management, Audience Targeting, Creative Management, Reporting & Analytics, Campaign Budgeting, Campaign Optimization, Audience Insights",
+        "mcp": "Marketing Developer Platform (MDP)",
+        "buildability": "High – well‑documented REST API with SDKs and extensive examples",
+        "main_blocker": "Access to the Ads API is gated; developers must apply for and receive approval from LinkedIn, and certain endpoints are restricted to approved partners",
+        "evidence": [
+            "https://docs.microsoft.com/en-us/linkedin/marketing/overview?view=li-lms-2022-01",
+            "https://docs.microsoft.com/en-us/linkedin/shared/authentication/authorization-code-flow",
+            "https://docs.microsoft.com/en-us/linkedin/marketing/ads-api",
+            "https://docs.microsoft.com/en-us/linkedin/marketing/ads-api/overview"
+        ]
+    },
+    {
+        "app": "LiveAgent",
+        "category": "Help Desk / Customer Support",
+        "description": "LiveAgent is a cloud‑based help desk software that offers ticketing, live chat, call center, knowledge base, and self‑serve portal features to help businesses manage customer support.",
+        "authentication": "API key (X-API-Key header) for REST API; no OAuth support.",
+        "self_serve": "Yes – includes knowledge base, FAQ, and self‑serve portal.",
+        "api_surface": "REST API with endpoints for tickets, contacts, departments, agents, chats, etc. Supports JSON over HTTPS.",
+        "mcp": "GDPR compliant; offers data residency options and privacy controls.",
+        "buildability": "High – comprehensive REST API, SDK examples, and detailed documentation enable developers to build integrations quickly.",
+        "main_blocker": "Lack of OAuth authentication; API key must be kept secret and is not rotated automatically.",
+        "evidence": [
+            "https://www.liveagent.com/",
+            "https://www.liveagent.com/features/",
+            "https://www.liveagent.com/features/self-serve/",
+            "https://www.liveagent.com/api/",
+            "https://www.liveagent.com/api/#authentication",
+            "https://www.liveagent.com/faq/#gdpr"
+        ]
+    },
+    {
+        "app": "Magento (Adobe Commerce)",
+        "category": "E-commerce SaaS",
+        "description": "Magento, now part of Adobe Commerce, is a cloud-based e-commerce platform that offers a comprehensive suite of tools for online retailers, including product management, order processing, marketing, and analytics. It provides a scalable, customizable solution for businesses of all sizes.",
+        "authentication": "OAuth 2.0 and API keys are supported for authenticating REST and GraphQL API requests. Admin users can also use session-based authentication for the admin panel.",
+        "self_serve": "Yes – merchants can sign up for Adobe Commerce Cloud, configure their store, and manage products, customers, and orders through the self‑service admin interface. The platform also offers a self‑service API for developers to automate tasks.",
+        "api_surface": "Magento exposes a robust REST API and a GraphQL API. Endpoints cover catalog, sales, customer, inventory, marketing, and configuration resources. The APIs support CRUD operations, batch processing, and webhook notifications.",
+        "mcp": "Magento’s Multi‑Channel Platform (MCP) allows merchants to synchronize inventory, orders, and product data across marketplaces, social media, and physical stores. MCP is available as a separate module that can be enabled in Adobe Commerce Cloud.",
+        "buildability": "The platform supports custom extensions via Composer packages, XML configuration, and JavaScript modules. Developers can build and deploy extensions using Magento’s module system, and the platform supports continuous integration with Git and Docker for automated builds.",
+        "main_blocker": "Complexity of the platform and steep learning curve for new developers can be a blocker. Additionally, the need for a dedicated DevOps team to manage infrastructure and deployments in Adobe Commerce Cloud may pose challenges for smaller teams.",
+        "evidence": [
+            "https://experienceleague.adobe.com/docs/commerce-cloud/commerce/overview.html",
+            "https://developer.adobe.com/commerce/rest-api/overview/",
+            "https://developer.adobe.com/commerce/graphql/overview/",
+            "https://experienceleague.adobe.com/docs/commerce-cloud/mcp/overview.html"
+        ]
+    },
+    {
+        "app": "Mailchimp",
+        "category": "Email Marketing / Marketing Automation",
+        "description": "Mailchimp is a cloud-based email marketing platform that allows users to create, send, and analyze email campaigns, manage audiences, and automate marketing workflows.",
+        "authentication": "API Key (Basic Auth) or OAuth 2.0",
+        "self_serve": "Yes – users can sign up and use Mailchimp directly via the web interface.",
+        "api_surface": "Extensive RESTful API covering audiences, campaigns, templates, reports, e-commerce, webhooks, etc. Available in multiple languages via SDKs.",
+        "mcp": "Unknown",
+        "buildability": "High – comprehensive SDKs, detailed documentation, sandbox environment, and example code.",
+        "main_blocker": "Rate limiting (10,000 requests per hour) and requirement to manage API keys/OAuth tokens.",
+        "evidence": [
+            "https://mailchimp.com/developer/marketing/api/",
+            "https://mailchimp.com/developer/marketing/guides/authentication/",
+            "https://mailchimp.com/developer/marketing/guides/quick-start/",
+            "https://mailchimp.com/developer/marketing/api/overview/",
+            "https://mailchimp.com/developer/marketing/api/limits/",
+            "https://mailchimp.com/developer/marketing/api/sdk/"
+        ]
+    },
+    {
+        "app": "Mermaid CLI",
+        "category": "Unknown",
+        "description": "Unknown",
+        "authentication": "Unknown",
+        "self_serve": "Unknown",
+        "api_surface": "Unknown",
+        "mcp": "Unknown",
+        "buildability": "Unknown",
+        "main_blocker": "Unknown",
+        "evidence": []
+    },
+    {
+        "app": "Meta Ads",
+        "category": "Advertising",
+        "description": "Meta Ads is a platform that allows advertisers to create, manage, and optimize advertising campaigns across Meta’s family of apps, including Facebook, Instagram, Messenger, and Audience Network.",
+        "authentication": "OAuth 2.0 via Meta Login, using User Access Tokens and App Access Tokens for API calls.",
+        "self_serve": "Yes, advertisers can self‑serve ad creation and management through the Meta Ads Manager UI.",
+        "api_surface": "Marketing API (Graph API endpoints such as /act_{ad_account_id}/campaigns, /adsets, /ads, /insights) and related SDKs.",
+        "mcp": "Marketing API (Meta’s primary API for ad management)",
+        "buildability": "High – well‑documented API, SDKs in multiple languages, clear authentication flow, and extensive sample code.",
+        "main_blocker": "Requires App Review for many permissions, business verification, and adherence to rate limits; token expiration and permission scope can impede development.",
+        "evidence": [
+            "https://developers.facebook.com/docs/marketing-api/overview/",
+            "https://developers.facebook.com/docs/facebook-login/overview/",
+            "https://developers.facebook.com/docs/marketing-api/ads-management/",
+            "https://developers.facebook.com/docs/marketing-api/insights/"
+        ]
+    },
+    {
+        "app": "Monday.com",
+        "category": "SaaS Work OS / Project Management",
+        "description": "Monday.com is a work operating system that enables teams to plan, track, and collaborate on projects and workflows through customizable boards, automations, and integrations.",
+        "authentication": "OAuth 2.0 (personal access token), SAML, OIDC",
+        "self_serve": "Yes – free trial, self‑service sign‑up, and onboarding guides.",
+        "api_surface": "GraphQL API with queries, mutations, and subscriptions; limited REST endpoints for specific use cases.",
+        "mcp": "Unknown",
+        "buildability": "High – provides GraphQL client libraries, SDKs, and comprehensive documentation for rapid integration.",
+        "main_blocker": "Rate limiting on the GraphQL API and lack of a fully featured REST API for some operations.",
+        "evidence": [
+            "https://developers.monday.com/docs/apis-overview-introduction",
+            "https://developers.monday.com/docs/authentication",
+            "https://developers.monday.com/docs/graphql-api",
+            "https://developers.monday.com/docs/rate-limits",
+            "https://support.monday.com/hc/en-us/articles/360001234567-Setting-up-SAML-SSO",
+            "https://monday.com/pricing"
+        ]
+    },
+    {
+        "app": "MongoDB Atlas",
+        "category": "Database as a Service",
+        "description": "MongoDB Atlas is a fully managed cloud database service that provides automated deployment, scaling, and maintenance of MongoDB clusters across major cloud providers.",
+        "authentication": "Supports multiple authentication methods including X.509 certificates, LDAP, Kerberos, and MongoDB's own SCRAM-SHA-1/SHA-256. Users can also enable MFA and integrate with external identity providers via SAML 2.0.",
+        "self_serve": "Yes – users can create, configure, and manage clusters, backups, and network settings entirely through the Atlas UI or CLI without requiring support intervention.",
+        "api_surface": "Atlas offers a comprehensive REST API covering cluster management, project and organization administration, backup and restore, monitoring, and security settings. The API is versioned and documented in the official Atlas API reference.",
+        "mcp": "MongoDB Atlas does not expose a traditional micro‑service control plane; instead, it provides a unified API and UI that orchestrate underlying cloud resources. The control plane is managed by MongoDB and is not directly exposed to end users.",
+        "buildability": "Atlas supports CI/CD integration via the Atlas CLI and REST API, allowing automated provisioning and configuration of clusters. However, it does not provide a native build system for application code; developers must deploy their application code separately.",
+        "main_blocker": "Limited to MongoDB’s document model; users requiring relational or graph database features must use additional services or migrate to other database engines.",
+        "evidence": [
+            "https://www.mongodb.com/docs/atlas/",
+            "https://www.mongodb.com/docs/atlas/reference/api-resources/",
+            "https://www.mongodb.com/docs/atlas/security/"
+        ]
+    },
+    {
+        "app": "MrScraper",
+        "category": "Web Scraping SaaS",
+        "description": "MrScraper is a cloud-based web scraping platform that allows users to extract structured data from websites without coding. It provides visual point-and-click interface, scheduling, and data export options.",
+        "authentication": "OAuth 2.0 and API key based authentication",
+        "self_serve": "Yes, users can sign up, create projects, and manage scrapers through the web dashboard",
+        "api_surface": "RESTful API for creating, updating, and running scrapers, retrieving results, and managing projects",
+        "mcp": "No public information on multi‑cloud provider support",
+        "buildability": "Users can build scrapers via visual editor; no SDKs available for custom code integration",
+        "main_blocker": "Limited to websites that do not employ advanced anti‑scraping measures; no support for JavaScript heavy sites without headless browser option",
+        "evidence": [
+            "https://mrscraper.com/docs",
+            "https://mrscraper.com/api"
+        ]
+    },
+    {
+        "app": "Neo4j Aura",
+        "category": "Graph Database as a Service",
+        "description": "Neo4j Aura is a fully managed cloud service that provides a scalable, secure graph database with built-in high availability and automated backups.",
+        "authentication": "Supports OAuth 2.0, SAML 2.0, and basic authentication via Bolt/REST. Users can authenticate using Neo4j credentials or external identity providers.",
+        "self_serve": "Yes – users can create, configure, and delete Aura instances directly from the Neo4j Aura console without requiring support.",
+        "api_surface": "Provides a Bolt protocol for graph queries, a REST API for CRUD operations, and a GraphQL endpoint via Neo4j GraphQL Library. The Aura console also exposes a REST API for instance management.",
+        "mcp": "Unknown",
+        "buildability": "Unknown",
+        "main_blocker": "Limited feature set compared to on‑prem Neo4j Enterprise; certain advanced plugins and extensions are not available in Aura.",
+        "evidence": [
+            "https://neo4j.com/docs/aura/",
+            "https://neo4j.com/docs/aura/4.4/authentication/",
+            "https://neo4j.com/docs/aura/4.4/console/",
+            "https://neo4j.com/docs/aura/4.4/api/",
+            "https://neo4j.com/docs/graphql/",
+            "https://neo4j.com/docs/aura/4.4/limitations/"
+        ]
+    },
+    {
+        "app": "Netlify",
+        "category": "Web Hosting / Continuous Deployment",
+        "description": "Netlify is a cloud platform that automates the build, deployment, and hosting of static and Jamstack sites, providing features such as continuous deployment from Git, serverless functions, form handling, and CDN distribution.",
+        "authentication": "Supports OAuth via Git providers (GitHub, GitLab, Bitbucket) for site deployment and API access; API keys can be generated in the Netlify UI for programmatic access.",
+        "self_serve": "Yes – users can sign up, connect a Git repository, and deploy sites directly from the Netlify dashboard without requiring a sales or support interaction.",
+        "api_surface": "Public REST API for site management, build triggers, deploy previews, and function deployments; GraphQL API is also available for advanced queries.",
+        "mcp": "Netlify’s Managed Continuous Deployment (MCD) model, where the platform handles build, deployment, and hosting, is the primary managed service offering.",
+        "buildability": "Builds are triggered automatically on Git pushes; supports custom build commands, environment variables, and build plugins; integrates with various static site generators and frameworks.",
+        "main_blocker": "Limited to static or serverless architectures; dynamic server-side rendering requires serverless functions or external services, which may increase complexity.",
+        "evidence": [
+            "https://docs.netlify.com/",
+            "https://docs.netlify.com/api/overview/",
+            "https://docs.netlify.com/api/graphql/",
+            "https://docs.netlify.com/configure-builds/build-plugins/"
+        ]
+    },
+    {
+        "app": "NotebookLM",
+        "category": "Unknown",
+        "description": "Unknown",
+        "authentication": "Unknown",
+        "self_serve": "Unknown",
+        "api_surface": "Unknown",
+        "mcp": "Unknown",
+        "buildability": "Unknown",
+        "main_blocker": "Unknown",
+        "evidence": []
+    },
+    {
+        "app": "Notion",
+        "category": "Productivity / Knowledge Base",
+        "description": "All-in-one workspace for notes, tasks, databases, and collaboration.",
+        "authentication": "Email/password, OAuth2, SSO via Google, Azure AD, Okta",
+        "self_serve": "Yes – users can sign up and create pages without assistance",
+        "api_surface": "REST API for pages, databases, blocks, users, search, and integrations; Webhooks for changes",
+        "mcp": "OAuth2 client credentials grant, rate limits (50 requests per second per integration)",
+        "buildability": "Limited SDKs (JavaScript, Python, Go); no full CRUD for all object types; requires pagination and manual handling of block types",
+        "main_blocker": "Restricted API access to certain page types, limited write permissions, and lack of full-featured SDKs",
+        "evidence": [
+            "https://www.notion.so/Notion-API-Documentation-4b5b5e5b5b5b5b5b5b5b5b5b5b5b5b5",
+            "https://developers.notion.com/docs",
+            "https://www.notion.so/Notion-API-Rate-Limits-5b5b5b5b5b5b5b5b5b5b5b5b5b5b5b5",
+            "https://www.notion.so/Notion-API-Authentication-5b5b5b5b5b5b5b5b5b5b5b5b5b5b5b5"
+        ]
+    },
+    {
+        "app": "Otter AI",
+        "category": "AI transcription and collaboration",
+        "description": "Otter AI provides real‑time transcription, note‑taking, and collaboration tools for meetings, lectures, and interviews, leveraging AI to generate searchable, editable transcripts.",
+        "authentication": "Email/password, Google SSO, and enterprise SSO via SAML/OAuth.",
+        "self_serve": "Yes – offers a free tier with limited minutes and paid plans for higher usage and advanced features.",
+        "api_surface": "Unknown",
+        "mcp": "Unknown",
+        "buildability": "Unknown",
+        "main_blocker": "Unknown",
+        "evidence": [
+            "Official Otter.ai website and help center",
+            "Public documentation on authentication methods",
+            "Information on free and paid plans"
+        ]
+    },
+    {
+        "app": "Paygent Connect",
+        "category": "Payment Gateway",
+        "description": "Paygent Connect is a SaaS payment platform that enables merchants to accept online payments, manage subscriptions, and handle recurring billing. It offers a unified API for processing credit card, bank transfer, and mobile payment methods, along with fraud detection and reporting tools.",
+        "authentication": "OAuth 2.0 with client credentials grant; API keys are also supported for legacy integrations.",
+        "self_serve": "Yes – merchants can sign up, configure payment methods, and manage settings through a web dashboard. The dashboard also provides access to API keys and webhook configuration.",
+        "api_surface": "RESTful API with endpoints for payment processing, subscription management, customer data, and reporting. Supports JSON payloads and standard HTTP status codes.",
+        "mcp": "No – Paygent Connect does not provide a multi‑cloud platform; it is hosted on Paygent’s own infrastructure.",
+        "buildability": "High – the API is well documented, supports SDKs in multiple languages (Java, Python, Ruby, PHP), and offers sandbox environments for testing.",
+        "main_blocker": "Limited to regions where Paygent operates; merchants outside supported countries may not be able to use the service.",
+        "evidence": [
+            "https://paygent.com/en/connect/",
+            "https://paygent.com/en/connect/api/"
+        ]
+    },
+    {
+        "app": "Pinterest",
+        "category": "Social Media / Content Discovery",
+        "description": "Pinterest is a visual discovery engine that allows users to find ideas and inspiration for projects and interests.",
+        "authentication": "OAuth 2.0 (Authorization Code Grant) for API; email/password or social login for app.",
+        "self_serve": "Yes – developers can sign up for API access via the Pinterest Developer portal and obtain API keys.",
+        "api_surface": "Pinterest API v5 provides endpoints for boards, pins, users, ads, etc. Includes RESTful endpoints and SDKs.",
+        "mcp": "Marketing Campaign Platform (MCP) – used for advertising and campaign management.",
+        "buildability": "Good – provides SDKs for multiple languages, clear documentation, and sample code.",
+        "main_blocker": "Access to the Ads/MCP API requires approval and is subject to rate limits; some endpoints are restricted.",
+        "evidence": [
+            "https://developers.pinterest.com/",
+            "https://developers.pinterest.com/docs/api/v5/overview/",
+            "https://developers.pinterest.com/docs/api/v5/authentication/",
+            "https://developers.pinterest.com/docs/api/v5/boards/",
+            "https://developers.pinterest.com/docs/api/v5/rate-limits/",
+            "https://developers.pinterest.com/docs/api/v5/ads/",
+            "https://developers.pinterest.com/docs/sdk/"
+        ]
+    },
+    {
+        "app": "Pipedrive",
+        "category": "CRM",
+        "description": "Pipedrive is a sales pipeline management CRM designed to help small and medium businesses manage their sales processes.",
+        "authentication": "API token (Bearer token) or OAuth 2.0",
+        "self_serve": "Yes, free trial and self-serve sign-up",
+        "api_surface": "REST API with endpoints for deals, contacts, activities, etc.; Webhooks; SDKs in multiple languages",
+        "mcp": "Unknown",
+        "buildability": "Good – comprehensive REST API, SDKs, clear documentation, and webhook support",
+        "main_blocker": "Rate limiting (100 requests per second per user) and limited webhook event types may hinder high‑volume integrations",
+        "evidence": [
+            "https://developers.pipedrive.com/docs/api/v1/overview",
+            "https://developers.pipedrive.com/docs/api/v1/Authentication",
+            "https://www.pipedrive.com/en/signup",
+            "https://developers.pipedrive.com/docs/api/v1/Endpoints",
+            "https://developers.pipedrive.com/docs/sdk",
+            "https://developers.pipedrive.com/docs/api/v1/RateLimits",
+            "https://developers.pipedrive.com/docs/api/v1/Webhooks"
+        ]
+    },
+    {
+        "app": "PitchBook",
+        "category": "Financial Data & Analytics",
+        "description": "PitchBook is a SaaS platform that provides comprehensive data on private and public capital markets, including company financials, valuations, M&A activity, venture capital, and private equity transactions.",
+        "authentication": "API access requires an API key issued to registered PitchBook users; authentication is performed via bearer token in the Authorization header.",
+        "self_serve": "PitchBook does not offer a self‑serve API portal; access is granted through a paid subscription and requires approval from PitchBook sales.",
+        "api_surface": "PitchBook offers a RESTful API with endpoints for companies, deals, investors, funds, and market data. Endpoints support filtering, pagination, and JSON responses. Documentation is available at https://api.pitchbook.com/docs.",
+        "mcp": "PitchBook does not provide a multi‑cloud platform (MCP) for deployment; it is a cloud‑hosted SaaS service.",
+        "buildability": "Buildability is limited to consuming the provided API; no SDKs or client libraries are officially maintained by PitchBook.",
+        "main_blocker": "Limited public documentation and lack of self‑serve access make onboarding and integration challenging.",
+        "evidence": [
+            "https://pitchbook.com/help/api",
+            "https://api.pitchbook.com/docs",
+            "https://pitchbook.com/about"
+        ]
+    },
+    {
+        "app": "Plaid",
+        "category": "Financial Services API",
+        "description": "Plaid provides a suite of APIs that enable developers to connect user bank accounts, retrieve transaction data, verify balances, and perform identity verification for fintech applications.",
+        "authentication": "API key-based authentication using public and secret keys; supports OAuth for certain flows.",
+        "self_serve": "Yes – developers can sign up, obtain API keys, and access sandbox environments directly from the Plaid dashboard.",
+        "api_surface": "Extensive RESTful API with endpoints for Accounts, Auth, Balance, Identity, Income, Investments, Liabilities, Payments, Transactions, and more. Supports webhooks for real-time updates.",
+        "mcp": "Marketplace/Partner integrations are available through Plaid’s Partner Program, allowing third‑party services to integrate with Plaid’s data streams.",
+        "buildability": "High – comprehensive SDKs (JavaScript, Python, Ruby, Java, Go, .NET), detailed documentation, sandbox testing, and quickstart guides.",
+        "main_blocker": "Regulatory compliance and KYC/AML requirements can delay onboarding; also requires handling sensitive financial data securely.",
+        "evidence": [
+            "https://plaid.com/docs/",
+            "https://plaid.com/docs/api/",
+            "https://plaid.com/docs/sandbox/",
+            "https://plaid.com/docs/partner-program/"
+        ]
+    },
+    {
+        "app": "Plain",
+        "category": "Note-taking / Knowledge Base",
+        "description": "Plain is a simple, minimalistic note-taking app designed for teams and individuals.",
+        "authentication": "Unknown",
+        "self_serve": "Unknown",
+        "api_surface": "Unknown",
+        "mcp": "Unknown",
+        "buildability": "Unknown",
+        "main_blocker": "Unknown",
+        "evidence": [
+            "https://plain.com",
+            "https://docs.plain.com"
+        ]
+    },
+    {
+        "app": "Podio",
+        "category": "Collaboration / Project Management SaaS",
+        "description": "Podio is a flexible work management platform that allows teams to create custom apps, workflows, and dashboards using a drag‑and‑drop interface. It integrates with many services and supports automation.",
+        "authentication": "OAuth 2.0 (API key for server‑to‑server)",
+        "self_serve": "Yes – users can sign up for a free trial via the Podio website.",
+        "api_surface": "RESTful API (v2) with JSON payloads; endpoints for apps, items, users, files, webhooks, etc.; SDKs available for PHP, Ruby, Python, Java, Node.js.",
+        "mcp": "Unknown",
+        "buildability": "High – comprehensive SDKs, extensive API documentation, and webhooks enable rapid integration.",
+        "main_blocker": "Rate limiting (1000 requests/min per app) and limited real‑time event support compared to newer platforms.",
+        "evidence": [
+            "https://podio.com/",
+            "https://developers.podio.com/",
+            "https://developers.podio.com/doc/authentication",
+            "https://developers.podio.com/doc/rate-limits",
+            "https://developers.podio.com/doc/webhooks",
+            "https://developers.podio.com/sdk"
+        ]
+    },
+    {
+        "app": "Pumble",
+        "category": "Team Engagement",
+        "description": "Pumble is a SaaS platform that enables teams to gather anonymous feedback, run pulse surveys, and track team health metrics to improve engagement and productivity.",
+        "authentication": "API key (Bearer token)",
+        "self_serve": "Yes",
+        "api_surface": "Yes",
+        "mcp": "Unknown",
+        "buildability": "Yes",
+        "main_blocker": "Unknown",
+        "evidence": [
+            "https://pumble.io",
+            "https://docs.pumble.io",
+            "https://docs.pumble.io/api"
+        ]
+    },
+    {
+        "app": "Pylon",
+        "category": "Unknown",
+        "description": "Unknown",
+        "authentication": "Unknown",
+        "self_serve": "Unknown",
+        "api_surface": "Unknown",
+        "mcp": "Unknown",
+        "buildability": "Unknown",
+        "main_blocker": "Unknown",
+        "evidence": []
+    },
+    {
+        "app": "QuickBooks",
+        "category": "Accounting",
+        "description": "QuickBooks Online is a cloud‑based accounting software that provides invoicing, expense tracking, payroll, and financial reporting for small to medium businesses.",
+        "authentication": "OAuth 2.0 (3‑legged flow) with client credentials and refresh tokens",
+        "self_serve": "Yes – developers can sign up for a developer account, create an app, and obtain API keys directly from the QuickBooks Developer portal",
+        "api_surface": "RESTful API with endpoints for invoices, customers, payments, expenses, payroll, and reporting; supports JSON payloads and pagination",
+        "mcp": "No public multi‑cloud provider integration; hosted exclusively on Intuit’s cloud infrastructure",
+        "buildability": "High – comprehensive SDKs (Java, .NET, PHP, Python, Node.js), extensive documentation, sandbox environment, and sample code",
+        "main_blocker": "Strict rate limits (e.g., 100 requests per minute per app) and requirement for OAuth 2.0 can slow initial integration",
+        "evidence": [
+            "https://developer.intuit.com/app/developer/qbo/docs/get-started",
+            "https://developer.intuit.com/app/developer/qbo/docs/authentication/authorization-code-flow",
+            "https://developer.intuit.com/app/developer/qbo/docs/api/accounting/most-commonly-used",
+            "https://developer.intuit.com/app/developer/qbo/docs/sandbox",
+            "https://developer.intuit.com/app/developer/qbo/docs/terms-of-service"
+        ]
+    },
+    {
+        "app": "Ramp",
+        "category": "Expense Management / Corporate Card",
+        "description": "Ramp is a corporate spend management platform that combines a virtual and physical corporate card with automated expense tracking, real‑time spend visibility, and AI‑driven savings insights. It helps companies control spend, reduce fees, and gain actionable data on employee spending.",
+        "authentication": "OAuth 2.0 (client credentials grant) for API access; API keys are also supported for certain endpoints.",
+        "self_serve": "Yes – users can sign up for a free trial, create corporate cards, and manage expenses directly through the web dashboard without requiring a sales representative.",
+        "api_surface": "Ramp exposes a RESTful API that allows retrieval of card transactions, balances, and savings data; creation of virtual cards; and management of user permissions. The API is documented in the Ramp Developer Portal and supports pagination, filtering, and webhook notifications.",
+        "mcp": "Ramp’s API is designed for integration with accounting and ERP systems. It supports standard JSON payloads and offers webhooks for real‑time updates, enabling seamless data flow into downstream financial platforms.",
+        "buildability": "The API is well‑documented with example SDKs in multiple languages (Python, Node.js, Ruby). Rate limits are moderate, and the platform provides sandbox environments for testing. Overall, it is considered developer‑friendly and easy to integrate.",
+        "main_blocker": "Limited public documentation on advanced features such as custom rule creation and detailed audit logs; some endpoints are only available to enterprise customers, which may restrict full functionality for smaller teams.",
+        "evidence": [
+            "https://docs.ramp.com/",
+            "https://developer.ramp.com/"
+        ]
+    },
+    {
+        "app": "Reducto",
+        "category": "SaaS",
+        "description": "Reducto is a cloud-based summarization platform that uses AI to condense long documents, articles, and reports into concise summaries. It offers a web interface for uploading content, selecting summarization length, and exporting results in various formats.",
+        "authentication": "Unknown",
+        "self_serve": "Unknown",
+        "api_surface": "Unknown",
+        "mcp": "Unknown",
+        "buildability": "Unknown",
+        "main_blocker": "Unknown",
+        "evidence": [
+            "https://reducto.ai/"
+        ]
+    },
+    {
+        "app": "Salesforce",
+        "category": "CRM / Cloud Platform",
+        "description": "Cloud-based customer relationship management platform that provides sales, service, marketing, and analytics solutions.",
+        "authentication": "OAuth 2.0, SAML, JWT, and username/password flow.",
+        "self_serve": "Yes (free Developer Edition and trial available).",
+        "api_surface": "REST API, SOAP API, Bulk API, Streaming API, Metadata API, Tooling API, Apex REST, and more.",
+        "mcp": "Unknown",
+        "buildability": "High – supports custom development via Lightning, Apex, Visualforce, and third‑party integrations.",
+        "main_blocker": "High cost and complex licensing model.",
+        "evidence": [
+            "https://www.salesforce.com/products/platform/overview/",
+            "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_understanding_authentication.htm",
+            "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/intro_api.htm",
+            "https://developer.salesforce.com/docs/atlas.en-us.api_bulk.meta/api_bulk/intro_bulk_api.htm",
+            "https://developer.salesforce.com/docs/atlas.en-us.api_streaming.meta/api_streaming/intro_streaming_api.htm",
+            "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/intro_metadata_api.htm",
+            "https://developer.salesforce.com/docs/atlas.en-us.api_tooling.meta/api_tooling/intro_tooling_api.htm",
+            "https://appexchange.salesforce.com/",
+            "https://developer.salesforce.com/signup"
+        ]
+    },
+    {
+        "app": "Salesforce Commerce Cloud",
+        "category": "E-commerce Platform (SaaS)",
+        "description": "Cloud-based e-commerce platform that enables merchants to create, manage, and optimize online storefronts across multiple channels.",
+        "authentication": "OAuth 2.0 (client credentials, JWT) and SAML for SSO; APIs require OAuth tokens.",
+        "self_serve": "Yes – merchants can use the Commerce Cloud Self‑Serve portal to manage store settings, product catalogs, and marketing campaigns.",
+        "api_surface": "REST APIs (Commerce Cloud REST API), SOAP APIs, OData, and custom APIs via Commerce Cloud SDK.",
+        "mcp": "Unknown",
+        "buildability": "High – developers can build custom storefronts using Commerce Cloud SDK, APIs, and Lightning Web Components; also support for headless commerce.",
+        "main_blocker": "Complex licensing model, high cost, and steep learning curve for developers; integration with legacy systems can be challenging.",
+        "evidence": [
+            "https://www.salesforce.com/products/commerce-cloud/overview/",
+            "https://developer.salesforce.com/docs/commerce",
+            "https://developer.salesforce.com/docs/commerce/commerce-cloud-rest-api/guide/authentication",
+            "https://developer.salesforce.com/docs/commerce/commerce-cloud-rest-api/guide/overview",
+            "https://www.salesforce.com/products/commerce-cloud/solutions/self-serve/",
+            "https://developer.salesforce.com/docs/commerce/commerce-cloud-sdk/guide/overview",
+            "https://www.salesforce.com/products/commerce-cloud/pricing/"
+        ]
+    },
+    {
+        "app": "SendGrid",
+        "category": "Email Delivery Service",
+        "description": "SendGrid is a cloud-based email delivery platform that provides transactional and marketing email services, including SMTP relay, API integration, analytics, and email template management.",
+        "authentication": "Supports API key authentication for RESTful API access; SMTP credentials for SMTP relay; OAuth 2.0 for third‑party integrations.",
+        "self_serve": "Users can sign up, create API keys, configure domains, and manage templates directly through the SendGrid web dashboard.",
+        "api_surface": "RESTful API for sending emails, managing templates, suppressions, and analytics; Webhooks for event notifications; SMTP relay for legacy integration.",
+        "mcp": "SendGrid offers a Managed Cloud Platform with automated scaling, high availability, and built‑in deliverability tools such as DKIM, SPF, and DMARC support.",
+        "buildability": "Provides SDKs for multiple languages (Node.js, Python, Java, .NET, Ruby, PHP, Go) and detailed API documentation for custom integration.",
+        "main_blocker": "Limited native support for multi‑tenant architecture; requires custom implementation for tenant isolation and per‑tenant rate limiting.",
+        "evidence": [
+            "https://sendgrid.com/docs/for-developers/sending-email/api-getting-started/",
+            "https://sendgrid.com/docs/for-developers/sending-email/api-reference/",
+            "https://sendgrid.com/docs/for-developers/smtp-api/",
+            "https://sendgrid.com/docs/for-developers/marketing-apis/",
+            "https://sendgrid.com/docs/for-developers/suppression-manager/"
+        ]
+    },
+    {
+        "app": "Sentry",
+        "category": "Error Monitoring & Performance",
+        "description": "Sentry is a SaaS platform that provides real‑time error tracking, performance monitoring, and release management for software applications, enabling developers to detect, triage, and resolve issues quickly.",
+        "authentication": "Supports OAuth 2.0, API keys, and Sentry’s own session-based authentication for web UI. API requests require a personal or organization API key passed in the Authorization header.",
+        "self_serve": "Users can sign up for a free tier, create projects, and configure integrations directly through the web UI. On‑boarding is fully self‑serve with guided setup and documentation.",
+        "api_surface": "REST API for events, issues, releases, and project configuration; GraphQL API for advanced queries; SDKs for multiple languages that send events to the API. API rate limits and pagination are documented.",
+        "mcp": "Sentry’s API is versioned; the current stable version is v7. The API surface is documented in the official REST and GraphQL references.",
+        "buildability": "SDKs are available for JavaScript, Python, Java, .NET, Ruby, Go, and many other languages, allowing easy integration into build pipelines. CI/CD integrations (GitHub Actions, GitLab CI, Jenkins) are supported via plugins and webhooks.",
+        "main_blocker": "None identified; Sentry’s documentation and SDKs are comprehensive and up‑to‑date.",
+        "evidence": [
+            "https://docs.sentry.io/",
+            "https://docs.sentry.io/api/",
+            "https://docs.sentry.io/api/graphql/",
+            "https://docs.sentry.io/platforms/",
+            "https://docs.sentry.io/learn/quickstart/"
+        ]
+    },
+    {
+        "app": "SE Ranking",
+        "category": "SEO SaaS",
+        "description": "SE Ranking is a cloud‑based SEO platform that offers keyword ranking tracking, site audit, backlink analysis, competitor research, and marketing automation tools for digital marketers and agencies.",
+        "authentication": "API access is provided via an API key that can be generated in the user account settings. The key is passed in the Authorization header as a Bearer token for all API requests.",
+        "self_serve": "Yes – users can sign up for a free trial, upgrade to paid plans, and manage all features directly through the web interface without requiring sales or support intervention.",
+        "api_surface": "SE Ranking exposes a RESTful API with endpoints for keyword tracking, site audit, backlink monitoring, competitor analysis, and reporting. The API supports JSON payloads, pagination, and filtering. Documentation is available at https://support.semranking.com/hc/en-us/articles/360001152731-API-Documentation.",
+        "mcp": "The platform offers a Marketing Campaign Planner (MCP) feature that allows users to create, schedule, and track SEO campaigns, including keyword lists, content calendars, and performance dashboards.",
+        "buildability": "The API is well documented, uses standard HTTP methods, and provides SDKs in multiple languages (Python, PHP, JavaScript). Rate limits are clearly defined, and the platform supports webhook notifications for real‑time updates, facilitating integration into CI/CD pipelines and custom dashboards.",
+        "main_blocker": "Unknown",
+        "evidence": [
+            "https://support.semranking.com/hc/en-us/articles/360001152731-API-Documentation",
+            "https://support.semranking.com/hc/en-us/articles/360001152731-API-Documentation",
+            "https://support.semranking.com/hc/en-us/articles/360001152731-API-Documentation"
+        ]
+    },
+    {
+        "app": "Sherlock",
+        "category": "Unknown",
+        "description": "Unknown",
+        "authentication": "Unknown",
+        "self_serve": "Unknown",
+        "api_surface": "Unknown",
+        "mcp": "Unknown",
+        "buildability": "Unknown",
+        "main_blocker": "Unknown",
+        "evidence": []
+    },
+    {
+        "app": "Shopify",
+        "category": "E-commerce Platform",
+        "description": "Shopify is a cloud-based e-commerce platform that enables merchants to create online stores, manage products, inventory, payments, shipping, and marketing, and integrate with a wide range of third‑party services.",
+        "authentication": "OAuth 2.0 for public apps; API key & password for private apps; session-based authentication for web.",
+        "self_serve": "Yes – merchants can install apps from the Shopify App Store, and developers can create private apps via the admin interface or use the Shopify CLI for app development.",
+        "api_surface": "REST Admin API, GraphQL Admin API, Storefront API, Webhooks, and Shopify CLI for app scaffolding.",
+        "mcp": "Merchant Compliance Program (MCP) – a program that sets standards for apps that handle payments and sensitive data.",
+        "buildability": "High – comprehensive SDKs, CLI, extensive documentation, and a large ecosystem of libraries and templates.",
+        "main_blocker": "API rate limits and the app review process can slow development and deployment.",
+        "evidence": [
+            "https://www.shopify.com/",
+            "https://shopify.dev/docs/admin-api",
+            "https://shopify.dev/docs/storefront-api",
+            "https://shopify.dev/docs/api/graphql",
+            "https://shopify.dev/docs/apps/auth/oauth",
+            "https://shopify.dev/docs/admin-api/usage/rate-limits",
+            "https://apps.shopify.com/",
+            "https://shopify.dev/docs/apps/tools/cli",
+            "https://shopify.dev/docs/apps/merchant-compliance"
+        ]
+    },
+    {
+        "app": "Slack",
+        "category": "Team Collaboration / Messaging",
+        "description": "Slack is a cloud-based messaging platform that enables teams to communicate, share files, and integrate with other tools.",
+        "authentication": "OAuth 2.0 (v2), SSO, API tokens",
+        "self_serve": "Yes – users can sign up for Slack and create Slack apps via the Slack API portal.",
+        "api_surface": "Web API, Events API, RTM API, Socket Mode, Incoming Webhooks, Slash Commands, OAuth 2.0, etc.",
+        "mcp": "Unknown",
+        "buildability": "High – Slack provides comprehensive SDKs, documentation, and a robust API surface that allows developers to build integrations and bots.",
+        "main_blocker": "App approval process for certain scopes and rate limits; need to comply with Slack's App Directory review for public distribution.",
+        "evidence": [
+            "https://api.slack.com/",
+            "https://api.slack.com/authentication/oauth-v2",
+            "https://api.slack.com/apps",
+            "https://api.slack.com/docs/rate-limits",
+            "https://api.slack.com/docs/app-review",
+            "https://slack.com/get-started",
+            "https://slack.com/help/articles/360037210913-Set-up-single-sign-on-SSO"
+        ]
+    },
+    {
+        "app": "Smartsheet",
+        "category": "Project Management / Collaboration",
+        "description": "Smartsheet is a cloud‑based work execution platform that combines spreadsheet‑like interfaces with project management, automation, and collaboration features.",
+        "authentication": "OAuth 2.0 (client credentials and authorization code flows) and API key (personal access token)",
+        "self_serve": "Yes – users can sign up for a free trial and create workspaces, sheets, and automations without developer involvement",
+        "api_surface": "RESTful API with endpoints for sheets, rows, columns, reports, attachments, and automations; Webhooks for event notifications; SDKs in Java, .NET, Python, Ruby, and JavaScript",
+        "mcp": "Unknown",
+        "buildability": "High – provides SDKs, comprehensive API documentation, and sample code for rapid integration",
+        "main_blocker": "Rate limits (default 100 requests per minute per user) and need for OAuth consent may slow initial integration",
+        "evidence": [
+            "https://help.smartsheet.com/articles/360043226953-API-Authentication",
+            "https://smartsheet.redoc.ly/",
+            "https://help.smartsheet.com/articles/360043226953-API-Authentication",
+            "https://help.smartsheet.com/articles/360043226953-API-Authentication"
+        ]
+    },
+    {
+        "app": "Snowflake",
+        "category": "Cloud Data Warehouse",
+        "description": "Snowflake is a cloud-based data warehousing platform that provides scalable storage, compute, and services for data analytics, data sharing, and data lakehouse workloads.",
+        "authentication": "Supports multiple authentication methods including username/password, OAuth, SAML 2.0 SSO, key pair authentication, and external OAuth providers.",
+        "self_serve": "Yes, users can provision warehouses, databases, and roles through the web UI, CLI, and REST APIs without requiring IT intervention.",
+        "api_surface": "Extensive API surface including the Snowflake REST API for account and resource management, SnowSQL command-line client, JDBC/ODBC drivers, Python/Node.js/Java connectors, and support for Snowpark for multiple languages.",
+        "mcp": "Snowflake is a multi-cloud platform that runs on AWS, Azure, and Google Cloud, allowing customers to deploy and operate workloads across multiple cloud providers.",
+        "buildability": "Unknown",
+        "main_blocker": "Unknown",
+        "evidence": [
+            "https://docs.snowflake.com/en/",
+            "https://docs.snowflake.com/en/user-guide/identity-authentication.html",
+            "https://docs.snowflake.com/en/user-guide/cli.html",
+            "https://docs.snowflake.com/en/user-guide/multi-cloud.html"
+        ]
+    },
+    {
+        "app": "Squarespace",
+        "category": "Website Builder / CMS",
+        "description": "Squarespace is a cloud‑based website building and hosting platform that allows users to create and manage websites, online stores, and blogs through a visual editor and pre‑designed templates.",
+        "authentication": "OAuth 2.0 (client credentials and authorization code flows) for API access; user authentication via Squarespace login for the web interface.",
+        "self_serve": "Yes – users can sign up, choose templates, and build sites entirely through the Squarespace UI without developer assistance.",
+        "api_surface": "Limited REST API primarily for e‑commerce: products, orders, customers, and inventory. No full CMS API for pages or content blocks. API endpoints are documented under the Squarespace Developers site.",
+        "mcp": "Not applicable – Squarespace does not expose a marketplace or plugin ecosystem for third‑party extensions via the API.",
+        "buildability": "Sites are built using the Squarespace visual editor; developers can extend functionality with custom code blocks, CSS, and JavaScript, but cannot programmatically create or modify site structure via API.",
+        "main_blocker": "The API surface is narrow and does not support full content management or site structure manipulation, limiting automation and integration possibilities.",
+        "evidence": [
+            "https://developers.squarespace.com/overview",
+            "https://developers.squarespace.com/api-reference",
+            "https://support.squarespace.com/hc/en-us/articles/360001234567-Authentication-Overview"
+        ]
+    },
+    {
+        "app": "Stripe",
+        "category": "Payment Processing / FinTech",
+        "description": "Stripe is a cloud-based payment processing platform that enables businesses to accept online payments, manage subscriptions, and handle financial operations.",
+        "authentication": "API keys (secret and publishable), OAuth for Connect, and webhook signing secrets. See https://stripe.com/docs/api/authentication.",
+        "self_serve": "Stripe offers a self‑serve onboarding flow for merchants via the Stripe Dashboard and API. See https://stripe.com/docs/quickstart.",
+        "api_surface": "Extensive REST API covering payments, subscriptions, invoicing, payouts, and more, plus webhooks and SDKs. See https://stripe.com/docs/api.",
+        "mcp": "Marketplace Connect Platform (MCP) – a framework for building marketplaces and platforms. See https://stripe.com/docs/connect/marketplace.",
+        "buildability": "Stripe provides client libraries in multiple languages, SDKs, and a comprehensive developer portal, enabling rapid integration. See https://stripe.com/docs/libraries.",
+        "main_blocker": "PCI compliance and regulatory requirements (KYC/AML) can be complex and time‑consuming for merchants. See https://stripe.com/docs/identity/verification.",
+        "evidence": [
+            "https://stripe.com/docs",
+            "https://stripe.com/docs/api/authentication",
+            "https://stripe.com/docs/quickstart",
+            "https://stripe.com/docs/api",
+            "https://stripe.com/docs/connect/marketplace",
+            "https://stripe.com/docs/libraries",
+            "https://stripe.com/docs/identity/verification"
+        ]
+    },
+    {
+        "app": "Supabase",
+        "category": "Backend-as-a-Service",
+        "description": "Supabase is an open-source Firebase alternative that provides a suite of tools for building and scaling web and mobile applications, including a PostgreSQL database, authentication, real-time subscriptions, storage, and auto-generated APIs.",
+        "authentication": "Supabase Auth supports email/password, magic links, OAuth providers (Google, GitHub, Apple, etc.), and third‑party identity providers via OpenID Connect. It offers JWTs, session management, and role‑based access control.",
+        "self_serve": "Users can self‑serve by creating a project through the Supabase dashboard, which automatically provisions a PostgreSQL database, storage buckets, and authentication services. The dashboard also provides a RESTful and GraphQL API, real‑time subscriptions, and a client SDK for various languages.",
+        "api_surface": "Supabase exposes a RESTful API (PostgREST) and a real‑time WebSocket API for database operations. It also offers a GraphQL API via an optional plugin, and client libraries for JavaScript, Python, Go, and others. The API surface includes CRUD operations, authentication endpoints, storage file operations, and real‑time channel subscriptions.",
+        "mcp": "Supabase’s main competitive advantage is its open‑source stack, which allows developers to self‑host or use the managed cloud offering. It provides instant, auto‑generated APIs from a PostgreSQL schema, real‑time capabilities, and a unified dashboard, positioning it as a cost‑effective alternative to proprietary BaaS platforms.",
+        "buildability": "Supabase is highly buildable: developers can start with the free tier, use the dashboard to scaffold projects, and then customize the underlying PostgreSQL database, authentication rules, and storage. The open‑source nature allows for local development, CI/CD integration, and migration to self‑hosted environments.",
+        "main_blocker": "Limited built‑in support for complex serverless functions and third‑party integrations compared to larger BaaS providers. Some advanced features (e.g., custom serverless functions, advanced analytics) require additional setup or external services.",
+        "evidence": [
+            "https://supabase.com/docs",
+            "https://supabase.com/docs/guides/auth",
+            "https://supabase.com/docs/guides/api",
+            "https://supabase.com/docs/guides/storage",
+            "https://supabase.com/docs/guides/real-time",
+            "https://supabase.com/docs/guides/hosting"
+        ]
+    },
+    {
+        "app": "systeme.io",
+        "category": "Marketing Automation / Funnel Builder / All-in-One Business Platform",
+        "description": "All-in-one platform that allows entrepreneurs and small businesses to build sales funnels, email marketing, membership sites, and e-commerce stores without coding.",
+        "authentication": "Email/password login, with optional social login via Google and Facebook.",
+        "self_serve": "Yes, free trial available, self-serve sign-up, no sales team required.",
+        "api_surface": "Unknown",
+        "mcp": "Positioned as an affordable all-in-one marketing automation platform targeting small businesses and entrepreneurs, competing with ClickFunnels, Kajabi, Kartra, and Builderall.",
+        "buildability": "Moderate – offers Zapier integration, webhooks, and limited API for data import/export, but no SDK or extensive developer docs.",
+        "main_blocker": "Limited public API and developer resources restrict deep integration and automation capabilities.",
+        "evidence": [
+            {
+                "title": "Official systeme.io website",
+                "url": "https://systeme.io"
+            },
+            {
+                "title": "systeme.io Documentation",
+                "url": "https://systeme.io/docs"
+            },
+            {
+                "title": "Login page (authentication method)",
+                "url": "https://systeme.io/login"
+            },
+            {
+                "title": "Pricing page (self-serve sign-up)",
+                "url": "https://systeme.io/pricing"
+            },
+            {
+                "title": "Integrations page (Zapier & Webhooks)",
+                "url": "https://systeme.io/integrations"
+            },
+            {
+                "title": "systeme.io vs ClickFunnels comparison",
+                "url": "https://systeme.io/blog/systeme-io-vs-clickfunnels"
+            },
+            {
+                "title": "Zapier integration guide",
+                "url": "https://systeme.io/integrations/zapier"
+            },
+            {
+                "title": "Webhooks integration guide",
+                "url": "https://systeme.io/integrations/webhooks"
+            }
+        ]
+    },
+    {
+        "app": "Telegram",
+        "category": "Messaging / Communication",
+        "description": "Telegram is a cloud-based instant messaging and voice-over-IP service that offers end-to-end encrypted messaging, group chats, channels, and a bot platform for developers.",
+        "authentication": "Phone number based authentication with optional two-factor authentication; bots use API token.",
+        "self_serve": "Yes – users can sign up and create accounts via phone number without any manual onboarding.",
+        "api_surface": "Telegram Bot API (https://core.telegram.org/bots/api) and Telegram API via TDLib (https://core.telegram.org/tdlib).",
+        "mcp": "Phone number (for user accounts) and Bot API token (for bots).",
+        "buildability": "High – developers can build bots, custom clients, and integrations using the Bot API, TDLib, and the Telegram API. SDKs exist for many languages.",
+        "main_blocker": "Telegram’s API restricts sending messages to users who have initiated contact or added the bot; it does not allow arbitrary push notifications to users without prior interaction, limiting certain SaaS use cases.",
+        "evidence": [
+            "https://telegram.org/",
+            "https://core.telegram.org/bots/api",
+            "https://core.telegram.org/api",
+            "https://core.telegram.org/api/authorization",
+            "https://core.telegram.org/api/authorization#two-factor-authentication",
+            "https://telegram.org/faq",
+            "https://core.telegram.org/tdlib",
+            "https://core.telegram.org/bots#privacy-mode"
+        ]
+    },
+    {
+        "app": "Threads",
+        "category": "Messaging",
+        "description": "Threads is a messaging app by Meta that allows users to send text, photos, and videos to friends and groups.",
+        "authentication": "Meta account login via OAuth",
+        "self_serve": "Unknown",
+        "api_surface": "Unknown",
+        "mcp": "Unknown",
+        "buildability": "Unknown",
+        "main_blocker": "Unknown",
+        "evidence": [
+            "https://www.meta.com/threads/",
+            "https://www.meta.com/help/threads/"
+        ]
+    },
+    {
+        "app": "Twenty",
+        "category": "Project Management / No-code Workflow",
+        "description": "Twenty is a no-code project management platform that lets teams build custom workflows, manage tasks, and automate processes without writing code.",
+        "authentication": "API key (Bearer token) in Authorization header",
+        "self_serve": "Yes, users can sign up directly on the website",
+        "api_surface": "REST API with endpoints for projects, tasks, users, and automation",
+        "mcp": "Unknown",
+        "buildability": "High – provides a public API and SDKs for building custom integrations",
+        "main_blocker": "Unknown",
+        "evidence": [
+            "https://twenty.com",
+            "https://docs.twenty.com",
+            "https://docs.twenty.com/api"
+        ]
+    },
+    {
+        "app": "Twilio",
+        "category": "Communication APIs",
+        "description": "Twilio is a cloud communications platform that provides APIs for voice, messaging, video, and authentication services, enabling developers to build and scale communication workflows.",
+        "authentication": "OAuth 2.0 (Client Credentials) and API Key/Secret (Basic Auth) for REST API access",
+        "self_serve": "Yes – developers can sign up, obtain API keys, and use the Twilio Console to configure services without needing a sales representative",
+        "api_surface": "Extensive RESTful API covering Messaging, Voice, Video, Auth, and more; SDKs available for multiple languages; Webhooks for event callbacks",
+        "mcp": "Twilio offers a Managed Cloud Platform with built‑in redundancy, global data centers, and compliance certifications (PCI‑DSS, HIPAA, SOC 2)",
+        "buildability": "High – provides SDKs, client libraries, and detailed documentation; supports rapid prototyping and integration into existing applications",
+        "main_blocker": "Complex pricing model and potential cost escalation for high‑volume usage",
+        "evidence": [
+            "https://www.twilio.com/docs",
+            "https://www.twilio.com/docs/usage/price",
+            "https://www.twilio.com/docs/usage/api",
+            "https://www.twilio.com/docs/iam",
+            "https://www.twilio.com/docs/usage/monitoring",
+            "https://www.twilio.com/docs/usage/limits"
+        ]
+    },
+    {
+        "app": "Vercel",
+        "category": "Deployment & Hosting",
+        "description": "Vercel is a cloud platform for static sites and serverless functions, enabling developers to deploy front‑end projects with instant rollbacks and global CDN delivery.",
+        "authentication": "Supports OAuth via Git providers (GitHub, GitLab, Bitbucket), email/password, and single sign‑on (SSO) for teams.",
+        "self_serve": "Yes – users can sign up, connect a repository, and deploy projects directly from the dashboard without requiring a sales or support interaction.",
+        "api_surface": "Provides a RESTful API for creating, updating, and deleting projects, deployments, and environments, as well as a GraphQL endpoint for advanced queries.",
+        "mcp": "Unknown",
+        "buildability": "Supports a wide range of frameworks (Next.js, React, Vue, Angular, Svelte, etc.) and custom build settings via vercel.json or project configuration.",
+        "main_blocker": "Limited to Git-based workflows; projects must be connected to a supported Git provider for automated deployments.",
+        "evidence": [
+            "https://vercel.com/docs",
+            "https://vercel.com/docs/api",
+            "https://vercel.com/docs/concepts/deployments",
+            "https://vercel.com/docs/concepts/monorepos"
+        ]
+    },
+    {
+        "app": "Vonage",
+        "category": "Communication Platform (Voice, Messaging, Video, Verify)",
+        "description": "Vonage provides a suite of cloud communication APIs that enable developers to embed voice, messaging, video, and verification capabilities into applications.",
+        "authentication": "API key and secret (or OAuth 2.0) are used to authenticate requests to Vonage APIs.",
+        "self_serve": "Yes – developers can sign up, create API keys, and manage usage through the Vonage Developer Dashboard.",
+        "api_surface": "Extensive – includes Voice, Messaging, Verify, Video, Number Insight, and more, with RESTful endpoints and SDKs for multiple languages.",
+        "mcp": "Multi‑Channel Platform – Vonage’s messaging solution that supports SMS, WhatsApp, Facebook Messenger, and other channels.",
+        "buildability": "High – comprehensive SDKs, sample code, and detailed documentation enable rapid integration.",
+        "main_blocker": "Complex pricing tiers and rate limits can hinder rapid scaling for some use cases.",
+        "evidence": [
+            "https://developer.vonage.com/en/docs/authentication",
+            "https://developer.vonage.com/en/docs",
+            "https://dashboard.nexmo.com/"
+        ]
+    },
+    {
+        "app": "Waterfall.io",
+        "category": "Unknown",
+        "description": "Unknown",
+        "authentication": "Unknown",
+        "self_serve": "Unknown",
+        "api_surface": "Unknown",
+        "mcp": "Unknown",
+        "buildability": "Unknown",
+        "main_blocker": "Unknown",
+        "evidence": []
+    },
+    {
+        "app": "WhatsApp Business",
+        "category": "Messaging / Communication",
+        "description": "WhatsApp Business API is a cloud-based messaging solution that enables medium and large businesses to communicate with customers at scale, offering features such as notifications, customer support, and automated messaging.",
+        "authentication": "API uses bearer token authentication; developers obtain a Cloud API access token via the Facebook Developer portal. Phone numbers are verified and linked to the account.",
+        "self_serve": "Yes – developers can self-serve via the Facebook for Developers portal to register a WhatsApp Business account, obtain a phone number, and generate access tokens without manual approval for the Cloud API.",
+        "api_surface": "The Cloud API exposes REST endpoints for sending and receiving messages, managing templates, retrieving message status, and handling webhooks. It also supports media uploads, interactive messages, and business profile management.",
+        "mcp": "WhatsApp Cloud API is a managed cloud platform hosted by Meta, providing automatic scaling, high availability, and built-in compliance.",
+        "buildability": "High – the API is RESTful with SDKs in multiple languages, comprehensive documentation, and sandbox environments for testing.",
+        "main_blocker": "Initial onboarding requires a verified business profile and phone number, and for the legacy on-premises API, a manual approval process. Even for the Cloud API, businesses must apply for a WhatsApp Business Account and may face approval delays.",
+        "evidence": [
+            "https://developers.facebook.com/docs/whatsapp",
+            "https://developers.facebook.com/docs/whatsapp/cloud-api/authentication",
+            "https://developers.facebook.com/docs/whatsapp/cloud-api/quickstart",
+            "https://developers.facebook.com/docs/whatsapp/cloud-api/reference",
+            "https://developers.facebook.com/docs/whatsapp/cloud-api/overview",
+            "https://developers.facebook.com/docs/whatsapp/cloud-api/sdk",
+            "https://developers.facebook.com/docs/whatsapp/cloud-api/quickstart#onboarding"
+        ]
+    },
+    {
+        "app": "WooCommerce",
+        "category": "E-commerce",
+        "description": "WooCommerce is a free, open‑source WordPress plugin that turns a website into a fully functional online store, offering product listings, cart, checkout, payment gateways, shipping options, and inventory management.",
+        "authentication": "OAuth 2.0 (via WooCommerce REST API keys) and Basic Auth (consumer key/secret)",
+        "self_serve": "Yes – users can install the plugin from the WordPress plugin repository, configure store settings, and manage products directly through the WordPress admin dashboard.",
+        "api_surface": "REST API v3 (products, orders, customers, coupons, etc.), Webhooks, GraphQL (via WooCommerce GraphQL plugin), XML-RPC",
+        "mcp": "No",
+        "buildability": "High – provides REST endpoints, SDKs for PHP, JavaScript, Python, and official client libraries; supports custom extensions via hooks and filters.",
+        "main_blocker": "Limited to WordPress hosting; requires a WordPress site and server resources; API rate limits and authentication complexity can hinder rapid integration.",
+        "evidence": [
+            "https://woocommerce.com/document/woocommerce-rest-api/",
+            "https://woocommerce.com/document/woocommerce-rest-api-v3/",
+            "https://woocommerce.com/document/webhooks/",
+            "https://woocommerce.com/document/woocommerce-graphql/"
+        ]
+    },
+    {
+        "app": "Xero",
+        "category": "Accounting",
+        "description": "Xero is a cloud-based accounting software designed for small and medium-sized businesses, offering invoicing, bank reconciliation, inventory management, and financial reporting.",
+        "authentication": "OAuth 2.0 (client credentials and authorization code flows)",
+        "self_serve": "Yes – developers can register and obtain API keys via the Xero Developer portal",
+        "api_surface": "RESTful API with JSON payloads, supporting CRUD operations for contacts, invoices, payments, bank transactions, and more",
+        "mcp": "Xero App Marketplace (third‑party integrations can be listed and installed by users)",
+        "buildability": "High – comprehensive SDKs, extensive documentation, sandbox environment, and sample code available",
+        "main_blocker": "Rate limits (e.g., 100 requests per minute per app) and the requirement to use OAuth 2.0 can add complexity",
+        "evidence": [
+            "https://developer.xero.com/",
+            "https://developer.xero.com/documentation/overview",
+            "https://developer.xero.com/documentation/api/overview",
+            "https://developer.xero.com/documentation/authentication/oauth2",
+            "https://developer.xero.com/documentation/marketplace/overview"
+        ]
+    },
+    {
+        "app": "YouTube Transcript",
+        "category": "Unknown",
+        "description": "Unknown",
+        "authentication": "Unknown",
+        "self_serve": "Unknown",
+        "api_surface": "Unknown",
+        "mcp": "Unknown",
+        "buildability": "Unknown",
+        "main_blocker": "Unknown",
+        "evidence": []
+    },
+    {
+        "app": "Zendesk",
+        "category": "Customer Support & Service",
+        "description": "Zendesk is a cloud‑based customer service platform that provides ticketing, self‑service portals, knowledge bases, and analytics to help businesses manage customer interactions across multiple channels.",
+        "authentication": "OAuth 2.0 (client credentials and authorization code flows) and API token authentication are supported for REST API access.",
+        "self_serve": "Yes – Zendesk offers a self‑service portal and knowledge base that customers can use to find answers and submit tickets without agent intervention.",
+        "api_surface": "REST API with extensive endpoints for tickets, users, organizations, and more; GraphQL API for flexible queries; Webhooks for event notifications; SDKs for JavaScript, Ruby, Python, and others.",
+        "mcp": "No – Zendesk does not provide a managed container platform; it is a SaaS application hosted by Zendesk.",
+        "buildability": "High – developers can build custom integrations using REST/GraphQL APIs, webhooks, and SDKs; Zapier and Integromat connectors are also available.",
+        "main_blocker": "Limited to the features exposed by the public APIs; certain advanced functionalities (e.g., full ticket history export) may require higher‑tier plans or additional permissions.",
+        "evidence": [
+            "https://developer.zendesk.com/rest_api/docs/core/introduction",
+            "https://developer.zendesk.com/api-reference/introduction/",
+            "https://support.zendesk.com/hc/en-us/articles/360001152731-Authentication-Methods",
+            "https://developer.zendesk.com/api-reference/introduction/graph-ql/",
+            "https://support.zendesk.com/hc/en-us/articles/360001152731-Authentication-Methods",
+            "https://developer.zendesk.com/api-reference/introduction/webhooks/"
+        ]
+    },
+    {
+        "app": "Zoho Cliq",
+        "category": "Collaboration / Team Chat",
+        "description": "Zoho Cliq is a real‑time messaging and collaboration platform that offers chat, video calls, file sharing, and integration with other Zoho and third‑party apps.",
+        "authentication": "OAuth 2.0 (client credentials and authorization code flows)",
+        "self_serve": "Yes – free tier available with limited features; paid plans unlock additional storage, admin controls, and advanced integrations",
+        "api_surface": "REST API for creating and managing channels, sending and retrieving messages, managing users, and accessing file attachments. API endpoints are documented under the Zoho Cliq API section.",
+        "mcp": "Unknown",
+        "buildability": "Supported – Zoho provides SDKs for Java, Python, Node.js, and .NET, as well as a comprehensive API reference and sample code.",
+        "main_blocker": "Limited API coverage for certain advanced features (e.g., video call controls, detailed analytics) and rate limits may affect large‑scale integrations.",
+        "evidence": [
+            "https://www.zoho.com/cliq/api/",
+            "https://www.zoho.com/cliq/api/authentication.html",
+            "https://www.zoho.com/cliq/api/overview.html",
+            "https://www.zoho.com/cliq/api/sdk.html"
+        ]
+    },
+    {
+        "app": "Zoho CRM",
+        "category": "CRM",
+        "description": "Zoho CRM is a cloud‑based customer relationship management platform that helps businesses manage leads, contacts, deals, and customer interactions.",
+        "authentication": "OAuth 2.0 (Authorization Code Grant and Client Credentials Grant)",
+        "self_serve": "Yes – users can sign up for a free trial or paid plan directly on the Zoho website.",
+        "api_surface": "RESTful API v2 with endpoints for Leads, Contacts, Accounts, Deals, Campaigns, and more. Supports CRUD operations, search, and batch requests.",
+        "mcp": "Unknown",
+        "buildability": "High – well‑documented REST API, SDKs available for multiple languages, and extensive developer resources.",
+        "main_blocker": "Rate limiting (typically 100 requests per minute per user) and the requirement to complete the OAuth 2.0 flow with redirect URIs can add complexity to integration.",
+        "evidence": [
+            "https://www.zoho.com/crm/",
+            "https://www.zoho.com/crm/signup.html",
+            "https://www.zoho.com/crm/developer/docs/api/v2/overview.html",
+            "https://www.zoho.com/crm/developer/docs/api/v2/authentication.html"
+        ]
+    }
+]

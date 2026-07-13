@@ -1,0 +1,19 @@
+{
+    "app": "Supabase",
+    "category": "Backend-as-a-Service",
+    "description": "Supabase is an open-source Firebase alternative that provides a suite of tools for building and scaling web and mobile applications, including a PostgreSQL database, authentication, real-time subscriptions, storage, and auto-generated APIs.",
+    "authentication": "Supabase Auth supports email/password, magic links, OAuth providers (Google, GitHub, Apple, etc.), and third‑party identity providers via OpenID Connect. It offers JWTs, session management, and role‑based access control.",
+    "self_serve": "Users can self‑serve by creating a project through the Supabase dashboard, which automatically provisions a PostgreSQL database, storage buckets, and authentication services. The dashboard also provides a RESTful and GraphQL API, real‑time subscriptions, and a client SDK for various languages.",
+    "api_surface": "Supabase exposes a RESTful API (PostgREST) and a real‑time WebSocket API for database operations. It also offers a GraphQL API via an optional plugin, and client libraries for JavaScript, Python, Go, and others. The API surface includes CRUD operations, authentication endpoints, storage file operations, and real‑time channel subscriptions.",
+    "mcp": "Supabase’s main competitive advantage is its open‑source stack, which allows developers to self‑host or use the managed cloud offering. It provides instant, auto‑generated APIs from a PostgreSQL schema, real‑time capabilities, and a unified dashboard, positioning it as a cost‑effective alternative to proprietary BaaS platforms.",
+    "buildability": "Supabase is highly buildable: developers can start with the free tier, use the dashboard to scaffold projects, and then customize the underlying PostgreSQL database, authentication rules, and storage. The open‑source nature allows for local development, CI/CD integration, and migration to self‑hosted environments.",
+    "main_blocker": "Limited built‑in support for complex serverless functions and third‑party integrations compared to larger BaaS providers. Some advanced features (e.g., custom serverless functions, advanced analytics) require additional setup or external services.",
+    "evidence": [
+        "https://supabase.com/docs",
+        "https://supabase.com/docs/guides/auth",
+        "https://supabase.com/docs/guides/api",
+        "https://supabase.com/docs/guides/storage",
+        "https://supabase.com/docs/guides/real-time",
+        "https://supabase.com/docs/guides/hosting"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "app": "Ramp",
+    "category": "Expense Management / Corporate Card",
+    "description": "Ramp is a corporate spend management platform that combines a virtual and physical corporate card with automated expense tracking, real‑time spend visibility, and AI‑driven savings insights. It helps companies control spend, reduce fees, and gain actionable data on employee spending.",
+    "authentication": "OAuth 2.0 (client credentials grant) for API access; API keys are also supported for certain endpoints.",
+    "self_serve": "Yes – users can sign up for a free trial, create corporate cards, and manage expenses directly through the web dashboard without requiring a sales representative.",
+    "api_surface": "Ramp exposes a RESTful API that allows retrieval of card transactions, balances, and savings data; creation of virtual cards; and management of user permissions. The API is documented in the Ramp Developer Portal and supports pagination, filtering, and webhook notifications.",
+    "mcp": "Ramp’s API is designed for integration with accounting and ERP systems. It supports standard JSON payloads and offers webhooks for real‑time updates, enabling seamless data flow into downstream financial platforms.",
+    "buildability": "The API is well‑documented with example SDKs in multiple languages (Python, Node.js, Ruby). Rate limits are moderate, and the platform provides sandbox environments for testing. Overall, it is considered developer‑friendly and easy to integrate.",
+    "main_blocker": "Limited public documentation on advanced features such as custom rule creation and detailed audit logs; some endpoints are only available to enterprise customers, which may restrict full functionality for smaller teams.",
+    "evidence": [
+        "https://docs.ramp.com/",
+        "https://developer.ramp.com/"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "app": "PitchBook",
+    "category": "Financial Data & Analytics",
+    "description": "PitchBook is a SaaS platform that provides comprehensive data on private and public capital markets, including company financials, valuations, M&A activity, venture capital, and private equity transactions.",
+    "authentication": "API access requires an API key issued to registered PitchBook users; authentication is performed via bearer token in the Authorization header.",
+    "self_serve": "PitchBook does not offer a self‑serve API portal; access is granted through a paid subscription and requires approval from PitchBook sales.",
+    "api_surface": "PitchBook offers a RESTful API with endpoints for companies, deals, investors, funds, and market data. Endpoints support filtering, pagination, and JSON responses. Documentation is available at https://api.pitchbook.com/docs.",
+    "mcp": "PitchBook does not provide a multi‑cloud platform (MCP) for deployment; it is a cloud‑hosted SaaS service.",
+    "buildability": "Buildability is limited to consuming the provided API; no SDKs or client libraries are officially maintained by PitchBook.",
+    "main_blocker": "Limited public documentation and lack of self‑serve access make onboarding and integration challenging.",
+    "evidence": [
+        "https://pitchbook.com/help/api",
+        "https://api.pitchbook.com/docs",
+        "https://pitchbook.com/about"
+    ]
+}

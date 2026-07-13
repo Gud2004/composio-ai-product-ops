@@ -1,0 +1,19 @@
+{
+    "app": "Twilio",
+    "category": "Communication APIs",
+    "description": "Twilio is a cloud communications platform that provides APIs for voice, messaging, video, and authentication services, enabling developers to build and scale communication workflows.",
+    "authentication": "OAuth 2.0 (Client Credentials) and API Key/Secret (Basic Auth) for REST API access",
+    "self_serve": "Yes – developers can sign up, obtain API keys, and use the Twilio Console to configure services without needing a sales representative",
+    "api_surface": "Extensive RESTful API covering Messaging, Voice, Video, Auth, and more; SDKs available for multiple languages; Webhooks for event callbacks",
+    "mcp": "Twilio offers a Managed Cloud Platform with built‑in redundancy, global data centers, and compliance certifications (PCI‑DSS, HIPAA, SOC 2)",
+    "buildability": "High – provides SDKs, client libraries, and detailed documentation; supports rapid prototyping and integration into existing applications",
+    "main_blocker": "Complex pricing model and potential cost escalation for high‑volume usage",
+    "evidence": [
+        "https://www.twilio.com/docs",
+        "https://www.twilio.com/docs/usage/price",
+        "https://www.twilio.com/docs/usage/api",
+        "https://www.twilio.com/docs/iam",
+        "https://www.twilio.com/docs/usage/monitoring",
+        "https://www.twilio.com/docs/usage/limits"
+    ]
+}

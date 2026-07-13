@@ -1,0 +1,20 @@
+{
+    "app": "GitHub",
+    "category": "Code hosting and collaboration",
+    "description": "GitHub is a web-based hosting service for version control using Git, providing repository hosting, issue tracking, pull requests, and collaboration features for software development.",
+    "authentication": "Supports username/password, personal access tokens (PATs), OAuth apps, GitHub Apps, and SAML SSO for enterprise accounts.",
+    "self_serve": "Yes – users can sign up, create repositories, and configure settings without requiring assistance.",
+    "api_surface": "Extensive REST API and GraphQL API covering repositories, issues, pull requests, webhooks, actions, and more.",
+    "mcp": "GitHub Marketplace offers third‑party integrations and apps that extend functionality.",
+    "buildability": "GitHub Actions provides CI/CD pipelines, runners, and workflow automation directly within the platform.",
+    "main_blocker": "Complex permission and access control models can be challenging to configure for large teams.",
+    "evidence": [
+        "https://docs.github.com/en",
+        "https://docs.github.com/en/rest",
+        "https://docs.github.com/en/graphql",
+        "https://docs.github.com/en/authentication",
+        "https://docs.github.com/en/enterprise-server@latest/admin/enterprise-management/enterprise-settings/saml-single-sign-on",
+        "https://github.com/marketplace",
+        "https://docs.github.com/en/actions"
+    ]
+}

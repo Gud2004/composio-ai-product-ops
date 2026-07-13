@@ -1,0 +1,16 @@
+{
+    "app": "Twenty",
+    "category": "Project Management / No-code Workflow",
+    "description": "Twenty is a no-code project management platform that lets teams build custom workflows, manage tasks, and automate processes without writing code.",
+    "authentication": "API key (Bearer token) in Authorization header",
+    "self_serve": "Yes, users can sign up directly on the website",
+    "api_surface": "REST API with endpoints for projects, tasks, users, and automation",
+    "mcp": "Unknown",
+    "buildability": "High – provides a public API and SDKs for building custom integrations",
+    "main_blocker": "Unknown",
+    "evidence": [
+        "https://twenty.com",
+        "https://docs.twenty.com",
+        "https://docs.twenty.com/api"
+    ]
+}

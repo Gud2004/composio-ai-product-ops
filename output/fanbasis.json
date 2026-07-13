@@ -1,0 +1,16 @@
+{
+    "app": "fanbasis",
+    "category": "Fan Engagement / Ticketing",
+    "description": "Fanbasis is a fan engagement platform that helps sports teams, clubs, and events to engage fans, sell tickets, and manage loyalty programs.",
+    "authentication": "API key",
+    "self_serve": "Yes",
+    "api_surface": "REST API",
+    "mcp": "Unknown",
+    "buildability": "Yes",
+    "main_blocker": "Limited SDK support",
+    "evidence": [
+        "https://www.fanbasis.com",
+        "https://docs.fanbasis.com",
+        "https://docs.fanbasis.com/api"
+    ]
+}

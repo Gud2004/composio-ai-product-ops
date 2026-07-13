@@ -1,0 +1,20 @@
+{
+    "app": "Pipedrive",
+    "category": "CRM",
+    "description": "Pipedrive is a sales pipeline management CRM designed to help small and medium businesses manage their sales processes.",
+    "authentication": "API token (Bearer token) or OAuth 2.0",
+    "self_serve": "Yes, free trial and self-serve sign-up",
+    "api_surface": "REST API with endpoints for deals, contacts, activities, etc.; Webhooks; SDKs in multiple languages",
+    "mcp": "Unknown",
+    "buildability": "Good – comprehensive REST API, SDKs, clear documentation, and webhook support",
+    "main_blocker": "Rate limiting (100 requests per second per user) and limited webhook event types may hinder high‑volume integrations",
+    "evidence": [
+        "https://developers.pipedrive.com/docs/api/v1/overview",
+        "https://developers.pipedrive.com/docs/api/v1/Authentication",
+        "https://www.pipedrive.com/en/signup",
+        "https://developers.pipedrive.com/docs/api/v1/Endpoints",
+        "https://developers.pipedrive.com/docs/sdk",
+        "https://developers.pipedrive.com/docs/api/v1/RateLimits",
+        "https://developers.pipedrive.com/docs/api/v1/Webhooks"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "app": "Meta Ads",
+    "category": "Advertising",
+    "description": "Meta Ads is a platform that allows advertisers to create, manage, and optimize advertising campaigns across Meta’s family of apps, including Facebook, Instagram, Messenger, and Audience Network.",
+    "authentication": "OAuth 2.0 via Meta Login, using User Access Tokens and App Access Tokens for API calls.",
+    "self_serve": "Yes, advertisers can self‑serve ad creation and management through the Meta Ads Manager UI.",
+    "api_surface": "Marketing API (Graph API endpoints such as /act_{ad_account_id}/campaigns, /adsets, /ads, /insights) and related SDKs.",
+    "mcp": "Marketing API (Meta’s primary API for ad management)",
+    "buildability": "High – well‑documented API, SDKs in multiple languages, clear authentication flow, and extensive sample code.",
+    "main_blocker": "Requires App Review for many permissions, business verification, and adherence to rate limits; token expiration and permission scope can impede development.",
+    "evidence": [
+        "https://developers.facebook.com/docs/marketing-api/overview/",
+        "https://developers.facebook.com/docs/facebook-login/overview/",
+        "https://developers.facebook.com/docs/marketing-api/ads-management/",
+        "https://developers.facebook.com/docs/marketing-api/insights/"
+    ]
+}

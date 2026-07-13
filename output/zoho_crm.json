@@ -1,0 +1,17 @@
+{
+    "app": "Zoho CRM",
+    "category": "CRM",
+    "description": "Zoho CRM is a cloud‑based customer relationship management platform that helps businesses manage leads, contacts, deals, and customer interactions.",
+    "authentication": "OAuth 2.0 (Authorization Code Grant and Client Credentials Grant)",
+    "self_serve": "Yes – users can sign up for a free trial or paid plan directly on the Zoho website.",
+    "api_surface": "RESTful API v2 with endpoints for Leads, Contacts, Accounts, Deals, Campaigns, and more. Supports CRUD operations, search, and batch requests.",
+    "mcp": "Unknown",
+    "buildability": "High – well‑documented REST API, SDKs available for multiple languages, and extensive developer resources.",
+    "main_blocker": "Rate limiting (typically 100 requests per minute per user) and the requirement to complete the OAuth 2.0 flow with redirect URIs can add complexity to integration.",
+    "evidence": [
+        "https://www.zoho.com/crm/",
+        "https://www.zoho.com/crm/signup.html",
+        "https://www.zoho.com/crm/developer/docs/api/v2/overview.html",
+        "https://www.zoho.com/crm/developer/docs/api/v2/authentication.html"
+    ]
+}

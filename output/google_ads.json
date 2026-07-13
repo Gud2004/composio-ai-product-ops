@@ -1,0 +1,18 @@
+{
+    "app": "Google Ads",
+    "category": "Advertising / Marketing",
+    "description": "Google Ads is an online advertising platform developed by Google that enables businesses to create and manage ads across Google Search, YouTube, the Display Network, and other partner sites. It offers tools for keyword targeting, bidding, ad creation, and performance analytics.",
+    "authentication": "OAuth 2.0 (used for API access and user authentication)",
+    "self_serve": "Yes – users can create, edit, and manage campaigns directly through the web interface without needing a third‑party service",
+    "api_surface": "Google Ads API (formerly AdWords API) – a REST and gRPC based API that provides programmatic access to account data, campaign management, reporting, and more",
+    "mcp": "Managed Customer Platform (MCP) – a feature that allows agencies to manage multiple client accounts from a single interface",
+    "buildability": "Built on Google Cloud infrastructure; supports REST, gRPC, and client libraries in multiple languages (Java, Python, PHP, etc.)",
+    "main_blocker": "Complexity of the API, strict OAuth 2.0 flow, rate limits, and the need for detailed understanding of Google Ads entities and permissions",
+    "evidence": [
+        "https://support.google.com/google-ads/answer/2375434?hl=en",
+        "https://developers.google.com/google-ads/api/docs/oauth",
+        "https://developers.google.com/google-ads/api/docs/mcp",
+        "https://developers.google.com/google-ads/api/docs/start",
+        "https://developers.google.com/google-ads/api/docs/rate-limits"
+    ]
+}

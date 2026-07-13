@@ -1,0 +1,19 @@
+{
+    "app": "Zendesk",
+    "category": "Customer Support & Service",
+    "description": "Zendesk is a cloud‑based customer service platform that provides ticketing, self‑service portals, knowledge bases, and analytics to help businesses manage customer interactions across multiple channels.",
+    "authentication": "OAuth 2.0 (client credentials and authorization code flows) and API token authentication are supported for REST API access.",
+    "self_serve": "Yes – Zendesk offers a self‑service portal and knowledge base that customers can use to find answers and submit tickets without agent intervention.",
+    "api_surface": "REST API with extensive endpoints for tickets, users, organizations, and more; GraphQL API for flexible queries; Webhooks for event notifications; SDKs for JavaScript, Ruby, Python, and others.",
+    "mcp": "No – Zendesk does not provide a managed container platform; it is a SaaS application hosted by Zendesk.",
+    "buildability": "High – developers can build custom integrations using REST/GraphQL APIs, webhooks, and SDKs; Zapier and Integromat connectors are also available.",
+    "main_blocker": "Limited to the features exposed by the public APIs; certain advanced functionalities (e.g., full ticket history export) may require higher‑tier plans or additional permissions.",
+    "evidence": [
+        "https://developer.zendesk.com/rest_api/docs/core/introduction",
+        "https://developer.zendesk.com/api-reference/introduction/",
+        "https://support.zendesk.com/hc/en-us/articles/360001152731-Authentication-Methods",
+        "https://developer.zendesk.com/api-reference/introduction/graph-ql/",
+        "https://support.zendesk.com/hc/en-us/articles/360001152731-Authentication-Methods",
+        "https://developer.zendesk.com/api-reference/introduction/webhooks/"
+    ]
+}

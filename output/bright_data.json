@@ -1,0 +1,16 @@
+{
+    "app": "Bright Data",
+    "category": "Data Collection / Web Scraping",
+    "description": "Bright Data (formerly Luminati) provides a global proxy network, residential IPs, and data collection tools for web scraping, market research, and competitive intelligence.",
+    "authentication": "API key-based authentication for its services; OAuth 2.0 support for certain endpoints.",
+    "self_serve": "Yes – users can sign up, purchase proxy plans, and manage accounts via the Bright Data dashboard.",
+    "api_surface": "RESTful APIs for proxy management, IP rotation, and data extraction; SDKs available in Python, Node.js, and Java.",
+    "mcp": "No public information on a Managed Cloud Platform (MCP) offering; primarily a SaaS proxy service.",
+    "buildability": "Supports integration via API calls and SDKs; offers Docker images for proxy deployment; documentation includes code samples.",
+    "main_blocker": "Limited public documentation on advanced data extraction features; some users report complexity in configuring IP rotation for large-scale projects.",
+    "evidence": [
+        "https://brightdata.com/",
+        "https://brightdata.com/docs",
+        "https://brightdata.com/api-docs"
+    ]
+}

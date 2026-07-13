@@ -1,0 +1,17 @@
+{
+    "app": "WooCommerce",
+    "category": "E-commerce",
+    "description": "WooCommerce is a free, open‑source WordPress plugin that turns a website into a fully functional online store, offering product listings, cart, checkout, payment gateways, shipping options, and inventory management.",
+    "authentication": "OAuth 2.0 (via WooCommerce REST API keys) and Basic Auth (consumer key/secret)",
+    "self_serve": "Yes – users can install the plugin from the WordPress plugin repository, configure store settings, and manage products directly through the WordPress admin dashboard.",
+    "api_surface": "REST API v3 (products, orders, customers, coupons, etc.), Webhooks, GraphQL (via WooCommerce GraphQL plugin), XML-RPC",
+    "mcp": "No",
+    "buildability": "High – provides REST endpoints, SDKs for PHP, JavaScript, Python, and official client libraries; supports custom extensions via hooks and filters.",
+    "main_blocker": "Limited to WordPress hosting; requires a WordPress site and server resources; API rate limits and authentication complexity can hinder rapid integration.",
+    "evidence": [
+        "https://woocommerce.com/document/woocommerce-rest-api/",
+        "https://woocommerce.com/document/woocommerce-rest-api-v3/",
+        "https://woocommerce.com/document/webhooks/",
+        "https://woocommerce.com/document/woocommerce-graphql/"
+    ]
+}

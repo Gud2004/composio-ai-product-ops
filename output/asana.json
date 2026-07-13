@@ -1,0 +1,20 @@
+{
+    "app": "Asana",
+    "category": "Project Management / Collaboration",
+    "description": "Asana is a web and mobile application designed to help teams organize, track, and manage their work.",
+    "authentication": "OAuth 2.0 and Personal Access Tokens",
+    "self_serve": "Yes, users can sign up for free or paid plans directly via the website.",
+    "api_surface": "RESTful API with JSON payloads, supporting CRUD operations on tasks, projects, teams, users, and more. Includes SDKs for multiple languages.",
+    "mcp": "Unknown",
+    "buildability": "High – well-documented API, SDKs, and clear rate limits.",
+    "main_blocker": "Rate limiting (150 requests/min per user) and the need for OAuth flow for most integrations.",
+    "evidence": [
+        "https://asana.com/",
+        "https://developers.asana.com/docs",
+        "https://developers.asana.com/docs/oauth",
+        "https://developers.asana.com/docs/personal-access-token",
+        "https://asana.com/guide/help/faq/faq-signup",
+        "https://developers.asana.com/docs/rate-limits",
+        "https://developers.asana.com/docs/sdk"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "app": "Ahrefs",
+    "category": "SEO & Marketing",
+    "description": "Ahrefs is a SaaS platform that provides tools for backlink analysis, keyword research, competitor analysis, site audits, and content exploration to help users improve search engine rankings and digital marketing strategies.",
+    "authentication": "OAuth 2.0 (client credentials grant) with API key and secret; API requests must include an Authorization header with a bearer token.",
+    "self_serve": "Yes – users can sign up for a free trial, upgrade to paid plans, and manage billing directly through the Ahrefs dashboard.",
+    "api_surface": "The Ahrefs API exposes endpoints for backlink data, keyword metrics, content explorer, and site audit results. Endpoints include /backlinks, /keywords, /content, /audit, each supporting pagination, filtering, and JSON responses.",
+    "mcp": "The API is rate-limited to 200 requests per minute per API key. Exceeding the limit returns HTTP 429 with a Retry-After header.",
+    "buildability": "The API is RESTful, uses HTTPS, and returns JSON. Developers can authenticate via client credentials, construct requests with query parameters, and parse responses. SDKs are not officially provided, but community libraries exist.",
+    "main_blocker": "Limited public documentation and lack of official SDKs can slow integration; the rate limit may require request throttling for large data pulls.",
+    "evidence": [
+        "https://ahrefs.com/api",
+        "https://ahrefs.com/api/docs",
+        "https://ahrefs.com/api/docs/overview",
+        "https://ahrefs.com/api/docs/authentication",
+        "https://ahrefs.com/api/docs/rate-limits"
+    ]
+}

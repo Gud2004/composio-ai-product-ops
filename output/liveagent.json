@@ -1,0 +1,19 @@
+{
+    "app": "LiveAgent",
+    "category": "Help Desk / Customer Support",
+    "description": "LiveAgent is a cloud‑based help desk software that offers ticketing, live chat, call center, knowledge base, and self‑serve portal features to help businesses manage customer support.",
+    "authentication": "API key (X-API-Key header) for REST API; no OAuth support.",
+    "self_serve": "Yes – includes knowledge base, FAQ, and self‑serve portal.",
+    "api_surface": "REST API with endpoints for tickets, contacts, departments, agents, chats, etc. Supports JSON over HTTPS.",
+    "mcp": "GDPR compliant; offers data residency options and privacy controls.",
+    "buildability": "High – comprehensive REST API, SDK examples, and detailed documentation enable developers to build integrations quickly.",
+    "main_blocker": "Lack of OAuth authentication; API key must be kept secret and is not rotated automatically.",
+    "evidence": [
+        "https://www.liveagent.com/",
+        "https://www.liveagent.com/features/",
+        "https://www.liveagent.com/features/self-serve/",
+        "https://www.liveagent.com/api/",
+        "https://www.liveagent.com/api/#authentication",
+        "https://www.liveagent.com/faq/#gdpr"
+    ]
+}

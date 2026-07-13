@@ -1,0 +1,16 @@
+{
+    "app": "Attio",
+    "category": "CRM, Knowledge Base, No-code Database",
+    "description": "Attio is a flexible, no-code CRM and knowledge base platform that helps teams organize and find information quickly.",
+    "authentication": "Email/password login, SSO via OAuth, API key for programmatic access.",
+    "self_serve": "Free trial available with self-serve onboarding and no-code interface.",
+    "api_surface": "Attio offers a REST API with endpoints for records, relationships, and queries. API authentication is via API key. Documentation is available at https://docs.attio.com/api.",
+    "mcp": "Unknown",
+    "buildability": "High – provides API, webhooks, SDKs, and no-code integration options.",
+    "main_blocker": "Limited API coverage and rate limits; some advanced features are only available through the UI.",
+    "evidence": [
+        "https://docs.attio.com",
+        "https://docs.attio.com/api",
+        "https://attio.com/pricing"
+    ]
+}

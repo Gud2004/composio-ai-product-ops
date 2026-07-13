@@ -1,0 +1,20 @@
+{
+    "app": "Slack",
+    "category": "Team Collaboration / Messaging",
+    "description": "Slack is a cloud-based messaging platform that enables teams to communicate, share files, and integrate with other tools.",
+    "authentication": "OAuth 2.0 (v2), SSO, API tokens",
+    "self_serve": "Yes – users can sign up for Slack and create Slack apps via the Slack API portal.",
+    "api_surface": "Web API, Events API, RTM API, Socket Mode, Incoming Webhooks, Slash Commands, OAuth 2.0, etc.",
+    "mcp": "Unknown",
+    "buildability": "High – Slack provides comprehensive SDKs, documentation, and a robust API surface that allows developers to build integrations and bots.",
+    "main_blocker": "App approval process for certain scopes and rate limits; need to comply with Slack's App Directory review for public distribution.",
+    "evidence": [
+        "https://api.slack.com/",
+        "https://api.slack.com/authentication/oauth-v2",
+        "https://api.slack.com/apps",
+        "https://api.slack.com/docs/rate-limits",
+        "https://api.slack.com/docs/app-review",
+        "https://slack.com/get-started",
+        "https://slack.com/help/articles/360037210913-Set-up-single-sign-on-SSO"
+    ]
+}

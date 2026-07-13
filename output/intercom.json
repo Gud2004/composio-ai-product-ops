@@ -1,0 +1,19 @@
+{
+    "app": "Intercom",
+    "category": "Customer Messaging / Help Desk",
+    "description": "Intercom is a customer messaging platform that provides live chat, help desk, and customer engagement tools for businesses.",
+    "authentication": "OAuth 2.0, Personal Access Token",
+    "self_serve": "Yes – includes a self‑serve help center and knowledge base",
+    "api_surface": "Extensive – includes endpoints for Users, Companies, Conversations, Messages, Tags, Custom Attributes, etc.",
+    "mcp": "Unknown",
+    "buildability": "High – offers SDKs for web, iOS, Android, and a comprehensive REST API",
+    "main_blocker": "Rate limiting (100 requests/min) and OAuth flow complexity",
+    "evidence": [
+        "https://developers.intercom.com/intercom-api-reference/reference",
+        "https://developers.intercom.com/intercom-api-reference/reference#authentication",
+        "https://developers.intercom.com/intercom-api-reference/reference#personal-access-token",
+        "https://www.intercom.com/help-center",
+        "https://developers.intercom.com/intercom-api-reference/reference#rate-limits",
+        "https://developers.intercom.com/intercom-api-reference/reference#sdk"
+    ]
+}

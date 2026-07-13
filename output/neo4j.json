@@ -1,0 +1,19 @@
+{
+    "app": "Neo4j Aura",
+    "category": "Graph Database as a Service",
+    "description": "Neo4j Aura is a fully managed cloud service that provides a scalable, secure graph database with built-in high availability and automated backups.",
+    "authentication": "Supports OAuth 2.0, SAML 2.0, and basic authentication via Bolt/REST. Users can authenticate using Neo4j credentials or external identity providers.",
+    "self_serve": "Yes – users can create, configure, and delete Aura instances directly from the Neo4j Aura console without requiring support.",
+    "api_surface": "Provides a Bolt protocol for graph queries, a REST API for CRUD operations, and a GraphQL endpoint via Neo4j GraphQL Library. The Aura console also exposes a REST API for instance management.",
+    "mcp": "Unknown",
+    "buildability": "Unknown",
+    "main_blocker": "Limited feature set compared to on‑prem Neo4j Enterprise; certain advanced plugins and extensions are not available in Aura.",
+    "evidence": [
+        "https://neo4j.com/docs/aura/",
+        "https://neo4j.com/docs/aura/4.4/authentication/",
+        "https://neo4j.com/docs/aura/4.4/console/",
+        "https://neo4j.com/docs/aura/4.4/api/",
+        "https://neo4j.com/docs/graphql/",
+        "https://neo4j.com/docs/aura/4.4/limitations/"
+    ]
+}

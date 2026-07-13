@@ -1,0 +1,18 @@
+{
+    "app": "GoHighLevel",
+    "category": "Marketing Automation / CRM",
+    "description": "All‑in‑one marketing platform for agencies that includes CRM, funnel builder, email, SMS, voice, and automation workflows.",
+    "authentication": "API key passed in the Authorization header (Bearer <API_KEY>)",
+    "self_serve": "Yes – offers a free trial and self‑service sign‑up for agencies",
+    "api_surface": "RESTful JSON API with endpoints for contacts, leads, campaigns, funnels, SMS, email, and workflow automation",
+    "mcp": "Unknown",
+    "buildability": "Moderate – API is documented but lacks official SDKs; developers must build custom integrations",
+    "main_blocker": "Limited API coverage and lack of official SDKs make integration development more time‑consuming",
+    "evidence": [
+        "https://gohighlevel.com",
+        "https://developers.gohighlevel.com/docs",
+        "https://developers.gohighlevel.com/docs/authentication",
+        "https://developers.gohighlevel.com/docs/endpoints",
+        "https://gohighlevel.com/free-trial"
+    ]
+}

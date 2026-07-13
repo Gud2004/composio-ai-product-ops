@@ -1,0 +1,21 @@
+{
+    "app": "Freshdesk",
+    "category": "Customer Support / Helpdesk",
+    "description": "Freshdesk is a cloud-based customer support platform that provides ticketing, knowledge base, community forums, and automation tools to help businesses manage customer interactions efficiently.",
+    "authentication": "API Key (Basic Auth with API key as username) and OAuth 2.0",
+    "self_serve": "Yes – includes knowledge base, community forums, and customer portal",
+    "api_surface": "Extensive REST API covering tickets, contacts, companies, groups, users, etc., with pagination, filtering, and webhooks",
+    "mcp": "Yes – Freshdesk Marketplace offers pre-built integrations and apps",
+    "buildability": "High – offers comprehensive API, SDKs, webhooks, and marketplace for building custom integrations",
+    "main_blocker": "Rate limiting of 1000 requests per hour per API key can hinder high-volume integrations",
+    "evidence": [
+        "https://developers.freshdesk.com/api/",
+        "https://developers.freshdesk.com/api/#authentication",
+        "https://developers.freshdesk.com/api/#oauth-2-0",
+        "https://support.freshdesk.com/support/solutions/articles/44001000001-knowledge-base",
+        "https://freshdesk.com/marketplace",
+        "https://developers.freshdesk.com/api/#endpoints",
+        "https://developers.freshdesk.com/sdk/",
+        "https://developers.freshdesk.com/api/#rate-limiting"
+    ]
+}

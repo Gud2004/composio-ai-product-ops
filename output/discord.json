@@ -1,0 +1,20 @@
+{
+    "app": "Discord",
+    "category": "Communication / Collaboration",
+    "description": "Discord is a free, all-in-one voice, video, and text chat platform for communities, gamers, and teams.",
+    "authentication": "OAuth2 (email/password, phone, 2FA) and Bot tokens",
+    "self_serve": "Yes – users can sign up, create servers, invite members; developers can create bots via the Developer Portal",
+    "api_surface": "Extensive REST API, Gateway WebSocket, Webhooks, Slash Commands, Interactions, Rich Presence, etc.",
+    "mcp": "Unknown",
+    "buildability": "High – multiple SDKs, libraries, clear documentation, sandboxed bot environment",
+    "main_blocker": "Rate limits and privileged intents restrictions for bots; limited access to certain privileged data without approval",
+    "evidence": [
+        "https://discord.com/developers/docs/intro",
+        "https://discord.com/developers/docs/topics/oauth2",
+        "https://discord.com/developers/docs/topics/gateway",
+        "https://discord.com/developers/docs/reference",
+        "https://discord.com/developers/docs/topics/rate-limits",
+        "https://discord.com/developers/docs/topics/gateway#privileged-intents",
+        "https://discord.com/terms"
+    ]
+}

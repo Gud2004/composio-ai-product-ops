@@ -1,0 +1,17 @@
+{
+    "app": "Cloudflare",
+    "category": "CDN / DNS / Web Security",
+    "description": "Cloudflare is a cloud-based platform that provides content delivery network (CDN), Internet security services, and distributed domain name server services. It offers DDoS protection, SSL/TLS, Web Application Firewall (WAF), and performance optimization for websites and APIs.",
+    "authentication": "API access is secured via API Tokens, Global API Key, or Account ID with Bearer token authentication. OAuth 2.0 is not natively supported for API access.",
+    "self_serve": "Yes – users can sign up, configure DNS, CDN, and security settings through the Cloudflare dashboard without requiring a sales representative.",
+    "api_surface": "Cloudflare exposes a comprehensive RESTful API covering DNS, CDN, WAF, firewall rules, load balancing, and account management. The API is documented at https://developers.cloudflare.com/api/",
+    "mcp": "Cloudflare’s Managed Cloud Platform (MCP) refers to its fully managed infrastructure that abstracts server management, scaling, and security, allowing customers to focus on application logic.",
+    "buildability": "High – the platform offers a low-code/no-code interface, extensive API, and pre-built integrations, enabling rapid deployment and scaling.",
+    "main_blocker": "Complexity of configuration and the need to understand multiple layers (DNS, CDN, WAF, firewall rules) can be a barrier for new users.",
+    "evidence": [
+        "https://developers.cloudflare.com/api/",
+        "https://developers.cloudflare.com/fundamentals/get-started/authentication/",
+        "https://developers.cloudflare.com/fundamentals/get-started/quickstart/",
+        "https://developers.cloudflare.com/fundamentals/"
+    ]
+}

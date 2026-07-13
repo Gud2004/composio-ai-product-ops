@@ -1,0 +1,18 @@
+{
+    "app": "SendGrid",
+    "category": "Email Delivery Service",
+    "description": "SendGrid is a cloud-based email delivery platform that provides transactional and marketing email services, including SMTP relay, API integration, analytics, and email template management.",
+    "authentication": "Supports API key authentication for RESTful API access; SMTP credentials for SMTP relay; OAuth 2.0 for third‑party integrations.",
+    "self_serve": "Users can sign up, create API keys, configure domains, and manage templates directly through the SendGrid web dashboard.",
+    "api_surface": "RESTful API for sending emails, managing templates, suppressions, and analytics; Webhooks for event notifications; SMTP relay for legacy integration.",
+    "mcp": "SendGrid offers a Managed Cloud Platform with automated scaling, high availability, and built‑in deliverability tools such as DKIM, SPF, and DMARC support.",
+    "buildability": "Provides SDKs for multiple languages (Node.js, Python, Java, .NET, Ruby, PHP, Go) and detailed API documentation for custom integration.",
+    "main_blocker": "Limited native support for multi‑tenant architecture; requires custom implementation for tenant isolation and per‑tenant rate limiting.",
+    "evidence": [
+        "https://sendgrid.com/docs/for-developers/sending-email/api-getting-started/",
+        "https://sendgrid.com/docs/for-developers/sending-email/api-reference/",
+        "https://sendgrid.com/docs/for-developers/smtp-api/",
+        "https://sendgrid.com/docs/for-developers/marketing-apis/",
+        "https://sendgrid.com/docs/for-developers/suppression-manager/"
+    ]
+}

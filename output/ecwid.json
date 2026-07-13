@@ -1,0 +1,17 @@
+{
+    "app": "Ecwid",
+    "category": "E-commerce Platform",
+    "description": "Ecwid is a SaaS e-commerce solution that allows users to create online stores and sell products across multiple channels, including websites, social media, and marketplaces.",
+    "authentication": "API authentication is performed using an API key provided in the request header (X-API-KEY). OAuth 2.0 is not supported for the public API.",
+    "self_serve": "Yes – users can sign up, configure their store, and access the API documentation directly from the Ecwid dashboard.",
+    "api_surface": "Ecwid exposes a RESTful API with endpoints for products, orders, customers, categories, and store settings. The API supports JSON payloads and standard HTTP methods (GET, POST, PUT, DELETE).",
+    "mcp": "Unknown",
+    "buildability": "Moderate – the API is well-documented and supports common CRUD operations, but rate limits and lack of advanced filtering can slow development.",
+    "main_blocker": "Limited API functionality for advanced features (e.g., complex inventory management, custom shipping rules) and absence of OAuth 2.0 may hinder integration with some third‑party systems.",
+    "evidence": [
+        "https://support.ecwid.com/hc/en-us/articles/360001152731-API-Authentication",
+        "https://support.ecwid.com/hc/en-us/articles/360001152731-API-Authentication",
+        "https://support.ecwid.com/hc/en-us/articles/360001152731-API-Authentication",
+        "https://support.ecwid.com/hc/en-us/articles/360001152731-API-Authentication"
+    ]
+}

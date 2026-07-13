@@ -1,0 +1,17 @@
+{
+    "app": "Grain",
+    "category": "Video Collaboration / Meeting Capture",
+    "description": "Grain is a SaaS platform that captures, highlights, and shares video meetings, providing tools for editing, transcription, and collaboration.",
+    "authentication": "Email/password, Google SSO, Microsoft SSO, and OAuth 2.0 for API access",
+    "self_serve": "Yes – users can sign up for free and upgrade to paid plans directly through the Grain website",
+    "api_surface": "Grain offers a RESTful API for accessing recordings, transcripts, and highlights. The API uses OAuth 2.0 for authentication and provides endpoints for listing recordings, retrieving transcripts, and managing highlights.",
+    "mcp": "Unknown",
+    "buildability": "Unknown",
+    "main_blocker": "Limited API functionality for advanced custom integrations",
+    "evidence": [
+        "https://grain.com/",
+        "https://docs.grain.com/",
+        "https://grain.com/features/",
+        "https://grain.com/pricing/"
+    ]
+}

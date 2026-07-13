@@ -1,0 +1,20 @@
+{
+    "app": "WhatsApp Business",
+    "category": "Messaging / Communication",
+    "description": "WhatsApp Business API is a cloud-based messaging solution that enables medium and large businesses to communicate with customers at scale, offering features such as notifications, customer support, and automated messaging.",
+    "authentication": "API uses bearer token authentication; developers obtain a Cloud API access token via the Facebook Developer portal. Phone numbers are verified and linked to the account.",
+    "self_serve": "Yes – developers can self-serve via the Facebook for Developers portal to register a WhatsApp Business account, obtain a phone number, and generate access tokens without manual approval for the Cloud API.",
+    "api_surface": "The Cloud API exposes REST endpoints for sending and receiving messages, managing templates, retrieving message status, and handling webhooks. It also supports media uploads, interactive messages, and business profile management.",
+    "mcp": "WhatsApp Cloud API is a managed cloud platform hosted by Meta, providing automatic scaling, high availability, and built-in compliance.",
+    "buildability": "High – the API is RESTful with SDKs in multiple languages, comprehensive documentation, and sandbox environments for testing.",
+    "main_blocker": "Initial onboarding requires a verified business profile and phone number, and for the legacy on-premises API, a manual approval process. Even for the Cloud API, businesses must apply for a WhatsApp Business Account and may face approval delays.",
+    "evidence": [
+        "https://developers.facebook.com/docs/whatsapp",
+        "https://developers.facebook.com/docs/whatsapp/cloud-api/authentication",
+        "https://developers.facebook.com/docs/whatsapp/cloud-api/quickstart",
+        "https://developers.facebook.com/docs/whatsapp/cloud-api/reference",
+        "https://developers.facebook.com/docs/whatsapp/cloud-api/overview",
+        "https://developers.facebook.com/docs/whatsapp/cloud-api/sdk",
+        "https://developers.facebook.com/docs/whatsapp/cloud-api/quickstart#onboarding"
+    ]
+}

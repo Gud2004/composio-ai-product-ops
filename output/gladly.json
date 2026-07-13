@@ -1,0 +1,19 @@
+{
+    "app": "Gladly",
+    "category": "Customer Support / Help Desk",
+    "description": "Gladly is a customer service platform that centralizes customer interactions across channels, providing a unified view and AI‑powered tools.",
+    "authentication": "OAuth 2.0 (client credentials grant)",
+    "self_serve": "No",
+    "api_surface": "REST",
+    "mcp": "Unknown",
+    "buildability": "High",
+    "main_blocker": "Rate limiting (100 requests/minute) and limited access to certain endpoints",
+    "evidence": [
+        "https://docs.gladly.com",
+        "https://docs.gladly.com/api",
+        "https://docs.gladly.com/api/authentication",
+        "https://docs.gladly.com/api/rate-limits",
+        "https://gladly.com",
+        "https://gladly.com/self-serve"
+    ]
+}

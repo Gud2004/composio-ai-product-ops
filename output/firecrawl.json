@@ -1,0 +1,17 @@
+{
+    "app": "Firecrawl",
+    "category": "Web Scraping / Crawling",
+    "description": "Firecrawl is a SaaS platform that allows users to crawl and scrape websites, extracting structured data and content for use in applications, data analysis, or content aggregation. It offers a user-friendly interface, API access, and integration with other tools.",
+    "authentication": "API key-based authentication for API access; web interface requires email/password sign-up.",
+    "self_serve": "Yes – users can sign up, configure crawls, and export data directly from the dashboard without needing a sales representative.",
+    "api_surface": "Provides RESTful endpoints for initiating crawls, retrieving crawl results, managing crawl configurations, and accessing scraped data. Supports JSON responses and pagination.",
+    "mcp": "No publicly available information on a multi‑cloud provider strategy; appears hosted on a single cloud platform.",
+    "buildability": "Offers SDKs and example code in JavaScript/Node.js and Python for integrating API calls into custom applications. Documentation includes code snippets and authentication guidance.",
+    "main_blocker": "Limited to publicly accessible websites; may face restrictions on sites with strong anti‑scraping measures or requiring authentication beyond simple credentials.",
+    "evidence": [
+        {
+            "source": "Official Firecrawl Documentation",
+            "url": "https://docs.firecrawl.dev/"
+        }
+    ]
+}

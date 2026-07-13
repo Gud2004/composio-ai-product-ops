@@ -1,0 +1,19 @@
+{
+    "app": "ClickUp",
+    "category": "Project Management / Productivity",
+    "description": "ClickUp is a cloud‑based project management and productivity platform that offers task management, docs, goals, chat, and more, enabling teams to collaborate and track work in a single workspace.",
+    "authentication": "API Key (Bearer token) and OAuth 2.0. API key is passed in the Authorization header. OAuth 2.0 is supported for third‑party apps.",
+    "self_serve": "Yes – developers can create integrations using the public REST API and publish them to the ClickUp Marketplace.",
+    "api_surface": "Extensive REST API covering tasks, lists, spaces, folders, docs, goals, time tracking, etc. Endpoints are documented with request/response examples.",
+    "mcp": "Unknown",
+    "buildability": "High – the API is well documented, uses standard HTTP/JSON, and supports pagination, filtering, and webhooks. No SDK required, but community SDKs exist.",
+    "main_blocker": "Rate limiting (100 requests per minute per user) and the need to manage API keys securely can hinder high‑volume integrations.",
+    "evidence": [
+        "https://clickup.com/api",
+        "https://clickup.com/api?tab=auth",
+        "https://clickup.com/api?tab=rate-limits",
+        "https://clickup.com/marketplace",
+        "https://clickup.com/api?tab=webhooks",
+        "https://clickup.com/api?tab=docs"
+    ]
+}

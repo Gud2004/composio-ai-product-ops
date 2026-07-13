@@ -1,0 +1,20 @@
+{
+    "app": "Stripe",
+    "category": "Payment Processing / FinTech",
+    "description": "Stripe is a cloud-based payment processing platform that enables businesses to accept online payments, manage subscriptions, and handle financial operations.",
+    "authentication": "API keys (secret and publishable), OAuth for Connect, and webhook signing secrets. See https://stripe.com/docs/api/authentication.",
+    "self_serve": "Stripe offers a self‑serve onboarding flow for merchants via the Stripe Dashboard and API. See https://stripe.com/docs/quickstart.",
+    "api_surface": "Extensive REST API covering payments, subscriptions, invoicing, payouts, and more, plus webhooks and SDKs. See https://stripe.com/docs/api.",
+    "mcp": "Marketplace Connect Platform (MCP) – a framework for building marketplaces and platforms. See https://stripe.com/docs/connect/marketplace.",
+    "buildability": "Stripe provides client libraries in multiple languages, SDKs, and a comprehensive developer portal, enabling rapid integration. See https://stripe.com/docs/libraries.",
+    "main_blocker": "PCI compliance and regulatory requirements (KYC/AML) can be complex and time‑consuming for merchants. See https://stripe.com/docs/identity/verification.",
+    "evidence": [
+        "https://stripe.com/docs",
+        "https://stripe.com/docs/api/authentication",
+        "https://stripe.com/docs/quickstart",
+        "https://stripe.com/docs/api",
+        "https://stripe.com/docs/connect/marketplace",
+        "https://stripe.com/docs/libraries",
+        "https://stripe.com/docs/identity/verification"
+    ]
+}

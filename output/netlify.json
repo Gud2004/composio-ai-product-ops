@@ -1,0 +1,17 @@
+{
+    "app": "Netlify",
+    "category": "Web Hosting / Continuous Deployment",
+    "description": "Netlify is a cloud platform that automates the build, deployment, and hosting of static and Jamstack sites, providing features such as continuous deployment from Git, serverless functions, form handling, and CDN distribution.",
+    "authentication": "Supports OAuth via Git providers (GitHub, GitLab, Bitbucket) for site deployment and API access; API keys can be generated in the Netlify UI for programmatic access.",
+    "self_serve": "Yes – users can sign up, connect a Git repository, and deploy sites directly from the Netlify dashboard without requiring a sales or support interaction.",
+    "api_surface": "Public REST API for site management, build triggers, deploy previews, and function deployments; GraphQL API is also available for advanced queries.",
+    "mcp": "Netlify’s Managed Continuous Deployment (MCD) model, where the platform handles build, deployment, and hosting, is the primary managed service offering.",
+    "buildability": "Builds are triggered automatically on Git pushes; supports custom build commands, environment variables, and build plugins; integrates with various static site generators and frameworks.",
+    "main_blocker": "Limited to static or serverless architectures; dynamic server-side rendering requires serverless functions or external services, which may increase complexity.",
+    "evidence": [
+        "https://docs.netlify.com/",
+        "https://docs.netlify.com/api/overview/",
+        "https://docs.netlify.com/api/graphql/",
+        "https://docs.netlify.com/configure-builds/build-plugins/"
+    ]
+}

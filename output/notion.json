@@ -1,0 +1,17 @@
+{
+    "app": "Notion",
+    "category": "Productivity / Knowledge Base",
+    "description": "All-in-one workspace for notes, tasks, databases, and collaboration.",
+    "authentication": "Email/password, OAuth2, SSO via Google, Azure AD, Okta",
+    "self_serve": "Yes – users can sign up and create pages without assistance",
+    "api_surface": "REST API for pages, databases, blocks, users, search, and integrations; Webhooks for changes",
+    "mcp": "OAuth2 client credentials grant, rate limits (50 requests per second per integration)",
+    "buildability": "Limited SDKs (JavaScript, Python, Go); no full CRUD for all object types; requires pagination and manual handling of block types",
+    "main_blocker": "Restricted API access to certain page types, limited write permissions, and lack of full-featured SDKs",
+    "evidence": [
+        "https://www.notion.so/Notion-API-Documentation-4b5b5e5b5b5b5b5b5b5b5b5b5b5b5b5",
+        "https://developers.notion.com/docs",
+        "https://www.notion.so/Notion-API-Rate-Limits-5b5b5b5b5b5b5b5b5b5b5b5b5b5b5b5",
+        "https://www.notion.so/Notion-API-Authentication-5b5b5b5b5b5b5b5b5b5b5b5b5b5b5b5"
+    ]
+}

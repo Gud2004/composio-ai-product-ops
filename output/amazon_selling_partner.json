@@ -1,0 +1,24 @@
+{
+    "app": "Amazon Selling Partner API",
+    "category": "E-commerce / Marketplace Integration",
+    "description": "Amazon Selling Partner API (SP‑API) provides programmatic access to Amazon seller services, enabling sellers to manage listings, orders, inventory, reports, feeds, and more through a unified set of RESTful endpoints.",
+    "authentication": "OAuth 2.0 (Login with Amazon) for access tokens combined with AWS Signature Version 4 (SigV4) signing for request authentication.",
+    "self_serve": "Yes – sellers can register an LWA application in Seller Central, obtain a client ID/secret, and generate a refresh token to access the API without external assistance.",
+    "api_surface": "Comprehensive API surface including:\n- Listings Items API\n- Orders API\n- Feeds API\n- Reports API\n- Catalog Items API\n- Finances API\n- Merchant Fulfillment API\n- Product Pricing API\n- Inventory API\n- Shipment API\n- etc.",
+    "mcp": "Unknown",
+    "buildability": "High – well‑documented, SDKs available in multiple languages, clear versioning, and sandbox environment for testing.",
+    "main_blocker": "Complex authentication flow (OAuth 2.0 + SigV4), strict rate limits, and requirement to register and maintain LWA credentials can pose challenges for developers.",
+    "evidence": [
+        "https://developer.amazon.com/docs/selling-partner-api/overview.html",
+        "https://developer.amazon.com/docs/selling-partner-api/authentication.html",
+        "https://developer.amazon.com/docs/selling-partner-api/quick-start.html",
+        "https://developer.amazon.com/docs/selling-partner-api/api-reference.html",
+        "https://developer.amazon.com/docs/selling-partner-api/marketplace-ids.html",
+        "https://developer.amazon.com/docs/selling-partner-api/authorization.html#authentication",
+        "https://developer.amazon.com/docs/selling-partner-api/authorization.html#oauth",
+        "https://developer.amazon.com/docs/selling-partner-api/authorization.html#sigv4",
+        "https://developer.amazon.com/docs/selling-partner-api/quick-start.html#registering-your-application",
+        "https://developer.amazon.com/docs/selling-partner-api/quick-start.html#generating-refresh-token",
+        "https://developer.amazon.com/docs/selling-partner-api/quick-start.html#rate-limits"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "app": "Salesforce",
+    "category": "CRM / Cloud Platform",
+    "description": "Cloud-based customer relationship management platform that provides sales, service, marketing, and analytics solutions.",
+    "authentication": "OAuth 2.0, SAML, JWT, and username/password flow.",
+    "self_serve": "Yes (free Developer Edition and trial available).",
+    "api_surface": "REST API, SOAP API, Bulk API, Streaming API, Metadata API, Tooling API, Apex REST, and more.",
+    "mcp": "Unknown",
+    "buildability": "High – supports custom development via Lightning, Apex, Visualforce, and third‑party integrations.",
+    "main_blocker": "High cost and complex licensing model.",
+    "evidence": [
+        "https://www.salesforce.com/products/platform/overview/",
+        "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_understanding_authentication.htm",
+        "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/intro_api.htm",
+        "https://developer.salesforce.com/docs/atlas.en-us.api_bulk.meta/api_bulk/intro_bulk_api.htm",
+        "https://developer.salesforce.com/docs/atlas.en-us.api_streaming.meta/api_streaming/intro_streaming_api.htm",
+        "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/intro_metadata_api.htm",
+        "https://developer.salesforce.com/docs/atlas.en-us.api_tooling.meta/api_tooling/intro_tooling_api.htm",
+        "https://appexchange.salesforce.com/",
+        "https://developer.salesforce.com/signup"
+    ]
+}

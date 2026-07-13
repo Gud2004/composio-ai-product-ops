@@ -1,0 +1,18 @@
+{
+    "app": "DataForSEO",
+    "category": "SEO data provider",
+    "description": "DataForSEO provides a suite of RESTful APIs delivering SEO data such as SERP rankings, keyword suggestions, backlink profiles, and more, enabling developers and marketers to integrate real-time search engine insights into their applications.",
+    "authentication": "API key and secret passed via HTTP headers (X-API-KEY and X-API-SECRET) or query parameters.",
+    "self_serve": "Yes – developers can sign up for an API key and access the full suite of endpoints without a dedicated sales representative.",
+    "api_surface": "RESTful JSON APIs covering SERP, Keyword, Backlinks, Domain, Competitor, Rank Tracking, and more, with batch request support and pagination.",
+    "mcp": "Unknown",
+    "buildability": "High – comprehensive documentation, example code snippets, SDKs in multiple languages, and clear error handling.",
+    "main_blocker": "Strict rate limits and high cost for large data volumes can hinder large-scale integrations.",
+    "evidence": [
+        "https://docs.dataforseo.com/",
+        "https://docs.dataforseo.com/v3/authentication/",
+        "https://docs.dataforseo.com/v3/serp/",
+        "https://dataforseo.com/pricing/",
+        "https://dataforseo.com/"
+    ]
+}

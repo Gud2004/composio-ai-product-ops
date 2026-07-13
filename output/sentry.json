@@ -1,0 +1,18 @@
+{
+    "app": "Sentry",
+    "category": "Error Monitoring & Performance",
+    "description": "Sentry is a SaaS platform that provides real‑time error tracking, performance monitoring, and release management for software applications, enabling developers to detect, triage, and resolve issues quickly.",
+    "authentication": "Supports OAuth 2.0, API keys, and Sentry’s own session-based authentication for web UI. API requests require a personal or organization API key passed in the Authorization header.",
+    "self_serve": "Users can sign up for a free tier, create projects, and configure integrations directly through the web UI. On‑boarding is fully self‑serve with guided setup and documentation.",
+    "api_surface": "REST API for events, issues, releases, and project configuration; GraphQL API for advanced queries; SDKs for multiple languages that send events to the API. API rate limits and pagination are documented.",
+    "mcp": "Sentry’s API is versioned; the current stable version is v7. The API surface is documented in the official REST and GraphQL references.",
+    "buildability": "SDKs are available for JavaScript, Python, Java, .NET, Ruby, Go, and many other languages, allowing easy integration into build pipelines. CI/CD integrations (GitHub Actions, GitLab CI, Jenkins) are supported via plugins and webhooks.",
+    "main_blocker": "None identified; Sentry’s documentation and SDKs are comprehensive and up‑to‑date.",
+    "evidence": [
+        "https://docs.sentry.io/",
+        "https://docs.sentry.io/api/",
+        "https://docs.sentry.io/api/graphql/",
+        "https://docs.sentry.io/platforms/",
+        "https://docs.sentry.io/learn/quickstart/"
+    ]
+}

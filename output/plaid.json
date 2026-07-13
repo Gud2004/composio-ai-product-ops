@@ -1,0 +1,17 @@
+{
+    "app": "Plaid",
+    "category": "Financial Services API",
+    "description": "Plaid provides a suite of APIs that enable developers to connect user bank accounts, retrieve transaction data, verify balances, and perform identity verification for fintech applications.",
+    "authentication": "API key-based authentication using public and secret keys; supports OAuth for certain flows.",
+    "self_serve": "Yes – developers can sign up, obtain API keys, and access sandbox environments directly from the Plaid dashboard.",
+    "api_surface": "Extensive RESTful API with endpoints for Accounts, Auth, Balance, Identity, Income, Investments, Liabilities, Payments, Transactions, and more. Supports webhooks for real-time updates.",
+    "mcp": "Marketplace/Partner integrations are available through Plaid’s Partner Program, allowing third‑party services to integrate with Plaid’s data streams.",
+    "buildability": "High – comprehensive SDKs (JavaScript, Python, Ruby, Java, Go, .NET), detailed documentation, sandbox testing, and quickstart guides.",
+    "main_blocker": "Regulatory compliance and KYC/AML requirements can delay onboarding; also requires handling sensitive financial data securely.",
+    "evidence": [
+        "https://plaid.com/docs/",
+        "https://plaid.com/docs/api/",
+        "https://plaid.com/docs/sandbox/",
+        "https://plaid.com/docs/partner-program/"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "app": "Podio",
+    "category": "Collaboration / Project Management SaaS",
+    "description": "Podio is a flexible work management platform that allows teams to create custom apps, workflows, and dashboards using a drag‑and‑drop interface. It integrates with many services and supports automation.",
+    "authentication": "OAuth 2.0 (API key for server‑to‑server)",
+    "self_serve": "Yes – users can sign up for a free trial via the Podio website.",
+    "api_surface": "RESTful API (v2) with JSON payloads; endpoints for apps, items, users, files, webhooks, etc.; SDKs available for PHP, Ruby, Python, Java, Node.js.",
+    "mcp": "Unknown",
+    "buildability": "High – comprehensive SDKs, extensive API documentation, and webhooks enable rapid integration.",
+    "main_blocker": "Rate limiting (1000 requests/min per app) and limited real‑time event support compared to newer platforms.",
+    "evidence": [
+        "https://podio.com/",
+        "https://developers.podio.com/",
+        "https://developers.podio.com/doc/authentication",
+        "https://developers.podio.com/doc/rate-limits",
+        "https://developers.podio.com/doc/webhooks",
+        "https://developers.podio.com/sdk"
+    ]
+}

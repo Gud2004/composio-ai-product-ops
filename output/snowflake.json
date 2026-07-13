@@ -1,0 +1,17 @@
+{
+    "app": "Snowflake",
+    "category": "Cloud Data Warehouse",
+    "description": "Snowflake is a cloud-based data warehousing platform that provides scalable storage, compute, and services for data analytics, data sharing, and data lakehouse workloads.",
+    "authentication": "Supports multiple authentication methods including username/password, OAuth, SAML 2.0 SSO, key pair authentication, and external OAuth providers.",
+    "self_serve": "Yes, users can provision warehouses, databases, and roles through the web UI, CLI, and REST APIs without requiring IT intervention.",
+    "api_surface": "Extensive API surface including the Snowflake REST API for account and resource management, SnowSQL command-line client, JDBC/ODBC drivers, Python/Node.js/Java connectors, and support for Snowpark for multiple languages.",
+    "mcp": "Snowflake is a multi-cloud platform that runs on AWS, Azure, and Google Cloud, allowing customers to deploy and operate workloads across multiple cloud providers.",
+    "buildability": "Unknown",
+    "main_blocker": "Unknown",
+    "evidence": [
+        "https://docs.snowflake.com/en/",
+        "https://docs.snowflake.com/en/user-guide/identity-authentication.html",
+        "https://docs.snowflake.com/en/user-guide/cli.html",
+        "https://docs.snowflake.com/en/user-guide/multi-cloud.html"
+    ]
+}

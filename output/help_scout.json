@@ -1,0 +1,18 @@
+{
+    "app": "Help Scout",
+    "category": "Customer Support / Help Desk",
+    "description": "Help Scout is a help desk software that helps teams manage customer support, with a focus on a simple, inbox-based interface.",
+    "authentication": "OAuth 2.0 (client credentials and authorization code flows).",
+    "self_serve": "Yes (free trial available).",
+    "api_surface": "REST API with endpoints for tickets, contacts, conversations, etc.",
+    "mcp": "Unknown",
+    "buildability": "High (official SDKs available for Ruby, Node.js, Python, PHP, etc.)",
+    "main_blocker": "Rate limiting (100 requests per minute) and limited API coverage for some features.",
+    "evidence": [
+        "https://developer.hyperscout.com/docs",
+        "https://developer.hyperscout.com/docs/authentication",
+        "https://developer.hyperscout.com/docs/rate-limits",
+        "https://www.helpscout.com/try/",
+        "https://developer.hyperscout.com/docs/sdk"
+    ]
+}

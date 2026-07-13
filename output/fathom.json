@@ -1,0 +1,17 @@
+{
+    "app": "Fathom",
+    "category": "Analytics",
+    "description": "Fathom is a privacy‑first web analytics platform that provides real‑time insights without using cookies or personal data. It offers a clean dashboard, event tracking, and GDPR‑compliant reporting.",
+    "authentication": "API key authentication for the REST API; email/password for the web app.",
+    "self_serve": true,
+    "api_surface": "REST API with endpoints for retrieving site statistics, event data, and visitor information. API keys are required for authentication.",
+    "mcp": "Unknown",
+    "buildability": "High – provides a JavaScript snippet, SDKs for multiple languages, and a comprehensive REST API for integration.",
+    "main_blocker": "Limited API surface: no raw data export or advanced segmentation; relies on the web dashboard for detailed analysis.",
+    "evidence": [
+        "https://help.fathom.co/",
+        "https://developer.fathom.co/",
+        "https://fathom.co/pricing",
+        "https://fathom.co/docs"
+    ]
+}

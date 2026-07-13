@@ -1,0 +1,101 @@
+category,app,website
+CRM,Salesforce,https://salesforce.com
+CRM,HubSpot,https://hubspot.com
+CRM,Pipedrive,https://pipedrive.com
+CRM,Attio,https://attio.com
+CRM,Twenty,https://twenty.com
+CRM,Podio,https://podio.com
+CRM,Zoho CRM,https://zoho.com/crm
+CRM,Close,https://close.com
+CRM,Copper,https://copper.com
+CRM,DealCloud,https://api.docs.dealcloud.com
+Support,Zendesk,https://zendesk.com
+Support,Intercom,https://intercom.com
+Support,Freshdesk,https://freshdesk.com
+Support,Front,https://front.com
+Support,Pylon,https://usepylon.com
+Support,LiveAgent,https://liveagent.com
+Support,Plain,https://plain.com
+Support,Help Scout,https://helpscout.com
+Support,Gorgias,https://gorgias.com
+Support,Gladly,https://gladly.com
+Communication,Slack,https://slack.com
+Communication,Twilio,https://twilio.com
+Communication,Zoho Cliq,https://zoho.com/cliq
+Communication,Lark,https://open.larksuite.com
+Communication,Pumble,https://pumble.com
+Communication,Discord,https://discord.com
+Communication,Telegram,https://core.telegram.org
+Communication,WhatsApp Business,https://developers.facebook.com/docs/whatsapp
+Communication,Aircall,https://aircall.io
+Communication,Vonage,https://developer.vonage.com
+Marketing,Google Ads,https://developers.google.com/google-ads
+Marketing,Meta Ads,https://developers.facebook.com/docs/marketing-apis
+Marketing,LinkedIn Ads,https://learn.microsoft.com/linkedin/marketing
+Marketing,GoHighLevel,https://highlevel.stoplight.io
+Marketing,Mailchimp,https://mailchimp.com/developer
+Marketing,Klaviyo,https://developers.klaviyo.com
+Marketing,systeme.io,https://systeme.io
+Marketing,Pinterest,https://developers.pinterest.com
+Marketing,Threads (Meta),https://developers.facebook.com/docs/threads
+Marketing,SendGrid,https://sendgrid.com
+Ecommerce,Shopify,https://shopify.dev
+Ecommerce,WooCommerce,https://woocommerce.com/document/woocommerce-rest-api
+Ecommerce,BigCommerce,https://developer.bigcommerce.com
+Ecommerce,Salesforce Commerce Cloud,https://developer.salesforce.com/docs/commerce
+Ecommerce,Magento (Adobe Commerce),https://developer.adobe.com/commerce
+Ecommerce,Squarespace,https://developers.squarespace.com
+Ecommerce,Ecwid,https://api-docs.ecwid.com
+Ecommerce,Gumroad,https://gumroad.com/api
+Ecommerce,Amazon Selling Partner,https://developer-docs.amazon.com/sp-api
+Ecommerce,fanbasis,https://fanbasis.com
+Data & SEO,DataForSEO,https://docs.dataforseo.com
+Data & SEO,SE Ranking,https://seranking.com/api
+Data & SEO,Ahrefs,https://ahrefs.com/api
+Data & SEO,MrScraper,https://docs.mrscraper.com
+Data & SEO,Apify,https://docs.apify.com
+Data & SEO,Firecrawl,https://firecrawl.dev
+Data & SEO,Bright Data,https://brightdata.com
+Data & SEO,Sherlock,https://github.com/sherlock-project/sherlock
+Data & SEO,Waterfall.io,https://waterfall.io
+Data & SEO,Clay,https://clay.com
+Developer,GitHub,https://docs.github.com/rest
+Developer,Vercel,https://vercel.com/docs/rest-api
+Developer,Netlify,https://docs.netlify.com/api
+Developer,Cloudflare,https://developers.cloudflare.com/api
+Developer,Supabase,https://supabase.com/docs
+Developer,Neo4j,https://neo4j.com/docs/api
+Developer,Snowflake,https://docs.snowflake.com
+Developer,MongoDB Atlas,https://mongodb.com/docs/atlas/api
+Developer,Datadog,https://docs.datadoghq.com/api
+Developer,Sentry,https://docs.sentry.io/api
+Productivity,Notion,https://developers.notion.com
+Productivity,Airtable,https://airtable.com/developers
+Productivity,Linear,https://developers.linear.app
+Productivity,Jira,https://developer.atlassian.com
+Productivity,Asana,https://developers.asana.com
+Productivity,Monday.com,https://developer.monday.com
+Productivity,ClickUp,https://clickup.com/api
+Productivity,Coda,https://coda.io/developers
+Productivity,Smartsheet,https://smartsheet.com/developers
+Productivity,Harvest,https://help.getharvest.com/api-v2
+Finance,Stripe,https://stripe.com/docs/api
+Finance,Plaid,https://plaid.com/docs
+Finance,Binance,https://binance-docs.github.io
+Finance,Paygent Connect,https://www.paygent.co.jp
+Finance,iPayX,https://ipayx.ai/docs
+Finance,QuickBooks,https://developer.intuit.com
+Finance,Xero,https://developer.xero.com
+Finance,Brex,https://developer.brex.com
+Finance,Ramp,https://docs.ramp.com
+Finance,PitchBook,https://pitchbook.com
+AI,NotebookLM,https://cloud.google.com/gemini
+AI,Otter AI,https://help.otter.ai
+AI,Fathom,https://fathom.video
+AI,Consensus,https://consensus.app
+AI,Reducto,https://reducto.ai
+AI,Devin,https://docs.devin.ai
+AI,higgsfield,https://higgsfield.ai/cli
+AI,Mermaid CLI,https://github.com/mermaid-js/mermaid-cli
+AI,YouTube Transcript,https://transcriptapi.com
+AI,Grain,https://grain.com

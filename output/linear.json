@@ -1,0 +1,19 @@
+{
+    "app": "Linear",
+    "category": "Project Management / Issue Tracking",
+    "description": "Linear is a fast, lightweight issue tracking and project management tool designed for software teams, offering streamlined workflows, integrations, and a focus on speed and usability.",
+    "authentication": "OAuth 2.0 (client credentials grant) and API key authentication for REST endpoints; supports JWT for webhooks",
+    "self_serve": "Yes – users can sign up for a free tier directly on the website and upgrade via the in-app billing interface",
+    "api_surface": "REST API with endpoints for issues, projects, teams, users, sprints, and webhooks; GraphQL API available for advanced queries",
+    "mcp": "No – Linear does not provide a managed cloud platform for hosting; it is a SaaS service hosted by Linear itself",
+    "buildability": "Linear offers SDKs for JavaScript/TypeScript and a command-line interface for automating issue creation and updates; supports CI/CD integrations via webhooks and API",
+    "main_blocker": "Limited support for custom fields and complex workflow automation compared to larger competitors",
+    "evidence": [
+        "https://linear.app/docs",
+        "https://linear.app/docs/api",
+        "https://linear.app/docs/authentication",
+        "https://linear.app/docs/webhooks",
+        "https://linear.app/docs/sdk",
+        "https://linear.app/pricing"
+    ]
+}

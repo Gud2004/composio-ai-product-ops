@@ -1,0 +1,18 @@
+{
+    "app": "Apify",
+    "category": "Web Scraping & Automation Platform",
+    "description": "Apify is a cloud-based SaaS platform that enables users to build, run, and scale web automation and web scraping tasks using actors, which are reusable scripts or workflows. It provides a visual actor editor, a task scheduler, and integration with various data storage and processing services.",
+    "authentication": "API key authentication for programmatic access; OAuth2 support for third‑party integrations.",
+    "self_serve": "Yes – users can sign up, create actors, and run tasks directly from the Apify console without requiring a dedicated account manager.",
+    "api_surface": "RESTful API for managing actors, runs, datasets, and queues; JavaScript SDKs (Node.js, Python) and a GraphQL endpoint for advanced queries.",
+    "mcp": "Unknown",
+    "buildability": "High – users can develop actors in JavaScript or Python, use the visual editor, and deploy directly to Apify’s managed infrastructure.",
+    "main_blocker": "Unknown",
+    "evidence": [
+        "https://docs.apify.com/",
+        "https://apify.com/docs",
+        "https://apify.com/docs/api-reference",
+        "https://apify.com/docs/actors",
+        "https://apify.com/docs/authentication"
+    ]
+}

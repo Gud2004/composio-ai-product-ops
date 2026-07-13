@@ -1,0 +1,18 @@
+{
+    "app": "Xero",
+    "category": "Accounting",
+    "description": "Xero is a cloud-based accounting software designed for small and medium-sized businesses, offering invoicing, bank reconciliation, inventory management, and financial reporting.",
+    "authentication": "OAuth 2.0 (client credentials and authorization code flows)",
+    "self_serve": "Yes – developers can register and obtain API keys via the Xero Developer portal",
+    "api_surface": "RESTful API with JSON payloads, supporting CRUD operations for contacts, invoices, payments, bank transactions, and more",
+    "mcp": "Xero App Marketplace (third‑party integrations can be listed and installed by users)",
+    "buildability": "High – comprehensive SDKs, extensive documentation, sandbox environment, and sample code available",
+    "main_blocker": "Rate limits (e.g., 100 requests per minute per app) and the requirement to use OAuth 2.0 can add complexity",
+    "evidence": [
+        "https://developer.xero.com/",
+        "https://developer.xero.com/documentation/overview",
+        "https://developer.xero.com/documentation/api/overview",
+        "https://developer.xero.com/documentation/authentication/oauth2",
+        "https://developer.xero.com/documentation/marketplace/overview"
+    ]
+}

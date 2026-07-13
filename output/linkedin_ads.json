@@ -1,0 +1,17 @@
+{
+    "app": "LinkedIn Ads",
+    "category": "Advertising",
+    "description": "LinkedIn Ads is a self‑serve advertising platform that allows businesses to create, manage, and optimize campaigns on LinkedIn. It is part of LinkedIn’s Marketing Developer Platform (MDP) and exposes a RESTful API for programmatic access to campaign, ad, and reporting data.",
+    "authentication": "OAuth 2.0 (Authorization Code Flow) with client credentials and refresh tokens",
+    "self_serve": "Yes – users can create and manage campaigns directly through the LinkedIn Ads UI without external tools",
+    "api_surface": "Campaign Management, Ad Management, Audience Targeting, Creative Management, Reporting & Analytics, Campaign Budgeting, Campaign Optimization, Audience Insights",
+    "mcp": "Marketing Developer Platform (MDP)",
+    "buildability": "High – well‑documented REST API with SDKs and extensive examples",
+    "main_blocker": "Access to the Ads API is gated; developers must apply for and receive approval from LinkedIn, and certain endpoints are restricted to approved partners",
+    "evidence": [
+        "https://docs.microsoft.com/en-us/linkedin/marketing/overview?view=li-lms-2022-01",
+        "https://docs.microsoft.com/en-us/linkedin/shared/authentication/authorization-code-flow",
+        "https://docs.microsoft.com/en-us/linkedin/marketing/ads-api",
+        "https://docs.microsoft.com/en-us/linkedin/marketing/ads-api/overview"
+    ]
+}

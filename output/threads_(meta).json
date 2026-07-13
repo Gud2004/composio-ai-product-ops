@@ -1,0 +1,15 @@
+{
+    "app": "Threads",
+    "category": "Messaging",
+    "description": "Threads is a messaging app by Meta that allows users to send text, photos, and videos to friends and groups.",
+    "authentication": "Meta account login via OAuth",
+    "self_serve": "Unknown",
+    "api_surface": "Unknown",
+    "mcp": "Unknown",
+    "buildability": "Unknown",
+    "main_blocker": "Unknown",
+    "evidence": [
+        "https://www.meta.com/threads/",
+        "https://www.meta.com/help/threads/"
+    ]
+}

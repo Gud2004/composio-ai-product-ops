@@ -1,0 +1,19 @@
+{
+    "app": "Brex",
+    "category": "Financial Services / Corporate Credit Card",
+    "description": "Brex is a SaaS platform that provides corporate credit cards, expense management, and financial tools tailored for startups and tech companies. It offers integrated expense tracking, automated receipt capture, and real‑time spend analytics.",
+    "authentication": "OAuth 2.0 (client credentials grant) for API access; API keys for legacy endpoints. Users authenticate via Brex web portal or mobile app using email/password or single sign‑on (SAML).",
+    "self_serve": "Yes – users can sign up for a Brex account, request a corporate card, and manage expenses directly through the web portal or mobile app without requiring sales intervention.",
+    "api_surface": "Brex exposes a RESTful API for card issuance, transaction retrieval, and expense reporting. Endpoints include /cards, /transactions, /expenses, and /reimbursements. The API supports pagination, filtering, and webhook notifications for real‑time updates.",
+    "mcp": "The primary integration point is the Brex API, which allows external systems to programmatically create cards, fetch transaction data, and submit expense reports. Webhooks provide event‑driven updates for card activity and expense status changes.",
+    "buildability": "High – the API is well‑documented with clear authentication, request/response schemas, and example payloads. SDKs are available in multiple languages (Python, Node.js, Java). Rate limits are moderate and can be adjusted via support. The platform supports CI/CD integration for automated card provisioning and expense reconciliation.",
+    "main_blocker": "Limited public documentation on advanced features such as custom card limits, multi‑currency support, and detailed audit logs. Some endpoints require elevated permissions or are only available to enterprise customers, which may restrict full functionality for smaller teams.",
+    "evidence": [
+        "https://developer.brex.com/docs",
+        "https://brex.com/",
+        "https://developer.brex.com/docs/authentication",
+        "https://developer.brex.com/docs/api-reference/cards",
+        "https://developer.brex.com/docs/api-reference/transactions",
+        "https://developer.brex.com/docs/webhooks"
+    ]
+}

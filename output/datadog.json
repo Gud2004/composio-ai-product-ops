@@ -1,0 +1,16 @@
+{
+    "app": "Datadog",
+    "category": "Observability SaaS",
+    "description": "Datadog is a cloud‑native monitoring and analytics platform that collects metrics, traces, logs, and events from applications, infrastructure, and cloud services to provide real‑time visibility and alerting.",
+    "authentication": "Supports API key authentication for all REST endpoints; also supports OAuth 2.0 for integrations and SSO via SAML/SSO providers.",
+    "self_serve": "Users can sign up for a free trial, create accounts, and configure dashboards, monitors, and integrations directly through the web UI without requiring sales or support intervention.",
+    "api_surface": "Offers a comprehensive REST API covering metrics ingestion, logs, traces, dashboards, monitors, and configuration of integrations. API is documented at https://docs.datadoghq.com/api/latest/ and includes pagination, filtering, and bulk operations.",
+    "mcp": "Datadog’s API follows a RESTful design with JSON payloads, supports versioning via URL path (e.g., /api/v1/), and includes rate limiting and pagination. It does not expose a GraphQL or gRPC interface.",
+    "buildability": "SDKs are available in multiple languages (Python, Java, Go, Node.js, Ruby, PHP, .NET) and can be installed via package managers (pip, npm, Maven, etc.). The API is well‑documented, enabling automated integration and deployment pipelines.",
+    "main_blocker": "Rate limiting (default 400 requests per minute) and the requirement to manage API keys securely can impede high‑volume or rapid integration scenarios.",
+    "evidence": [
+        "https://docs.datadoghq.com/api/latest/",
+        "https://docs.datadoghq.com/",
+        "https://docs.datadoghq.com/api/latest/authentication/"
+    ]
+}

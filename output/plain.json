@@ -1,0 +1,15 @@
+{
+    "app": "Plain",
+    "category": "Note-taking / Knowledge Base",
+    "description": "Plain is a simple, minimalistic note-taking app designed for teams and individuals.",
+    "authentication": "Unknown",
+    "self_serve": "Unknown",
+    "api_surface": "Unknown",
+    "mcp": "Unknown",
+    "buildability": "Unknown",
+    "main_blocker": "Unknown",
+    "evidence": [
+        "https://plain.com",
+        "https://docs.plain.com"
+    ]
+}
