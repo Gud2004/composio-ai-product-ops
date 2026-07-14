@@ -5,4 +5,4 @@ beautifulsoup4
 lxml
 python-dotenv
 jinja2
-tqdm
+tqdmpython 

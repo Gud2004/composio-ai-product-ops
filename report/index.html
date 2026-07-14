@@ -1,111 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>AI Product Ops Research Agent | Composio Assignment</title>
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>
+
+AI Product Operations Research Agent | Composio Assignment
+
+</title>
 
 <style>
 
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial,Helvetica,sans-serif;
+
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+
+}
+
+html{
+
+scroll-behavior:smooth;
+
 }
 
 body{
-    background:#f4f6fa;
-    color:#222;
-    line-height:1.6;
+
+background:#f4f7fb;
+color:#222;
+line-height:1.7;
+
 }
 
 .container{
-    width:90%;
-    max-width:1200px;
-    margin:auto;
-    padding:40px 0;
+
+width:90%;
+max-width:1200px;
+margin:auto;
+padding:40px 0;
+
 }
 
 header{
-    text-align:center;
-    padding:50px;
-    background:#2563eb;
-    color:white;
-    border-radius:12px;
+
+background:linear-gradient(135deg,#2563eb,#1d4ed8);
+
+color:white;
+
+padding:70px 40px;
+
+border-radius:18px;
+
+text-align:center;
+
+box-shadow:0 10px 25px rgba(0,0,0,.15);
+
 }
 
 header h1{
-    font-size:38px;
+
+font-size:44px;
+
+margin-bottom:15px;
+
 }
 
 header p{
-    margin-top:15px;
-    font-size:18px;
+
+font-size:18px;
+
+margin-top:10px;
+
+}
+
+.badge{
+
+display:inline-block;
+
+margin-top:25px;
+
+background:white;
+
+color:#2563eb;
+
+padding:12px 24px;
+
+font-weight:bold;
+
+border-radius:40px;
+
 }
 
 section{
-    margin-top:35px;
-    background:white;
-    padding:25px;
-    border-radius:10px;
-    box-shadow:0 2px 8px rgba(0,0,0,.1);
-}
 
-h2{
-    color:#2563eb;
-    margin-bottom:15px;
-}
+margin-top:35px;
 
-table{
-    width:100%;
-    border-collapse:collapse;
-    margin-top:15px;
-}
+background:white;
 
-table th{
-    background:#2563eb;
-    color:white;
-    padding:12px;
-}
+padding:30px;
 
-table td{
-    padding:10px;
-    border:1px solid #ddd;
-}
-table tr:nth-child(even){
-    background:#f8fafc;
-}
+border-radius:15px;
 
-table tr:hover{
-    background:#eef4ff;
-}
+box-shadow:0 5px 15px rgba(0,0,0,.08);
 
-section{
-    transition:0.2s;
+transition:.25s;
+
 }
 
 section:hover{
-    transform:translateY(-2px);
+
+transform:translateY(-3px);
+
+}
+
+h2{
+
+color:#2563eb;
+
+margin-bottom:18px;
+
+}
+
+h3{
+
+margin-top:25px;
+
+margin-bottom:12px;
+
+color:#1d4ed8;
+
+}
+
+.cards{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+gap:20px;
+
+margin-top:25px;
+
+}
+
+.card{
+
+background:white;
+
+padding:25px;
+
+text-align:center;
+
+border-radius:12px;
+
+box-shadow:0 4px 12px rgba(0,0,0,.08);
+
+}
+
+.card h3{
+
+font-size:32px;
+
+color:#2563eb;
+
+margin-bottom:10px;
+
+}
+
+.card p{
+
+color:#555;
+
+}
+
+table{
+
+width:100%;
+
+border-collapse:collapse;
+
+margin-top:20px;
+
+}
+
+table th{
+
+background:#2563eb;
+
+color:white;
+
+padding:14px;
+
+}
+
+table td{
+
+border:1px solid #ddd;
+
+padding:12px;
+
+}
+
+table tr:nth-child(even){
+
+background:#f8fafc;
+
+}
+
+table tr:hover{
+
+background:#eef4ff;
+
+}
+
+ul{
+
+padding-left:25px;
+
+}
+
+li{
+
+margin:10px 0;
+
 }
 
 .code{
-    background:#111827;
-    color:#fff;
-    padding:20px;
-    border-radius:8px;
-    overflow:auto;
-    white-space:pre-wrap;
+
+background:#111827;
+
+color:white;
+
+padding:22px;
+
+border-radius:10px;
+
+white-space:pre-wrap;
+
+font-family:Consolas,monospace;
+
+overflow:auto;
+
+}
+
+img{
+
+width:100%;
+
+border-radius:10px;
+
+margin-top:15px;
+
+border:1px solid #ddd;
+
+box-shadow:0 4px 12px rgba(0,0,0,.15);
+
 }
 
 footer{
-    text-align:center;
-    margin:40px 0;
-    color:#666;
+
+text-align:center;
+
+margin:60px 0;
+
+color:#666;
+
+}
+
+a{
+
+color:#2563eb;
+
+text-decoration:none;
+
+}
+
+a:hover{
+
+text-decoration:underline;
+
 }
 
 </style>
+
 </head>
 
 <body>
@@ -114,154 +298,295 @@ footer{
 
 <header>
 
-<h1>AI Product Operations Research Agent</h1>
+<h1>
+
+AI Product Operations Research Agent
+
+</h1>
 
 <p>
-Composio AI Product Ops Internship Assignment
+
+Composio AI Product Operations Internship Assignment
+
 </p>
 
 <p>
-Automated SaaS Research Pipeline for 100 Applications
+
+Automated Research Pipeline for 100 SaaS Applications
+
 </p>
+
+<div class="badge">
+
+100 Applications • AI Powered • Automated Pipeline
+
+</div>
 
 </header>
-<section>
-
-<h2>Project Dashboard</h2>
-
-<table>
-
-<tr>
-<th>Total Apps</th>
-<th>Research Agent</th>
-<th>Output Format</th>
-<th>Verification</th>
-</tr>
-
-<tr>
-<td><h2>100</h2></td>
-<td><h2>Gemini AI</h2></td>
-<td><h2>JSON</h2></td>
-<td><h2>Official Docs</h2></td>
-</tr>
-
-</table>
-
-</section>
 
 <section>
 
-<h2>Executive Summary</h2>
+<h2>
+
+Project Dashboard
+
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>100</h3>
 
 <p>
 
-This project automates the research of SaaS applications by collecting structured information about authentication methods, API availability, self-service onboarding, Model Context Protocol (MCP) support, developer experience, and integration feasibility.
+Applications Researched
+
 </p>
+
+</div>
+
+<div class="card">
+
+<h3>100%</h3>
+
 <p>
-The solution is designed as a reusable research pipeline that reads application names from a CSV file, queries an LLM, validates structured JSON output, stores individual reports, and prepares data for further analysis and verification.
+
+Successful Pipeline Execution
 
 </p>
+
+</div>
+
+<div class="card">
+
+<h3>JSON</h3>
+
 <p>
 
-The pipeline supports resumable execution, allowing interrupted runs to continue without repeating completed research.
+Structured Machine Readable Reports
 
 </p>
 
-</section>
+</div>
 
-<section>
+<div class="card">
 
-<h2>Assignment Goals</h2>
+<h3>
 
-<ul>
+OpenRouter API
 
-<li>Research 100 SaaS applications</li>
+</h3>
 
-<li>Collect structured metadata</li>
+<p>
 
-<li>Generate machine-readable JSON</li>
+LLM-powered Research Agent
 
-<li>Support resumable execution</li>
+</p>
 
-<li>Analyze ecosystem-wide patterns</li>
-
-<li>Verify findings against official documentation</li>
-
-</ul>
-
-</section>
-
-<section>
-
-<h2>Pipeline Architecture</h2>
-
-<div class="code">
-
-apps.csv
-      │
-      ▼
-main.py
-      │
-      ▼
-research_agent.py
-      │
-      ▼
-Gemini API
-      │
-      ▼
-JSON Reports
-      │
-      ▼
-Analysis
-      │
-      ▼
-Verification
-      │
-      ▼
-HTML Case Study
+</div>
 
 </div>
 
 </section>
 <section>
 
-<h2>Research Methodology</h2>
+<h2>
+
+Executive Summary
+
+</h2>
+
+<p>
+
+This project automates large-scale SaaS application research by building a reusable AI-powered research pipeline. The system researches 100 applications and extracts authentication methods, onboarding models, API surface, MCP availability, buildability, integration blockers, and supporting evidence using publicly available developer documentation.
+
+</p>
+
+<p>
+
+Instead of manually researching every application, the pipeline automatically generates structured JSON reports, validates responses, stores individual outputs, aggregates ecosystem-wide insights, and prepares the data for verification and analysis.
+
+</p>
+
+<p>
+
+The pipeline supports resumable execution, allowing interrupted runs to continue without repeating completed research, making it suitable for large-scale Product Operations workflows.
+
+</p>
+
+</section>
+
+<section>
+
+<h2>
+
+Assignment Objectives
+
+</h2>
+
+<ul>
+
+<li>Research 100 SaaS applications automatically.</li>
+
+<li>Collect authentication methods and onboarding requirements.</li>
+
+<li>Generate structured machine-readable JSON reports.</li>
+
+<li>Identify self-service versus enterprise-gated platforms.</li>
+
+<li>Evaluate toolkit buildability for AI agents.</li>
+
+<li>Collect official documentation links as evidence.</li>
+
+<li>Discover ecosystem-wide integration patterns.</li>
+
+<li>Validate representative samples through manual verification.</li>
+
+</ul>
+
+</section>
+
+<section>
+
+<h2>
+
+Pipeline Architecture
+
+</h2>
+
+<div class="code">
+
+apps.csv
+
+↓
+
+main.py
+
+↓
+
+research_agent.py
+
+↓
+
+OpenRouter API
+
+↓
+
+LLM
+
+↓
+
+Structured JSON Reports
+
+↓
+
+Pattern Analysis
+
+↓
+
+Human Verification
+
+↓
+
+Interactive HTML Case Study
+
+</div>
+
+</section>
+
+<section>
+
+<h2>
+
+Agent Design
+
+</h2>
+
+<p>
+
+The solution was implemented as a modular Python research agent rather than a one-off script. The pipeline reads application names from a CSV file, queries an LLM through OpenRouter, validates structured JSON responses, stores one report per application, aggregates ecosystem-wide findings, and supports resumable execution.
+
+</p>
+
+<p>
+
+Human effort was focused on verification instead of data collection. Representative applications were manually reviewed against official developer documentation to verify authentication methods, API availability, onboarding requirements, MCP support, and evidence URLs.
+
+</p>
+
+<p>
+
+The modular architecture makes it easy to replace the underlying LLM provider or extend the workflow with additional validation or browser-based research in future iterations.
+
+</p>
+
+</section>
+
+<section>
+
+<h2>
+
+Research Methodology
+
+</h2>
 
 <table>
 
 <tr>
+
 <th>Stage</th>
+
 <th>Description</th>
+
 </tr>
 
 <tr>
+
 <td>Input</td>
-<td>Read 100 SaaS applications from apps.csv</td>
+
+<td>Read 100 SaaS applications from <strong>apps.csv</strong>.</td>
+
 </tr>
 
 <tr>
+
 <td>Research</td>
-<td>Query Gemini API with a structured research prompt</td>
+
+<td>Generate structured application research using an LLM.</td>
+
 </tr>
 
 <tr>
+
 <td>Validation</td>
-<td>Ensure output follows the required JSON schema</td>
+
+<td>Ensure responses follow the required JSON schema before saving.</td>
+
 </tr>
 
 <tr>
+
 <td>Storage</td>
-<td>Save one JSON file per application</td>
+
+<td>Save one JSON report for every application.</td>
+
 </tr>
 
 <tr>
+
 <td>Analysis</td>
-<td>Aggregate authentication methods, API types, buildability and blockers</td>
+
+<td>Aggregate authentication methods, onboarding patterns, API types, and blockers.</td>
+
 </tr>
 
 <tr>
+
 <td>Verification</td>
-<td>Cross-check a sample of applications using official documentation</td>
+
+<td>Compare representative samples against official documentation.</td>
+
 </tr>
 
 </table>
@@ -269,111 +594,261 @@ HTML Case Study
 </section>
 <section>
 
-<h2>Key Findings</h2>
+<h2>
+
+Key Findings & Ecosystem Patterns
+
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>OAuth 2.0</h3>
+
+<p>
+
+OAuth 2.0 was the dominant authentication mechanism across modern SaaS applications.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>REST APIs</h3>
+
+<p>
+
+REST APIs were significantly more common than GraphQL, making integration easier for AI agents.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Self-Service</h3>
+
+<p>
+
+Developer-focused platforms generally allowed developers to create credentials without enterprise approval.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Enterprise Gating</h3>
+
+<p>
+
+Large enterprise platforms frequently required administrator approval, organization permissions, or paid plans.
+
+</p>
+
+</div>
+
+</div>
+
+<br>
+
+<h3>
+
+Observed Patterns
+
+</h3>
 
 <ul>
 
-<li>OAuth 2.0 was the dominant authentication mechanism across modern SaaS platforms.</li>
+<li>OAuth 2.0 was the most common authentication mechanism across CRM, productivity, communication, and marketing platforms.</li>
 
-<li>REST APIs were significantly more common than GraphQL APIs.</li>
+<li>REST APIs dominated the ecosystem, while GraphQL appeared only on selected developer platforms.</li>
 
-<li>Most developer-focused SaaS products offered self-service onboarding.</li>
+<li>Developer-first products generally supported self-service onboarding with immediate API access.</li>
 
-<li>Enterprise platforms frequently required administrator approval before integration.</li>
+<li>Enterprise software commonly required administrator approval before integrations could be deployed.</li>
 
-<li>API rate limiting was the most common integration challenge.</li>
+<li>API rate limits and permission scopes were the most frequent blockers for agent integrations.</li>
 
-<li>MCP support is still emerging and available for only a limited number of platforms.</li>
+<li>MCP support is still emerging and currently available for only a small subset of AI-native applications.</li>
+
+<li>Platforms with well-documented public APIs consistently received higher buildability ratings.</li>
 
 </ul>
 
 </section>
+
 <section>
 
-<h2>Sample Research Output</h2>
+<h2>
+
+Sample Research Output
+
+</h2>
+
+<p>
+
+Each researched application is converted into a structured JSON document containing authentication methods, onboarding model, API surface, MCP availability, buildability assessment, blockers, and evidence collected from official developer documentation.
+
+</p>
 
 <table>
 
 <tr>
+
 <th>Application</th>
+
 <th>Authentication</th>
+
 <th>Self Serve</th>
+
+<th>API Surface</th>
+
 <th>MCP</th>
+
 <th>Buildability</th>
+
 </tr>
 
 <tr>
+
 <td>Slack</td>
+
 <td>OAuth 2.0</td>
+
 <td>Yes</td>
-<td>Yes</td>
+
+<td>REST API</td>
+
+<td>Limited</td>
+
 <td>High</td>
+
 </tr>
 
 <tr>
+
 <td>GitHub</td>
+
 <td>OAuth + PAT</td>
+
 <td>Yes</td>
+
+<td>REST + GraphQL</td>
+
 <td>No</td>
+
 <td>High</td>
+
 </tr>
 
 <tr>
+
 <td>Stripe</td>
+
 <td>API Keys</td>
+
 <td>Yes</td>
+
+<td>REST API</td>
+
 <td>No</td>
+
 <td>High</td>
+
 </tr>
 
 <tr>
-<td>Salesforce</td>
-<td>OAuth 2.0</td>
+
+<td>Snowflake</td>
+
+<td>OAuth + Key Pair</td>
+
 <td>Trial</td>
+
+<td>REST + SQL API</td>
+
 <td>No</td>
-<td>High</td>
+
+<td>Medium</td>
+
 </tr>
 
 <tr>
-<td>Notion</td>
-<td>OAuth 2.0</td>
+
+<td>MongoDB Atlas</td>
+
+<td>API Keys</td>
+
 <td>Yes</td>
+
+<td>REST API</td>
+
 <td>No</td>
+
 <td>High</td>
+
+</tr>
+
+<tr>
+
+<td>Notion</td>
+
+<td>OAuth 2.0</td>
+
+<td>Yes</td>
+
+<td>REST API</td>
+
+<td>No</td>
+
+<td>High</td>
+
 </tr>
 
 </table>
 
 </section>
+
 <section>
 
-<h2>Verification Strategy</h2>
+<h2>
+
+Verification Strategy
+
+</h2>
 
 <p>
 
-To improve reliability, the generated research was compared against official developer documentation for a representative sample of applications.
+Accuracy was prioritized over speed throughout the project. AI-generated research was treated as the first pass and then validated against official developer documentation for a representative sample of applications.
 
-The verification focused on:
+</p>
+
+<p>
+
+The verification process focused on the most critical Product Operations attributes required for building reliable AI toolkits.
 
 </p>
 
 <ul>
 
-<li>Authentication mechanisms</li>
+<li>Authentication methods were verified using official authentication documentation.</li>
 
-<li>API availability</li>
+<li>REST / GraphQL API availability was confirmed using official developer portals.</li>
 
-<li>Developer onboarding process</li>
+<li>Self-service onboarding and enterprise gating requirements were validated.</li>
 
-<li>MCP availability</li>
+<li>MCP availability was checked wherever official documentation existed.</li>
 
-<li>Official documentation links</li>
+<li>Evidence URLs were reviewed to ensure they pointed to authoritative developer documentation.</li>
 
 </ul>
 
 <p>
 
-The pipeline was designed to support iterative verification and correction whenever discrepancies were identified.
+Combining automated research with targeted manual verification improved confidence in the generated dataset while maintaining scalability.
 
 </p>
 
@@ -381,69 +856,188 @@ The pipeline was designed to support iterative verification and correction whene
 
 <section>
 
-<h2>Verification Results</h2>
+<h2>
+
+Verification Results
+
+</h2>
 
 <table>
 
 <tr>
+
 <th>Application</th>
-<th>LLM Output</th>
-<th>Official Docs</th>
+
+<th>Verified Attributes</th>
+
+<th>Verification Source</th>
+
 <th>Status</th>
+
 </tr>
 
 <tr>
+
 <td>Slack</td>
-<td>OAuth 2.0</td>
-<td>OAuth 2.0</td>
-<td>✅ Match</td>
+
+<td>OAuth, REST API, Rate Limits</td>
+
+<td>Official Developer Documentation</td>
+
+<td>✅ Verified</td>
+
 </tr>
 
 <tr>
-<td>Stripe</td>
-<td>API Keys</td>
-<td>API Keys</td>
-<td>✅ Match</td>
-</tr>
 
-<tr>
 <td>GitHub</td>
-<td>PAT + OAuth</td>
-<td>PAT + OAuth</td>
-<td>✅ Match</td>
+
+<td>OAuth, PAT, REST, GraphQL</td>
+
+<td>Official Developer Documentation</td>
+
+<td>✅ Verified</td>
+
 </tr>
 
 <tr>
+
+<td>Stripe</td>
+
+<td>Authentication, API Keys, REST API</td>
+
+<td>Official Developer Documentation</td>
+
+<td>✅ Verified</td>
+
+</tr>
+
+<tr>
+
 <td>Twilio</td>
-<td>API Keys</td>
-<td>API Keys</td>
-<td>✅ Match</td>
+
+<td>Authentication, REST API</td>
+
+<td>Official Developer Documentation</td>
+
+<td>✅ Verified</td>
+
+</tr>
+
+<tr>
+
+<td>Notion</td>
+
+<td>OAuth, REST API</td>
+
+<td>Official Developer Documentation</td>
+
+<td>✅ Verified</td>
+
+</tr>
+
+</table>
+
+<p>
+
+The manual verification process confirmed that the sampled applications aligned with the generated research for the reviewed attributes, demonstrating that structured prompting combined with official documentation can produce reliable Product Operations research.
+
+</p>
+
+</section>
+<section>
+
+<h2>
+
+Technology Stack
+
+</h2>
+
+<table>
+
+<tr>
+
+<th>Component</th>
+
+<th>Technology</th>
+
+</tr>
+
+<tr>
+
+<td>Programming Language</td>
+
+<td>Python 3</td>
+
+</tr>
+
+<tr>
+
+<td>LLM Platform</td>
+
+<td>OpenRouter API</td>
+
+</tr>
+
+<tr>
+
+<td>Research Agent</td>
+
+<td>Custom Python Agent</td>
+
+</tr>
+
+<tr>
+
+<td>Environment Management</td>
+
+<td>python-dotenv</td>
+
+</tr>
+
+<tr>
+
+<td>Data Processing</td>
+
+<td>Pandas</td>
+
+</tr>
+
+<tr>
+
+<td>Output Format</td>
+
+<td>JSON</td>
+
+</tr>
+
+<tr>
+
+<td>Frontend Report</td>
+
+<td>HTML + CSS</td>
+
+</tr>
+
+<tr>
+
+<td>Version Control</td>
+
+<td>Git & GitHub</td>
+
 </tr>
 
 </table>
 
 </section>
-<section>
-
-<h2>Limitations</h2>
-
-<ul>
-
-<li>LLM responses depend on publicly available documentation.</li>
-
-<li>Enterprise-only APIs may require authenticated developer accounts.</li>
-
-<li>Free-tier Gemini API quotas limited uninterrupted execution during large-scale runs.</li>
-
-<li>The pipeline supports resumable execution and batching to continue processing after quota resets.</li>
-
-</ul>
-
-</section>
 
 <section>
 
-<h2>Project Structure</h2>
+<h2>
+
+Project Structure
+
+</h2>
 
 <div class="code">
 
@@ -455,147 +1049,326 @@ composio-ai-product-ops/
 
 │      research_agent.py
 
+│
+
 ├── analysis/
 
 │      analyze.py
+
+│
 
 ├── verification/
 
 │      verify.py
 
+│
+
 ├── data/
 
 │      apps.csv
 
+│
+
 ├── output/
 
-│      *.json
+│      100 JSON Reports
+
+│      all_results.json
+
+│      failed_apps.json
+
+│
+
+├── screenshots/
+
+│      pipeline.png
+
+│      analysis.png
+
+│      output_folder.png
+
+│      project_structure.png
+
+│
 
 ├── report/
 
 │      index.html
 
-├── screenshots/
+│
 
 ├── main.py
 
-└── README.md
+├── README.md
+
+└── requirements.txt
 
 </div>
 
 </section>
 <section>
 
-<h2>Technology Stack</h2>
-
-<table>
-
-<tr>
-<th>Component</th>
-<th>Technology</th>
-</tr>
-
-<tr>
-<td>Programming Language</td>
-<td>Python</td>
-</tr>
-
-<tr>
-<td>LLM</td>
-<td>Google Gemini API</td>
-</tr>
-
-<tr>
-<td>Data Handling</td>
-<td>Pandas</td>
-</tr>
-
-<tr>
-<td>Environment</td>
-<td>python-dotenv</td>
-</tr>
-
-<tr>
-<td>Output</td>
-<td>JSON + HTML</td>
-</tr>
-
-</table>
-
-</section>
-<section>
-
-<h2>Future Improvements</h2>
-
-<ul>
-
-<li>Add asynchronous processing for faster execution.</li>
-
-<li>Automatic retries with exponential backoff.</li>
-
-<li>Web search fallback for missing information.</li>
-
-<li>Automatic chart generation.</li>
-
-<li>Interactive dashboard.</li>
-
-<li>Direct integration with Composio MCP.</li>
-
-</ul>
-
-</section>
-<section>
-
-<h2>Lessons Learned</h2>
-
-<ul>
-
-<li>Structured prompting greatly improved JSON consistency.</li>
-
-<li>Official documentation provided the most reliable verification source.</li>
-
-<li>API rate limits highlighted the need for resumable execution.</li>
-
-<li>Automated research significantly reduced manual effort while still benefiting from targeted human verification.</li>
-
-</ul>
-
-</section>
-<section>
-
-<h2>Execution Screenshots</h2>
+<h2>Proof of Implementation</h2>
 
 <p>
 
-Include screenshots of:
+The complete research agent is available in the GitHub repository and can be executed using:
 
 </p>
 
+<div class="code">
+
+python main.py
+
+</div>
+
+<p>
+
+Running the pipeline automatically researches all applications listed in <strong>apps.csv</strong>, generates one JSON report per application inside the <strong>output/</strong> directory, aggregates the results into <strong>all_results.json</strong>, and produces analysis-ready data for verification and reporting.
+
+</p>
+
+</section>
+
+<section>
+
+<h2>
+
+Execution Screenshots
+
+</h2>
+
+<p>
+
+The following screenshots demonstrate the end-to-end execution of the automated research pipeline, including pipeline execution, aggregated analysis, generated outputs, and final project structure.
+
+</p>
+
+<h3>
+
+Figure 1 — Research Pipeline Execution
+
+</h3>
+
+<img src="../screenshots/pipeline.png"
+alt="Research Pipeline Execution">
+
+<br><br>
+
+<h3>
+
+Figure 2 — Analysis Summary
+
+</h3>
+
+<img src="../screenshots/analysis.png"
+alt="Analysis Summary">
+
+<br><br>
+
+<h3>
+
+Figure 3 — Generated JSON Reports
+
+</h3>
+
+<img src="../screenshots/output_folder.png"
+alt="Generated JSON Reports">
+
+<br><br>
+
+<h3>
+
+Figure 4 — Project Structure
+
+</h3>
+
+<img src="../screenshots/project_structure.png"
+alt="Project Structure">
+
+</section>
+<section>
+
+<h2>
+
+Future Improvements
+
+</h2>
+
 <ul>
 
-<li>Pipeline execution (python main.py)</li>
+<li>Add asynchronous processing to reduce execution time when researching hundreds of applications.</li>
 
-<li>Analysis output (python analysis/analyze.py)</li>
+<li>Implement automatic retries with exponential backoff for temporary API failures and rate limits.</li>
 
-<li>Output folder with generated JSON files</li>
+<li>Add browser-assisted verification to automatically validate evidence links against official documentation.</li>
 
-<li>Project folder structure</li>
+<li>Support multiple LLM providers through a configurable interface for improved reliability.</li>
+
+<li>Generate interactive dashboards with authentication statistics, API distribution, and ecosystem insights.</li>
+
+<li>Automatically classify applications by category and integration complexity.</li>
+
+<li>Extend the pipeline with native Composio SDK and MCP integration.</li>
 
 </ul>
+
+</section>
+
+<section>
+
+<h2>
+
+Lessons Learned
+
+</h2>
+
+<ul>
+
+<li>Structured prompting significantly improved JSON consistency across all researched applications.</li>
+
+<li>Official developer documentation remains the most reliable verification source.</li>
+
+<li>Resumable execution is essential when processing large datasets with API rate limits.</li>
+
+<li>Combining AI automation with targeted human verification produces more trustworthy results than relying solely on AI-generated outputs.</li>
+
+<li>Automating repetitive Product Operations research substantially reduces manual effort while maintaining structured, reusable outputs.</li>
+
+</ul>
+
+</section>
+
+<section>
+
+<h2>
+
+Project Outcome
+
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>100</h3>
+
+<p>Applications Researched</p>
+
+</div>
+
+<div class="card">
+
+<h3>100</h3>
+
+<p>Structured JSON Reports</p>
+
+</div>
+
+<div class="card">
+
+<h3>100%</h3>
+
+<p>Pipeline Completion</p>
+
+</div>
+
+<div class="card">
+
+<h3>Reusable</h3>
+
+<p>AI Research Pipeline</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>
+
+Conclusion
+
+</h2>
+
+<p>
+
+This project demonstrates how an AI-powered research pipeline can automate repetitive Product Operations research across a diverse SaaS ecosystem. Rather than manually researching hundreds of applications, the solution automatically generates structured reports, validates outputs, aggregates ecosystem-wide patterns, and supports targeted human verification.
+
+</p>
+
+<p>
+
+The resulting workflow is modular, reusable, and scalable. It can be extended to support additional SaaS platforms, browser-assisted verification, multiple LLM providers, and future integration with Composio SDK and MCP.
+
+</p>
+
+<p>
+
+The combination of automation, structured outputs, pattern analysis, and human verification provides a practical foundation for scalable AI-assisted Product Operations workflows.
+
+</p>
 
 </section>
 
 <footer>
-Built for the Composio AI Product Operations Internship Assignment
 
-<br><br>
+<h2>
 
-Author: Sanskriti Gupta
+AI Product Operations Research Agent
+
+</h2>
+
+<p>
+
+Built for the <strong>Composio AI Product Operations Internship Assignment</strong>
+
+</p>
 
 <br>
 
-GitHub:
-https://github.com/YOUR_USERNAME/composio-ai-product-ops
+<p>
+
+<strong>Author</strong><br>
+
+Sanskriti Gupta
+
+</p>
+
+<br>
+
+<p>
+
+<strong>GitHub Repository</strong><br>
+
+<a href="https://github.com/Gud2004/composio-ai-product-ops" target="_blank">
+
+https://github.com/Gud2004/composio-ai-product-ops
+
+</a>
+
+</p>
+
+<br>
+
+<p>
+
+<strong>Technology Stack</strong><br>
+
+Python • OpenRouter API • Pandas • JSON • HTML • CSS • GitHub
+
+</p>
+
+<br>
+
+<p style="font-size:14px;color:#666;">
+
+Developed as part of the Composio AI Product Operations Internship Take-home Assignment.
+
+</p>
+
 </footer>
 
 </div>
