@@ -1,8 +1,8 @@
-google-generativeai
+openai
 pandas
 requests
 beautifulsoup4
 lxml
 python-dotenv
 jinja2
-tqdmpython 
+tqdm
