@@ -19,6 +19,19 @@ Instead of researching applications manually, the pipeline generates structured 
 
 ---
 
+# AI Product Operations Research Agent
+
+Automated SaaS Research Pipeline for 100 Applications built for the Composio AI Product Operations Internship Assignment.
+
+## 🌐 Live Demo
+
+https://composio-ai-product-ops.netlify.app/
+
+## 📂 GitHub Repository
+
+https://github.com/Gud2004/composio-ai-product-ops
+
+
 ## Features
 
 - Automated research pipeline
